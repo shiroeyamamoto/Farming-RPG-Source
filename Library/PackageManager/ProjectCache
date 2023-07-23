@@ -6,8 +6,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638257006016325937
-    m_Hash: 2776035461
+      ticks: 638257158115762993
+    m_Hash: 2651907680
   m_LockFileStatus:
     m_FilePath: I:/Admin/GOCGAMEPLAY/Game project (Unity)/Farming rpg game source/Farming
       RPG Source/Packages/packages-lock.json
@@ -15,8 +15,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638257006016420412
-    m_Hash: 48755196
+      ticks: 638257158115762993
+    m_Hash: 3138429562
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:

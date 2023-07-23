@@ -15,7 +15,7 @@ I:/Admin/GOCGAMEPLAY/Game project (Unity)/Farming rpg game source/Farming RPG So
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58640
+52526
 Successfully changed project path to: I:/Admin/GOCGAMEPLAY/Game project (Unity)/Farming rpg game source/Farming RPG Source
 I:/Admin/GOCGAMEPLAY/Game project (Unity)/Farming rpg game source/Farming RPG Source
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ I:/Admin/GOCGAMEPLAY/Game project (Unity)/Farming rpg game source/Farming RPG So
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [13772] Host "[IP] 127.0.2.2 [Port] 0 [Flags] 2 [Guid] 1503530540 [EditorId] 1503530540 [Version] 1048832 [Id] WindowsEditor(7,KhangDuong) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [5260] Host "[IP] 192.168.1.31 [Port] 0 [Flags] 2 [Guid] 2987354204 [EditorId] 2987354204 [Version] 1048832 [Id] WindowsEditor(7,KhangDuong) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [13772] Host "[IP] 127.0.2.2 [Port] 0 [Flags] 2 [Guid] 1503530540 [EditorId] 1503530540 [Version] 1048832 [Id] WindowsEditor(7,KhangDuong) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [5260] Host "[IP] 192.168.1.31 [Port] 0 [Flags] 2 [Guid] 2987354204 [EditorId] 2987354204 [Version] 1048832 [Id] WindowsEditor(7,KhangDuong) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 12.61 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 10.92 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.21f1 (4907324dc95b)
 [Subsystems] Discovering subsystems at path I:/GOCPC/Software/Unity/2022.2.21f1/Editor/Data/Resources/UnitySubsystems
@@ -69,44 +69,44 @@ Initialize mono
 Mono path[0] = 'I:/GOCPC/Software/Unity/2022.2.21f1/Editor/Data/Managed'
 Mono path[1] = 'I:/GOCPC/Software/Unity/2022.2.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'I:/GOCPC/Software/Unity/2022.2.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56768
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: I:/GOCPC/Software/Unity/2022.2.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: I:/GOCPC/Software/Unity/2022.2.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005632 seconds.
-- Loaded All Assemblies, in  0.577 seconds
+Registered in 0.005021 seconds.
+- Loaded All Assemblies, in  0.498 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 513 ms
+Android Extension - Scanning For ADB Devices 385 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.108 seconds
+- Finished resetting the current domain, in  0.889 seconds
 Domain Reload Profiling:
-	ReloadAssembly (309ms)
-		BeginReloadAssembly (149ms)
+	ReloadAssembly (268ms)
+		BeginReloadAssembly (124ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (148ms)
+			LoadAssemblies (124ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (262ms)
-				TypeCache.Initialize (261ms)
-					TypeCache.ScanAssembly (256ms)
+			SetupTypeCache (224ms)
+				TypeCache.Initialize (223ms)
+					TypeCache.ScanAssembly (221ms)
 				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (994ms)
+			SetupLoadedEditorAssemblies (797ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (713ms)
+				InitializePlatformSupportModulesInManaged (555ms)
 				SetLoadedEditorAssemblies (6ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (188ms)
-				ProcessInitializeOnLoadMethodAttributes (85ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -116,1720 +116,186 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming RPG Source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming RPG Source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.196 seconds
-Refreshing native plugins compatible for Editor in 6.91 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.041 seconds
+Refreshing native plugins compatible for Editor in 4.36 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.056 seconds
+- Finished resetting the current domain, in  0.775 seconds
 Domain Reload Profiling:
-	ReloadAssembly (354ms)
-		BeginReloadAssembly (212ms)
+	ReloadAssembly (326ms)
+		BeginReloadAssembly (191ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		LoadAllAssembliesAndSetupDomain (841ms)
-			LoadAssemblies (449ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (39ms)
+		LoadAllAssembliesAndSetupDomain (714ms)
+			LoadAssemblies (360ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (502ms)
-				TypeCache.Initialize (454ms)
-					TypeCache.ScanAssembly (448ms)
-				ResolveRequiredComponents (10ms)
+			SetupTypeCache (439ms)
+				TypeCache.Initialize (403ms)
+					TypeCache.ScanAssembly (397ms)
+				ResolveRequiredComponents (7ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (720ms)
+			SetupLoadedEditorAssemblies (541ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (41ms)
-				SetLoadedEditorAssemblies (9ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (6ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (491ms)
-				ProcessInitializeOnLoadMethodAttributes (66ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (366ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 8.05 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 5.79 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4106 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 82 unused Assets / (317.0 KB). Loaded Objects now: 4566.
-Memory consumption went from 136.9 MB to 136.6 MB.
-Total: 6.246900 ms (FindLiveObjects: 0.466000 ms CreateObjectMapping: 0.591200 ms MarkObjects: 4.751400 ms  DeleteObjects: 0.436200 ms)
+Unloading 82 unused Assets / (316.8 KB). Loaded Objects now: 4567.
+Memory consumption went from 137.1 MB to 136.8 MB.
+Total: 6.231000 ms (FindLiveObjects: 0.475900 ms CreateObjectMapping: 0.535000 ms MarkObjects: 4.901400 ms  DeleteObjects: 0.316600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/SignalListFactory.cs: 961b01e9cd2cbd8bb65ecc4cb7f0686e -> 750485a2ad404114b1071a77392c79c8
-  custom:scripting/monoscript/fileName/TimelineSelection.cs: 7aa761d34955421c1edbbde0782bbd77 -> 9b1ed0621955d266b8201c63b16c7260
-  custom:scripting/monoscript/fileName/ClipUpgrade.cs: 7ec8e3a5c9b7123b0060cea53828cadd -> ef4792a296bb1387c53303d2d2367916
-  custom:scripting/monoscript/fileName/ActivationTrack.cs: 31ef1ab1b10301d747fb127086175156 -> 6517df7139edd2bf87e82cef6d6fd919
-  custom:scripting/monoscript/fileName/SignalReceiverInspector.cs: ef322f025c974590bf2aef1bdae9f61e -> afe9dc346183c6a238eaaa7b2e771c39
-  custom:scripting/monoscript/fileName/MovingItems.cs: d64f998c5f7235b6c4085dc5cd5d5d7d -> 7fc137f9d782535f80c7af78330b5435
-  custom:scripting/monoscript/fileName/MenuItemActionBase.cs: c3d88f1338536ee59e7ab7968207aa4e -> 68bc4d2a798dbe650fa08034b62cc292
-  custom:scripting/monoscript/fileName/SequenceHierarchy.cs: ad0e1f663b5613be968fe045c2b46027 -> 67acc74a8d53a9d7cf27eeea290da0f2
-  custom:scripting/monoscript/fileName/ClipAction.cs: 7dc4e5edaaba4d3880440daf6ca5c795 -> aec021f211047e0caa10ac51741a445b
-  custom:scripting/monoscript/fileName/TimelineShortcutAttribute.cs: 2b58e66ec3363203021755304e3b1153 -> e71c4af6aa6c1d8e056b439aa2aa8019
-  custom:scripting/monoscript/fileName/TimelineWindow_Manipulators.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/SequenceSelectorNameFormater.cs: 7c250f3b7eeb471d4ffc368379c175de -> 1c5c25e97ae9aaa9ba8e5d896b74e11f
-  custom:scripting/monoscript/fileName/IInspectorChangeHandler.cs: 269ac0de9601e126a8c8f335b0d33d12 -> c7a7a99a8367031ca6f820f07d4ffceb
-  custom:scripting/monoscript/fileName/TimelineDataSource.cs: 357cdfb35ad3a19dee63553f53119a57 -> 8974c088703a2e7573efdaa631057c59
-  custom:scripting/monoscript/fileName/TimelineItemGUI.cs: 32a6397d1b687b00597ff5e91a914ca3 -> 11c88f14c85f175c7d26aaf924042a45
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/SignalTrack.cs: 895cf6ef7974d1fccf741347d04cac85 -> 82048a49b8b293c625bf4be9fa50af14
-  custom:scripting/monoscript/fileName/AudioPlayableAssetEditor.cs: 43dba91b675249acf2be7e846c5a059e -> 0035e04a900062894e37eba121cbabd5
-  custom:scripting/monoscript/fileName/TimelineWindow_HeaderGui.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/IPropertyKeyDataSource.cs: 2175023d62aa659e27b7c3f0f390d366 -> 7e652e2aac75bd99fb9f2a21f234dbe2
-  custom:scripting/monoscript/fileName/TimelineInspectorUtility.cs: 49c254a3d3cc47b3d134149cbb2ff75b -> 3e94ab088143dea24a93a09c8f726c32
-  custom:scripting/monoscript/fileName/ActionManager.cs: 7d908b034e74d35a8d75a51758747c84 -> 1f8556b9a46f06673e6928b15c104c05
-  custom:scripting/monoscript/fileName/TrackAssetInspector.cs: c4528a810e8d8b37cceec365f2c4be1a -> 1640316eb930a1de3e9438caa8a6ee97
-  custom:scripting/monoscript/fileName/AnimatedParameterExtensions.cs: bb6987ba3502cb1926c35c1ab847c704 -> 833009aada33b1ef610bf455360c90c2
-  custom:scripting/monoscript/fileName/TrackAssetRecordingExtensions.cs: 6edd093d5e054714ea47ce84b8565336 -> 9b06cac9f6a9dd29d4a8aa5e287d46ec
-  custom:scripting/monoscript/fileName/ObjectExtension.cs: 3ef9b8d5fd48f808693e9ba5bbb19d8c -> 75d1c95589a5a2b64d89aba124f86939
-  custom:scripting/monoscript/fileName/Clipboard.cs: d4879f7d56a3fef446f2401fcd951700 -> e057e73a3ad057cb5ed40e0360bf50e2
-  custom:scripting/monoscript/fileName/InlineCurveEditor.cs: 664d1e2a3008524a64fc54297f1d53ff -> 6bf29efb8c605e7a20cc22261b7b1b4a
-  custom:scripting/monoscript/fileName/TimelineActiveMode.cs: ed6d06dc637fc0e4f02661cd1238ac84 -> 849410a9b804b4e0501dbd9813cd7890
-  custom:scripting/monoscript/fileName/TimelineWindow_ActiveTimeline.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/MarkerHeaderTrackManipulator.cs: 1335f392cfbe33a84f08f321fde9ca3d -> 7e33cda99f0289d321a79c4f5e3bc1ac
-  custom:scripting/monoscript/fileName/SignalAsset.cs: f69d9a3cf7f1655baeba1082deec4bb9 -> 97380dcb825439144cc6690277a9db2a
-  custom:scripting/monoscript/fileName/CurveDataSource.cs: 5fd2db331d6ad369e992e2cc66c959be -> 3de7edc85520d83475334823652338b9
-  custom:scripting/monoscript/fileName/FileUtility.cs: f4fa64760f7f225e836557ac7993f076 -> 2d70b80c72be1fb3b2b89ce0939e8cef
-  custom:scripting/monoscript/fileName/RuntimeElement.cs: 294e16922a13620adcd1dc939c69f240 -> de5d56df8ea443077c6cdeb0e94a058c
-  custom:scripting/monoscript/fileName/TimelineTrackErrorGUI.cs: f805aa18d9e3e274434512c3ea16a8de -> 57575d1157959f11893d279925940b5d
-  custom:scripting/monoscript/fileName/AnimationTrackDrawer.cs: bbb39b18779a664be5b13842e0688a5f -> 3411c6c34dcf2ed69d9011654359bbd9
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/MenuPriority.cs: 68e12c5baf56d3379229cf1f249b45d9 -> 33c1b075b07239c6ab4f67711b7a4d45
-  custom:scripting/monoscript/fileName/TimelineWindow_Duration.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/CustomTimelineEditorCache.cs: 8601155687e2c7fc51f947a81c1a8221 -> c4403d2b05e29719b149ac2b763b92c6
-  custom:scripting/monoscript/fileName/ClipModifier.cs: 7ff6746ee436e6a2c5621c88f765afb7 -> ce39391b8d07c87b12c61aa89485039f
-  custom:scripting/monoscript/fileName/IRowGUI.cs: 68e3a650e3772dc8df601e1a4d538021 -> d97c311c4b9b31e8df41c3a00bd75775
-  custom:scripting/monoscript/fileName/ClipsLayer.cs: d46a300ac869349a2d1961c7c7577213 -> d98d3ae9df7cf40d18e23ea0da3ec99b
-  custom:scripting/monoscript/fileName/EditModeUtils.cs: b0210ca334b688236d476e18aefc2414 -> e59f3c025b2fc7b5a910456e5307f1c1
-  custom:scripting/monoscript/fileName/SignalReceiver.cs: f51f1f345467a9d74cb12c61e10c0943 -> 56a829cd3678d5d8aa1b78e7ded69080
-  custom:scripting/monoscript/fileName/AddDeleteItemModeRipple.cs: f9f566916b1a838fa3bccf6118787812 -> 9e88e9066b424e4bcbef6b3c64ddd17e
-  custom:scripting/monoscript/fileName/TimelineWindow_Selection.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/SignalReceiverItem.cs: 5f951e9aa0513fcc31281aed3c2aa941 -> 0d08d7c2f2a885e92d3e0b20f3abae1e
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/EditorClipFactory.cs: 91021a8ea7e0173da9d4e4d79647711e -> 970f67c03f085ffc18d069f8458dba0a
-  custom:scripting/monoscript/fileName/DiscreteTime.cs: d4fc9f5931e30091f663d9cbf8da6ad6 -> 9ec78a0f1df39bb633c38c6c839f66af
-  custom:scripting/monoscript/fileName/SignalEmitterEditor.cs: ea73e4618785ca3ead62c9b181b23a47 -> f4dfbdf51eebbc2b7259bcf6b7612062
-  custom:scripting/monoscript/fileName/TimelineClipHandle.cs: 6e39ec7ef8eeb5b6d00db9077ad9d717 -> 56cdf9504fb8ba6f08d0fd6589b5400d
-  custom:scripting/monoscript/fileName/StyleManager.cs: 3c6bc9bdcdfafa9bc9ebe628f207d21d -> 5380772043c250f9d6cc8f5e63367567
-  custom:scripting/monoscript/fileName/ManipulationsClips.cs: d157c6430366eab8c41498d972afa209 -> aaee5bedd0e370639d0c5838bcf76747
-  custom:scripting/monoscript/fileName/CustomSignalEventDrawer.cs: 8151c5e3348eb3980d869dfa0c47cfb8 -> 6c25a63e35ff7f4cb588b49c4a73353f
-  custom:scripting/monoscript/fileName/MoveItemModeRipple.cs: 70c03b6561f06f63f291d74d1272a154 -> d5855d78ccf8b22620f547708d514658
-  custom:scripting/monoscript/fileName/TimelineClipGUI.cs: e4f547aaae99c95f8d3426c9b4df9ef7 -> fd576793d9251d4dc5bc4a4f235fafaf
-  custom:scripting/monoscript/fileName/ItemsPerTrack.cs: 77a6557f0eb70e9bfdda659b0e32093e -> 14c794a72083fcc2758d3758d0c8b879
-  custom:scripting/monoscript/fileName/CurvesProxy.cs: 4d039319178a4862df4f4f8d55961686 -> f7b190e2d09159e92cecc8605068f27a
-  custom:scripting/monoscript/fileName/OverlayDrawer.cs: 513b42a9f94e286612adcaa42070ed6b -> b161a31005048fb22f04c9ad04c18274
-  custom:scripting/monoscript/fileName/PlayRange.cs: 3bbaf00f340c9847acf52a420708865e -> 3a3c941973ca9a2c2018b618f04584e5
-  custom:scripting/monoscript/fileName/TimelineDragging.cs: cf195866925cbe35117efb3374f74e5f -> b5b770db4d734664ad4544630ed8d97f
-  custom:scripting/monoscript/fileName/AddDeleteItemModeMix.cs: f13de86f328edfd8c7fed3c990241cd1 -> 283b905f664da2dcaa7139f8a96e50da
-  custom:scripting/monoscript/fileName/TimelineNavigator.cs: 7d810b63d631dfa5e0e3300fc053a8ee -> fc614697934bc8011dd477940f87a1ad
-  custom:scripting/monoscript/fileName/TrackColorAttribute.cs: 4149e7f5aba5cefb8d57a4348563d233 -> a46dc7b5c9a11b7a6976065bcf361e70
-  custom:scripting/monoscript/fileName/TimelineCursors.cs: 403841b535a162ae1ab862ffba9674a9 -> 0f944b98a653e74f94c27f832c13bb15
-  custom:scripting/monoscript/fileName/CurveEditUtility.cs: 1f2c08597b0ca7fa6138bb18a4b90740 -> 1d645affc4c5bdacade2d18fead3850c
-  custom:scripting/monoscript/fileName/Marker.cs: 456ef7f37dc96f31f9474c7d4b71d43c -> 696c95afe34ccc04af31507858d049ed
-  custom:scripting/monoscript/fileName/ControlPlayableUtility.cs: ff203ce7f15616be3031486b6dc86b5c -> 5efee818ad0760aaad3a613b5859fb32
-  custom:scripting/monoscript/fileName/InfiniteRuntimeClip.cs: f3b40aee233908c6403f142202cc4439 -> 30d5c1ec74c97ffb69788128762ab582
-  custom:scripting/monoscript/fileName/MenuEntryAttribute.cs: 468287175be8468010155cec78ad8e07 -> 7a2e43f2b817a52994a17d7ec8cdf32a
-  custom:scripting/monoscript/fileName/TimelineClipUnion.cs: 41940c4d306674073dd45a3eb7de2d75 -> 3516d5e46c7441296ecf340e00e2a884
-  custom:scripting/monoscript/fileName/MarkerItem.cs: 86469de2bdecb7605a2eccd34a0bf25c -> 82299c04af3ac9d2f81eaf9b0c1c714d
-  custom:scripting/monoscript/fileName/AudioPlayableAssetInspector.cs: c44b6fc4df7005880a8a0fbec4289c4b -> 632f0a6add10a59adc37d7547d70c2f8
-  custom:scripting/monoscript/fileName/SequencePath.cs: dc1b621f397aac04a68eaebad59b78c5 -> 00a2fdb4418a07255510ee96e68dcb87
-  custom:scripting/monoscript/fileName/Timeline.deprecated.cs: 0f6a882b6ec8dc8f73d78a650923c31c -> 6e6e7620a53aa43e69e02bc0881b5d1a
-  custom:scripting/monoscript/fileName/UnityEditorInternals.cs: 184b97c8b949c3ec4e33b7bc5dbf2aad -> 929c91e377feecfd2161e8056a615afc
-  custom:scripting/monoscript/fileName/HashUtility.cs: fd9e174ef252a87653353781f7121ade -> c57d0c54b23e34ef8f1062b4e924498e
-  custom:scripting/monoscript/fileName/ActivationPlayableAsset.cs: f7f3d2864a3850fe05ada492eeaa5836 -> 4fb2173181d9ca1f326afddf7f602e40
-  custom:scripting/monoscript/fileName/FrameRateDisplayUtility.cs: c47153a8fad3dbb76636f913f3613d58 -> aef6f23ee0e4a1a4f0eb05db2a440e56
-  custom:scripting/monoscript/fileName/ClipCurveEditor.cs: 66883eb5b7f1828148b99a09387dcd01 -> 766a9085760ddba2ece2a45c31999ed7
-  custom:scripting/monoscript/fileName/WeightUtility.cs: c3732f6ee38c76c9184ffc2911ef27a0 -> 78adfe363133d54aac28c889c20b9da0
-  custom:scripting/monoscript/fileName/TimelineCreateUtilities.cs: 67e088e30006a056bdae60e9193ef22b -> 6e28ab03412a08e9c231830a94d17601
-  custom:scripting/monoscript/fileName/TrimClip.cs: 944aad17c4ab0440a5e64460a9e32b3d -> e2a1aa3efc266803f019944213e000f7
-  custom:scripting/monoscript/fileName/INotificationOptionProvider.cs: c0164f378050b27a562140dfb5ab791a -> f1c721cbdeb572e25048f700479b73e5
-  custom:scripting/monoscript/fileName/PlayableTrack.cs: 989faa39104259751ee2fda3c2e0a664 -> b2ed3ebd412409fd2adaf53f8322bd67
-  custom:scripting/monoscript/fileName/RectangleTool.cs: 1716f976d3e334fc750e81ec95b6dab6 -> 918735360672870f95e0d13d8e122888
-  custom:scripting/monoscript/fileName/AudioMixerProperties.cs: 5d42440adc3d4a4675ab834bbd25d943 -> 2f466147fd749953ab3a09f1c449101a
-  custom:scripting/monoscript/fileName/TrimItemModeMix.cs: caeeca9eecce1a81e9ab3d4d1d3b4a12 -> 696182463f52f4126f089e375caa2ade
-  custom:scripting/monoscript/fileName/ObjectReferenceField.cs: 5049ead7140f711d29af7afd4f802835 -> fc7a41d6f7c4f1d1df588a6309457d93
-  custom:scripting/monoscript/fileName/TimeReferenceUtility.cs: 6926f99cdb6753037d1b980cd766860b -> 17ba0880852a8c4057a42401c2cfe2f0
-  custom:scripting/monoscript/fileName/TrackActions.cs: 382bb9973bbfc054e737c5534dd0c6d3 -> 862acac2c018b862305238b80fbe5da9
-  custom:scripting/monoscript/fileName/TimelineWindowTimeControl.cs: 5bdcb1988f8f7b0b15f38384068be37d -> 14c280436ac5c5b4f5edb10e53b7c5fb
-  custom:scripting/monoscript/fileName/TimelineInactiveMode.cs: f75c7bc48f2dd9c3d49b30a9b39f5675 -> 0523475d40ea1865e1ea8c75388df625
-  custom:scripting/monoscript/fileName/TimelineTreeViewGUI.cs: d1e667a7c73106351f12c0827859daaf -> 636c725becf623400b90948bb48b8f1c
-  custom:scripting/monoscript/fileName/MarkerTrackEditor.cs: f5f9e12cb2e07e5f251e34b1ab108097 -> c868c2332e647101d4b82579478f496f
-  custom:scripting/monoscript/fileName/RectangleZoom.cs: 36546e9e9ef9b94d9ed2f43ead5f893f -> 65956f2352c7c49e7d91abcef2321e0e
-  custom:scripting/monoscript/fileName/ActivationControlPlayable.cs: 9acc7f18f79de15081c72bfa5a4b8253 -> 68e5f4aae9e3f5d4bc81f77089c35dd0
-  custom:scripting/monoscript/fileName/TimelineAssetInspector.cs: 36d78259c02db3614b3941493ef90bdd -> a09caa9e90f10270ba9eaf055075f934
-  custom:scripting/monoscript/fileName/TimeNotificationBehaviour.cs: 09e2e82cfea4178de371e23210a3e354 -> 1926d91287aebe4955c37144da9c2659
-  custom:scripting/monoscript/fileName/TimelineRecording_Monobehaviour.cs: 3e7a68b78be66df03b90268d7c63a7e0 -> 9be518e1a44caf70b9471be51be29ef0
-  custom:scripting/monoscript/fileName/AnimationOutputWeightProcessor.cs: 93799ab3f6fbba392b505944e2656255 -> b4b1d22edf1b8ac397ec35d92b9a17e1
-  custom:scripting/monoscript/fileName/ItemsGroup.cs: 757caeb232fc316ef83d29259b5980e8 -> bf3fadffecf63b1b222c7dcc387da959
-  custom:scripting/monoscript/fileName/TrackDrawer.cs: a7ce0a559cd4d43eb14e794d72cd4077 -> b640128e59057a4e6e45ea4b6d8d07bc
-  custom:scripting/monoscript/fileName/IAddDeleteItemMode.cs: fc374060de7f6342429e0ffb9fd766dd -> 7780c64b0888528acd06b531522ac0af
-  custom:scripting/monoscript/fileName/TimelineGroupGUI.cs: fb1e069d810885f1855b87bbab61026e -> 20b15f93ee5cb32f5da66ae8adfe6174
-  custom:scripting/monoscript/fileName/AudioClipProperties.cs: 631b17cfad519aa46b746e1624724a62 -> 28c9c47a1752714d5f76351f38383a8d
-  custom:scripting/monoscript/fileName/AnimationOffsetMenu.cs: 20bd6d8e56e19c6afa565addd5d71eb6 -> d3ac38f882f66a223d5fde79de9a3a71
-  custom:scripting/monoscript/fileName/TimelineWindow_TrackGui.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/TimelineRecordingContextualResponder.cs: d325d6bfc8bc1a58b82a89ffcf0d7a7b -> bba85d8a74a6feb2e70b8e24d33b4f52
-  custom:scripting/monoscript/fileName/TimelineMarkerGUI.cs: bb6f11ff5785ed3809d25ddba7792042 -> f199e8c09949bd6afe3ac732d4526ea4
-  custom:scripting/monoscript/fileName/Tooltip.cs: 4e9a88da529e972c6c24a6ba50ffb10f -> efbd10c978725fde614599dc839eb715
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/IAction.cs: 2d67c44a7452bf4600b30fa4ed8fc9dd -> c3c0595aecb4042ef2b942b6f6b79b53
-  custom:scripting/monoscript/fileName/BindingTreeViewDataSource.cs: 94952856ccf620b3f0cb92cc7612eac0 -> 810d500be05099f745788ea9c284a2b2
-  custom:scripting/monoscript/fileName/AudioPlayableAsset.cs: d377d8202feacd0ac3e85c3574b091bb -> 512a76b597a12a09358a661ccc2f79f4
-  custom:scripting/monoscript/fileName/AnimationClipActions.cs: dd9ca44d80ee53624512ff51bd90a2ba -> a74213a3f141a8d230e3800eea5baa4a
-  custom:scripting/monoscript/fileName/MarkersLayer.cs: ad3597414f33be821d59ef304d8bad5b -> e9f28ee5fc14dbaf084d3b7ce6be78c0
-  custom:scripting/monoscript/fileName/TimelineClipExtensions.cs: 8c41689ac3e615e986db541c7a1b6922 -> 288118aebe26f6ba94f170a54806226a
-  custom:scripting/monoscript/fileName/ISnappable.cs: 927febffa4475dae74b8555003f8c05b -> ad7242fef48d4e8bda86d66d7f3d52aa
-  custom:scripting/monoscript/fileName/AnimationTrackUpgrade.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
-  custom:scripting/monoscript/fileName/TimelineTrackBaseGUI.cs: 3dc37e8a063037e1a9ffa6d873baead3 -> d33125d81d55cefd875a894165046378
-  custom:scripting/monoscript/fileName/PickerUtils.cs: be770bf5962915569c494ee85f0ab323 -> cbd8d6063b7ef7e0aa81bc2fed638a79
-  custom:scripting/monoscript/fileName/GUIViewportScope.cs: 2b281a39ca8d56682ec1c181acbc2367 -> 642d1ccaebf62c34b925f1b9b56e932f
-  custom:scripting/monoscript/fileName/TrackResourceCache.cs: 4cf4d704d9414cb319305a8814e5dc28 -> ea62d91e767d88663b643491e07a73dc
-  custom:scripting/monoscript/fileName/AnimationTrackExtensions.cs: f54b81930134499a43b0c8347d7bc32b -> a40745152a7b952a231ae8f41ab66054
-  custom:scripting/monoscript/fileName/EditMode.cs: 885ac269891ac7194f4d7d474a769f93 -> 9b38cfe60543b2110dcc97c339718ffb
-  custom:scripting/monoscript/fileName/ShortcutAttribute.cs: fce6081ac63febb0b1b8b1b438b03127 -> 1acbd058ab81874d40865e4a2fa7e966
-  custom:scripting/monoscript/fileName/ManipulationsTracks.cs: 1a4e9d791929b644362042cfb95c4305 -> 9ca6870aea835823b8daf806f261bee4
-  custom:scripting/monoscript/fileName/BindingTreeViewDataSourceGUI.cs: 19bcf478ce9d41aecdc32353d44bd656 -> 52d403655789a5dea21995d4ab4951e2
-  custom:scripting/monoscript/fileName/MarkerAction.cs: ddb46f3fcca4883be75caa60e8773c69 -> aeb44104590048f8f1562841af20a452
-  custom:scripting/monoscript/fileName/AnimationPreviewUpdateCallback.cs: d9c379c137d08122dfbcc828bf228eef -> f6b728262b308be4c17801736554d0d5
-  custom:scripting/monoscript/fileName/Graphics.cs: 0046385ac01f02b93baa644b782655f8 -> d4a7900c9ea720d04aba02b0f83c89b0
-  custom:scripting/monoscript/fileName/RuntimeClipBase.cs: f66058f61e136beca2541325f3188f62 -> b87e01ef6e48a322043766083fabee86
-  custom:scripting/monoscript/fileName/TrackItemsDrawer.cs: 63726ec57d7eb8d52527df1297193557 -> 0141b5eba3e90e1994d27c1827b40840
-  custom:scripting/monoscript/fileName/BindingUtility.cs: 5341886101f0790b8d62d7e614e2e68f -> 34eda9e6e6678bdef9ce6d941eea366a
-  custom:scripting/monoscript/fileName/TimelineAsset_CreateRemove.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/EditModeMixUtils.cs: 2c1be23973560b8e27fab247ca16ddf3 -> fe60f1fe16d0e98ed6106d16ef7f8f0a
-  custom:scripting/monoscript/fileName/RuntimeClip.cs: a5830996c0259767b1ee79724c83f917 -> 12d05c3fd96029531d2f76d8dbe8ec5f
-  custom:scripting/monoscript/fileName/ClipsActions.cs: 56301044c9905ed7f7db85e82868cbb3 -> 0441e94193143509e82a03edccc747d9
-  custom:scripting/monoscript/fileName/AnimationClipCurveCache.cs: 706bbb23e886b8ae53894f455304d8e1 -> 860cdc6bd071b23890a8d50fd7e5e750
-  custom:scripting/monoscript/fileName/SpacePartitioner.cs: b96abf14da8fdef883dec739c1788580 -> db11e97e2aa4e17ce0468c3a4d4d5b29
-  custom:scripting/monoscript/fileName/MarkerTrack.cs: c0ae8acb7e112cb09c8c8ae6e4df3ef9 -> 2f8de40479f30e47ce97aef1fedb1863
-  custom:scripting/monoscript/fileName/AnimatedParameterUtility.cs: 2f140a95c6e39b3fa38a2877202a56f7 -> e0496975042dcb359bd5b54a6adccb7e
-  custom:scripting/monoscript/fileName/UndoExtensions.cs: 0081758c78c38acd55f760def4a3d52e -> bf4fff73766ef5b69ae84738831dc717
-  custom:scripting/monoscript/fileName/PropertyCollector.cs: ad5c4ed3c5c03f432bf968438fb81e05 -> 6105c04b1425b941f8345268630cb955
-  custom:scripting/monoscript/fileName/DirectorNamedColor.cs: 44e2438825fdaf19d6e3817b972c966d -> ba83c59d16b6e00e0756982daea9900b
-  custom:scripting/monoscript/fileName/TimeFieldDrawer.cs: 3a02beeb7ecd5fcf104d3eeb33bf3865 -> 4ccb7cb2748c940a71df32ee625f72ad
-  custom:scripting/monoscript/fileName/EaseClip.cs: 46748850ab8ae163b5814234db6ccfb0 -> b6ae21584635bc7ab11c8e6f151fc0cc
-  custom:scripting/monoscript/fileName/IAttractable.cs: f8a8bf7383bef469a183debf3810d3c6 -> 8234ee1ab09545829049584fb888683f
-  custom:scripting/monoscript/fileName/AnimationTrackKeyDataSource.cs: a28ad986106ba97822fc1a8013041368 -> 3e29126e5d850b02bf2ec1390e40b9f0
-  custom:scripting/monoscript/fileName/Shortcuts.cs: 772dcd87b71b42d350b190150f07f47c -> b07ed1f6a11c1fbb2abe23c202d91574
-  custom:scripting/monoscript/fileName/TimelineWindow_TimeCursor.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/TimelineDisabledMode.cs: 2f69e1ee184b22454d3ddfbd51d87c23 -> 084c81b1f2a7874998af7a20947eb118
-  custom:scripting/monoscript/fileName/ActivationTrackEditor.cs: 5dcba08c36cce03e4b4ad387bc5d090b -> 7eb311e5d32dab58ea528051094afa22
-  custom:scripting/monoscript/fileName/AnimatedPropertyUtility.cs: 2ee5e46fd574729b880c7c9fa908b772 -> d3f254a0db031100be7274b7ea41af14
-  custom:scripting/monoscript/fileName/SignalReceiverTreeView.cs: 35cc3c3d387c2329919edd11cae5b88d -> 8ea15907216b34654d1ae1ca1e9c9f30
-  custom:scripting/monoscript/fileName/EditModeInputHandler.cs: e5771d8a4ba16c0a0f04f4b6d3821ca6 -> 34d05c60e880cf21bb1e60ea19cc379f
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/ICurvesOwner.cs: efdafb5b744ea23a9c7e59b0e3205ce6 -> 84da1c58d580f231bea7e60411c1917e
-  custom:scripting/monoscript/fileName/GUIGroupScope.cs: b5e894e022164ca47083e8034ade6769 -> aa0adbe2b570fc2b24bb7acdfff9e015
-  custom:scripting/monoscript/fileName/TimelineAssetEditionMode.cs: 9e074717f9a3e8da9e060f9050583c4a -> d237c5a937fd6f9f98ebbe23f6c310c6
-  custom:scripting/monoscript/fileName/WindowState.cs: 66003b439d1569ed727addb209ddfc0a -> b3a4c98174e49f18cf6ac2bf13428156
-  custom:scripting/monoscript/fileName/NotificationUtilities.cs: 4a713ec7efa7244334012b23931cfacd -> 1ef896aff8f8b101ab565b91d8839fdd
-  custom:scripting/monoscript/fileName/HorizontalScope.cs: 6cf32c2f0f76d4bbc7df389eff8a8e9d -> 7475533433f78c26a72d10714d915a92
-  custom:scripting/monoscript/fileName/GroupTrackInspector.cs: a59567a3b4cf2316673bdd835e245710 -> 7c5605aeb00a196862cb403c20eff53e
-  custom:scripting/monoscript/fileName/PrefabControlPlayable.cs: f8ac6c66a6f8b17003cc87f5a3c2c2c2 -> c58131578a08f44d3149d5cde100291e
-  custom:scripting/monoscript/fileName/SelectAndMoveItem.cs: 8d9cc890a151aed62b08f04fad2c672a -> 057d80423ac07ca9772858e5f6d1c5b3
-  custom:scripting/monoscript/fileName/IMenuName.cs: 14b0be3eb0b994c728a0df97ed2fb930 -> f5af5abfc04cf3bf691d9f3d83bdcf74
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/TimeUtility.cs: bb610a51947ef73e3b92a10f4e48e049 -> e3b38ec069156f9be35d4f80b3bc2b27
-  custom:scripting/monoscript/fileName/TimeControlPlayable.cs: 247b16ddfd371d8fc4c49e7e14955f87 -> d179fc57a43e4d4673bac33e847cc860
-  custom:scripting/monoscript/fileName/ClipInspectorCurveEditor.cs: 23463609ba1d3320ff5db82c5bdf0989 -> 8a12b571558d97d8590bf8d25b27a499
-  custom:scripting/monoscript/fileName/AudioClipPropertiesDrawer.cs: 30ef75d72d9198a55b49db6ef26eaad8 -> 61f764857d69300445dc6a2d95556ff2
-  custom:scripting/monoscript/fileName/TypeUtility.cs: a4d744a97f2a958068bdc16cfc20861a -> 697cbcee997ea80178c464c8fd931a69
-  custom:scripting/monoscript/fileName/TrackUpgrade.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
-  custom:scripting/monoscript/fileName/AnimationPreviewUtilities.cs: 7e9c811230dd6f46f317d268b7dd4444 -> b1496bcaffe94d452ae50dae1061b072
-  custom:scripting/monoscript/fileName/WindowConstants.cs: acb0ed59e6a2cd0b753b4f80cc1efb58 -> ff916bfc667be0ba1a75587e05275ff6
-  custom:scripting/monoscript/fileName/AnimationTrackRecorder.cs: a12fd601f032ef63dac903009c4056b2 -> 01cefa025f9bf933ad92125f3ab24287
-  custom:scripting/monoscript/fileName/ClipInspectorSelectionInfo.cs: ae3bced70edcac059ade75230919c0a8 -> 558f85f4ead1c40fdaec4796b93bae97
-  custom:scripting/monoscript/fileName/TimelineUpgrade.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
-  custom:scripting/monoscript/fileName/Jog.cs: a95bf7c8e0c3652e3646d07697067947 -> ad1b117cf0a375f2077ed81f1c15672e
-  custom:scripting/monoscript/fileName/TimelineMarkerClusterGUI.cs: bcaedc1678c6055a1d98b85ef18a4c69 -> 97398158fe4b5f27f29b45c4facc0cd3
-  custom:scripting/monoscript/fileName/TimelineEditorWindow.cs: 71a6cd9fcd5d8166805a9cdaae79b0a0 -> dcb86e2cb92e5b6746ecb4b00dee94c9
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/ItemsUtils.cs: 24197e81092f52e8982aec9fa2b9973d -> 276b9c19a8fa257901c83e7dd3f10e58
-  custom:scripting/monoscript/fileName/SignalEventDrawer.cs: cdc440305ac4d7685f874c5f0ddb939c -> b1d827808ecff310ebdb8666883baf7a
-  custom:scripting/monoscript/fileName/ISelectable.cs: 9f33357375e685b8799026387ad4d061 -> 5ebd0c6cdb82b8c435f72f1d3586bacc
-  custom:scripting/monoscript/fileName/GUIColorOverride.cs: e1f436bbbe4c8d85ba1876aea4cbaa2f -> 8d17337f83d4efdbbe87817895995b1f
-  custom:scripting/monoscript/fileName/AudioTrack.cs: 739304d8640c1db0e38643721c50776c -> 9c35f9973d2d69285067537d2822e104
-  custom:scripting/monoscript/fileName/EditModeGUIUtils.cs: 62fdad6602037ae9ee6acac82776d8e8 -> 55c1ad64e95ea15c350959f0e957f37d
-  custom:scripting/monoscript/fileName/TimeIndicator.cs: 2a9050cd0ffe22042e84f99654302249 -> 52a3e452e0717e8e3d0bf6e5872cc8c2
-  custom:scripting/monoscript/fileName/MarkerInspector.cs: c45836c6f4908db2d650aa3c6e7f9129 -> 8098fc94bf8382483417b2e8857d8ea4
-  custom:scripting/monoscript/fileName/ICurvesOwnerInspectorWrapper.cs: e9e50506b3fd860c1e923dcd5b27282d -> f975a9dcf038d2683882ffbeeed0c0b9
-  custom:scripting/monoscript/fileName/SignalReceiverHeader.cs: 9fa301212961e6cb0cdab28dccdf1277 -> 0313dcdc50c9b668e81a8a0a696bdffc
-  custom:scripting/monoscript/fileName/IntervalTree.cs: 1c8c7d0f2e8a08bdcbaac3e29b2af7c7 -> cd09550919c1f7435474aa79bd27655a
-  custom:scripting/monoscript/fileName/AnimatedParameterCache.cs: 2e7e6dce34aafe7f259237b676ab55f3 -> d9afc6f059ac9266bb6491bb4094cccc
-  custom:scripting/monoscript/fileName/Styles.cs: 3436d45d8aec04b79c20c0033050da37 -> 1728aa377394bacc23133c7e998f0fa5
-  custom:scripting/monoscript/fileName/KeyTraverser.cs: bffc344c823736d5fed9b63e67cf4d40 -> 038e147ff814fa43c7e4673005cf3d11
-  custom:scripting/monoscript/fileName/TrackPropertyCurvesDataSource.cs: 2bad9f7348ca8acfc2f0e616345e0d15 -> 7a2d923d53c6b45d41a84a61d145be8a
-  custom:scripting/monoscript/fileName/ITimeControl.cs: 3372d19c39827755d777fd5cbb9aeec5 -> b2dbefde82db855d0aa56fadeda808d7
-  custom:scripting/monoscript/fileName/TimeAreaAutoPanner.cs: 80e3ea7a5704facbde0d82db6872c9ea -> 86e4c1ef0f31d10c0ece09b987311178
-  custom:scripting/monoscript/fileName/SnapEngine.cs: 2ad16e66f161c00697ae17794c514fb9 -> 5471daf770650047bfcdb3ea47d3f9f5
-  custom:scripting/monoscript/fileName/ITimelineItem.cs: 6e90ef1178a72f95b1426e6d599ada5a -> 05a3085ff307090a206aa87d840083f4
-  custom:scripting/monoscript/fileName/BindingSelector.cs: 191be83b2af622c487156748caf87f0e -> 169f604a42b1a0673c76c0500a70b6b5
-  custom:scripting/monoscript/fileName/TrimItemModeReplace.cs: 513eb8f95ab6b7889cec28f0cc8252b4 -> 74c1ae041abe6b40727794da5691eb79
-  custom:scripting/monoscript/fileName/ControlTrack.cs: 4e3ff92950360176c997c0ad66193a4d -> 449deaa68d97549db3579998df7173d3
-  custom:scripting/monoscript/fileName/ClipItem.cs: 3f2baa9d5303524cf71a2e13c5b8adce -> e3233010f92635cb6e633dad3dbe4b02
-  custom:scripting/monoscript/fileName/TimelineAction.cs: 51961d10865ff5443c58403b4d8ba7ff -> 511668cd548b950b7c78ce596a759629
-  custom:scripting/monoscript/fileName/TimelinePlaybackControls.cs: f31e8e1fcdf469b7f911acb82f2465d8 -> 226e64bcc16e25b2e51ea86e30cb82d1
-  custom:scripting/monoscript/fileName/TimelineTreeView.cs: 6be4fd7f9af5d135416868d27c567bc7 -> 1b987ef1940b1f524e772166dd765324
-  custom:scripting/monoscript/fileName/MoveItemModeReplace.cs: ad2238a1b19a4c77bda804870ff8efa5 -> 010a1f95f4b32b6120e840dd9ab61ce3
-  custom:scripting/monoscript/fileName/TimelineWindowViewPrefs.cs: 5fc1f2641460e29d01fa71fddb144694 -> b120b9cdceedbb0fd92aebfa76b80438
-  custom:scripting/monoscript/fileName/TimelineContextMenu.cs: e652659519b9e73869176c7f3970f6e5 -> 4edeb3102cf1b1937f5f4fe706d44106
-  custom:scripting/monoscript/fileName/AnimationTrackInspector.cs: 616ca67242af7f9bfa7cf228ba374413 -> 061b7fb9796b0cb071c354cd0a0cb27f
-  custom:scripting/monoscript/fileName/IMenuChecked.cs: 3b2f413b6f8c52cc871b7749acc273f8 -> aad8af802b0009d55cd894b4ab968518
-  custom:scripting/monoscript/fileName/AnimationTrackActions.cs: 22b23f98348ef12c78ff79cb852a4be5 -> 7032f43a4e4effc8ddfbb66c758993ad
-  custom:scripting/monoscript/fileName/IMoveItemMode.cs: b59bbeaabd65de89cdae167379193921 -> 18ed2bb2ed7421db416f1915e3f0c6a3
-  custom:scripting/monoscript/fileName/ItemsLayer.cs: 61f09485edd58e7240d4b1d726045d5b -> 56853e9815d73cf31b5b632504d07a61
-  custom:scripting/monoscript/fileName/TimelineWindow_Navigator.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
-  custom:scripting/monoscript/fileName/TimelineEditor.cs: 3cc14ee2bdf49dea81fb889f71bf3643 -> e1a8e7030cf372a5050a331e8782c496
-  custom:scripting/monoscript/fileName/TrackAction.cs: 191d2ec948c03c3a612bde0e67413b95 -> f31795ac6e069e4ba2a118e2d3c3140d
-  custom:scripting/monoscript/fileName/AnimationPlayableAssetInspector.cs: 5a5b5498d9450ae7e3c0dce1d6b14643 -> 46bc15a7aabaa051527261ed3a1f90d2
-  custom:scripting/monoscript/fileName/SignalEmitterInspector.cs: 636109229a20aea7ea01f58b8e16b40a -> 32146334a2d516978794a94e62545c1a
-  custom:scripting/monoscript/fileName/TrackResizeHandle.cs: 8338579c764df15d324c2f2c3908f162 -> 2dad33e78fbb3c9ae2cacec2a596c4fb
-  custom:scripting/monoscript/fileName/SignalManager.cs: 8d09f95186a93e0c3c224a88f3d3556d -> 1e93bdde975b4832f171df5b76e570b7
-  custom:scripting/monoscript/fileName/TimelineActions.cs: 4939460c913069e42055c639e87909b1 -> 9b294d963a7ffd5164dd28a811088ae4
-  custom:scripting/monoscript/fileName/TrackEditor.cs: d5756e21114f266661e35bd2798c8bcd -> f43afbd2d71faf34584f0eb02882a462
-  custom:scripting/monoscript/fileName/TimelineHelpURLAttribute.cs: 34fc78c6a5a72b8a02fd489768595c49 -> 84df2b42a593dbd0c11c73fe9c54549b
-  custom:scripting/monoscript/fileName/DisplayNameHelper.cs: cca8e2c1f3d67e944ebadfccd57bb928 -> 3a721b8c83935900b7483a75d964fc06
-  custom:scripting/monoscript/fileName/PlaybackScroller.cs: ad7da0eaee09e38c2109ff0f6ed06c3b -> e790b4b475ee17a98661de434c23f657
-  custom:scripting/monoscript/fileName/TimelineReadOnlyMode.cs: a536b68e218a02ae0fda50c934a211b5 -> ca6dec372d229cb34625f52eac58cbea
-  custom:scripting/monoscript/fileName/TimelineWindow_PlayableLookup.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
-  custom:scripting/monoscript/fileName/MoveItemModeMix.cs: 8bbd461a995ee7947176708b403b0f12 -> 62ff578b2ba73aff39303ad34e89c7dc
-  custom:scripting/monoscript/fileName/TrackZoom.cs: 53c649b42d98ed160758eaade8d9b291 -> b454cdb075a0e055b73d225589baa15a
-  custom:scripting/monoscript/fileName/ClipEditor.cs: 408afc402f98a41433a84b576756a015 -> b9689a45d4e5e6a0d0d6bdd52e0ff022
-  custom:scripting/monoscript/fileName/IPropertyCollector.cs: a0d477bc8fafed6b3c9b9927bb9c2892 -> eb46bedb312fc2a160af07ca4ce6c40b
-  custom:scripting/monoscript/fileName/ActivationTrackInspector.cs: ebf540ae9cc78b13106bcaab273dcf2d -> 5a71dfd9b94d4c6097ec16a5ea600601
-  custom:scripting/monoscript/fileName/GUIMixedValueScope.cs: 22c56c003d173c817b8499492dd2a99d -> c90f99d5e3b31c4894be32cc32239156
-  custom:scripting/monoscript/fileName/TimelineWindow_EditorCallbacks.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/ClipCaps.cs: 548e0183b098662cb728f963528b3549 -> 8bc4131025f65ccf0ba7c18acc5fbf94
-  custom:scripting/monoscript/fileName/Manipulator.cs: 9fc1df2528d7ecea6b6cc61125d2dc63 -> 517e902173d5cdce1085e00091025ea9
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/TimelineRecording.cs: e82b3e0276ee5363a9bbbb5de91c0240 -> a8c5ab2d1ff34cd363d33b5c84e0f45b
-  custom:scripting/monoscript/fileName/CurvesOwnerInspectorHelper.cs: 2616fc611670020c4a4f0c66f749e4c3 -> d6b07bd51fb9b3c340a62a7768b10d9a
-  custom:scripting/monoscript/fileName/TimelineWindow_TimeArea.cs: 34c6ff9cf0aa0d720e612550af5c5d26 -> 849ed7f5b11c9db237ef61b01c5a5104
-  custom:scripting/monoscript/fileName/TimelineClipGroup.cs: 13539254df3df1e37c37bfa8dac06db3 -> 33bc35da6a388784400b1220c41b7f66
-  custom:scripting/monoscript/fileName/PropertyScope.cs: 5bcba9bd5d18fdf47894d8902a122749 -> 9156c77dedac465c4bf14f8c8881bf0e
-  custom:scripting/monoscript/fileName/TimelineRecording_PlayableAsset.cs: e82b3e0276ee5363a9bbbb5de91c0240 -> a8c5ab2d1ff34cd363d33b5c84e0f45b
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/TrimItemModeRipple.cs: 95f33aef4d6872915806d2e427def371 -> a07d36842ccc9fef6fd8fcb7310aa109
-  custom:scripting/monoscript/fileName/BuiltInCurvePresets.cs: 8b50c9edb64e4b77bd056cbf1f68f6c0 -> ca06a2ce526aae1e3b8a972c0156b396
-  custom:scripting/monoscript/fileName/AnimationPlayableAssetUpgrade.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
-  custom:scripting/monoscript/fileName/TimelineMode.cs: 23613dce207ed6e2cc8422ec1fb36947 -> d7f3cbf7c5afff25056d37c9143afbf7
-  custom:scripting/monoscript/fileName/MarkerEditor.cs: 6d1d259e13e604a7aea521bc0e41b8d0 -> 3ba9b7e74f48857654bb495f2b785d20
-  custom:scripting/monoscript/fileName/DirectorStyles.cs: 88faa8aeaa1825782e3665b06d47d18a -> e5b1bfe076550e5198734e4467fab6ec
-  custom:scripting/monoscript/fileName/TimelineUndo.cs: d326ad93322f914e3ae5ddc3e9183d38 -> b410ecfe312ca85a7d97acd982125be3
-  custom:scripting/monoscript/fileName/TimelineWindow_Gui.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
-  custom:scripting/monoscript/fileName/ClipInspector.cs: 7f1d2a003593b0ab49fcb985a51ffe27 -> 4d46799ecfbef70d09ed6138b9d2150c
-  custom:scripting/monoscript/fileName/TimelineAnimationUtilities.cs: 42b3f911df10fa45d2d693298f58028c -> 6ff0ef29eaefafe720150777bc87ae46
-  custom:scripting/monoscript/fileName/MoveItemHandler.cs: 396955c60d2f9607528c2210a1466fc1 -> aca39243f595405a3113b1bc2e0d7e1c
-  custom:scripting/monoscript/fileName/AddDeleteItemModeReplace.cs: 231a97f275f9997404bd0768434983f8 -> 6b2ee29aebe22afc511691422e8c7958
-  custom:scripting/monoscript/fileName/TimelineUtility.cs: 0b804f30b67dcfbbc271c579348a660b -> 3db59cb1a23ef1be304698229ef72333
-  custom:scripting/monoscript/fileName/ClipDrawer.cs: fc1c26723c66c176614f531168064e0e -> 8055954703c1766052be369daf8b9711
-  custom:scripting/monoscript/fileName/ApplyDefaultUndoAttribute.cs: 6ed020ffe5828de8360b62bc25163717 -> 0ec7e69ab7d3c81ab04104aabca26ae1
-  custom:scripting/monoscript/fileName/Invoker.cs: 8950d2d57457a1ff29dc9931e09bf95b -> 3165e087cd9b397e5b8705cef415727c
-  custom:scripting/monoscript/fileName/TimelineAnalytics.cs: fd27d37a688cce0383e7995c0f95bce7 -> fc2f6e281f7f899e041a98d2889a0f72
-  custom:scripting/monoscript/fileName/MarkerActions.cs: b038513b72152d060fde930350febe0a -> 6cfc304435e0f526fa99c415106c4ade
-  custom:scripting/monoscript/fileName/AnimatorBindingCache.cs: 87fe90fe9318a65eb2a02f3fa34d06eb -> dcf6c558c6a18c59d2d363aede17af52
-  custom:scripting/monoscript/fileName/IPropertyPreview.cs: 01494eabd069f269db94a93e7727709b -> 409cdeff7e9f99aeab727eea5513f2dc
-  custom:scripting/monoscript/fileName/SignalEmitter.cs: f3aa944af01cb93be3214dc06fb6506f -> 40bb1582f050b67995721a93ffc63dce
-  custom:scripting/monoscript/fileName/SignalAssetInspector.cs: e7f5fc4b8d220c94ab453ed409fe1219 -> e8529936c49d152f11a823ba6e925e8b
-  custom:scripting/monoscript/fileName/Trackhead.cs: c01f1956d8aa748e3d9b9782770267dc -> a66bf1258e16a09c70529394616004c7
-  custom:scripting/monoscript/fileName/BasicAssetInspector.cs: c61381f5e3adb5684bdfc520af19e15e -> 9e5da79d4af6dd6f347a0620dd2cc4fd
-  custom:scripting/monoscript/fileName/ManipulationsTimeline.cs: 6e089f7e1e9745d11b8570ce3292985d -> 55ab2b6002c8ba72a19be3fbded37113
-  custom:scripting/monoscript/fileName/TimelineWindow_PlaybackControls.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
-  custom:scripting/monoscript/fileName/ISequenceState.cs: 8f9519c52735c0e5e64b67e96ac6d4b0 -> 92ba36f7d36d16e91bdaf347b9933aed
-  custom:scripting/monoscript/fileName/InfiniteTrackDrawer.cs: f3998e3ba66a7d6f76ceda618438b5b0 -> 4820968a3ca8cf741cb7a975e1b621de
-  custom:scripting/monoscript/fileName/ILayerable.cs: a712d1e215bb4047dae2a29af884baa1 -> 5eed5565ab42f00aaea9f65cf607fd28
-  custom:scripting/monoscript/fileName/TimelineMarkerHeaderGUI.cs: 0c63d7d4c5861b6b26d3903a2cc7ff1b -> 79f4ee4afe504d33c10997babdbadbbd
-  custom:scripting/monoscript/fileName/BreadcrumbDrawer.cs: 838c119727dd67659cc3ca020a2a15c7 -> 630dea2cdedfe4881feedf0ca0a4cbe8
-  custom:scripting/monoscript/fileName/TrackExtensions.cs: 5539dc84a8fac5f9bca53ec3efb7d565 -> 4d48cd6ee20dfb7764c172d7c6a2e52a
-  custom:scripting/monoscript/fileName/TimelineWindow_PreviewPlayMode.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/StyleNormalColorOverride.cs: 7086e88b000cecd1126f5f1b06881b6f -> 1d5014a569755917765dfe53f20a1f2b
-  custom:scripting/monoscript/fileName/TimelineTrackGUI.cs: 7ff9629b9404733d4f21838fb083ac6e -> 3f02d5b2c9a4d8537655d3abd2ca8e57
-  custom:scripting/monoscript/fileName/IMarker.cs: 332136bd4164113cf89ffa015bf27ebd -> c9f44c1d9d2efec180b727ec758a7812
-  custom:scripting/monoscript/fileName/DirectorControlPlayable.cs: 17948677d7996d85ed959096d38d7587 -> e289d141433eda9019d9bc89869ed9b8
-  custom:scripting/monoscript/fileName/GroupTrack.cs: 89aaf4be3fd67b79ea042a9e898cc19d -> cf85e5d1d8ccb70148eda7eea60b1b6f
-  custom:scripting/monoscript/fileName/ActionContext.cs: eea87f67d3ff01fb34fc045330515463 -> 25e888691b36562b4007d5b3208cdc57
-  custom:scripting/monoscript/fileName/TimelineWindow_StateChange.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/TimelineKeyboardNavigation.cs: c87a83941d6452eeba7a8b4d0d20918e -> 2f7a25b29b5f54c4c212edfab034bc86
-  custom:scripting/monoscript/fileName/ActivationMixerPlayable.cs: 9b598b808f4ce26a4446d71a5c0eaafe -> e3d7a59265d9c3c9bed8b0522a39dcd4
-  custom:scripting/monoscript/fileName/ControlPlayableInspector.cs: 218ce3994063a72ea8640fcf488bda35 -> 5bf96e8f60ddb4ec26889f7f2cf3e366
-  custom:scripting/monoscript/fileName/DirectorNamedColorInspector.cs: 674d952090e44866fbd8ae32a7a77838 -> b9b079fe1a5adb909604d8d95f462eca
-  custom:scripting/monoscript/fileName/MarkerModifier.cs: 6132e05fd56faa9ba67ffbad78267116 -> c1e02d1fbe937a1b38250a9d87140fc4
-  custom:scripting/monoscript/fileName/EditorClip.cs: baf72408e8754d4bfa61520b5c4b73b4 -> 2b64eab865f2751ba08f9427ed08652b
-  custom:scripting/monoscript/fileName/TimelineAssetViewModel_versions.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/TimelineHelpers.cs: e948bb007c281bb00172167274eb4b30 -> 141b210b4c3b3fb4162b39200a701004
-  custom:scripting/monoscript/fileName/Range.cs: aabe0ca9995cb94095096ed2f65c07d7 -> 6403016406936a29c1e23f7a5897e397
-  custom:scripting/monoscript/fileName/ControlPlayableAssetEditor.cs: 0f1038b8eb6be51c019894b74b63db51 -> 51175e296d3da3a6e5b3e9426a6de5bf
-  custom:scripting/monoscript/fileName/ManipulatorsUtils.cs: c20cd40f2763c875fbfaf48850609866 -> 8c767dfae5e2efd55e534304e8adf45d
-  custom:scripting/monoscript/fileName/EditModeReplaceUtils.cs: a9787953ee27004077fa784d63234f07 -> caa40b41ea36a59cc3f0c98504f2019e
-  custom:scripting/monoscript/fileName/ControlPlayableAsset.cs: 5afb4ddc94688573ee72da6210a431d0 -> 02da1bbf837f8eefca6918039a610c39
-  custom:scripting/monoscript/fileName/BasicScriptPlayable.cs: bce9f2679478eeb6250c9ea7e31f977a -> f9e7cb1c0508369e12fdef0419531535
-  custom:scripting/monoscript/fileName/ScriptableObjectViewPrefs.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/TimelineWindow_Breadcrumbs.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/CurveTreeViewNode.cs: be3927541faad7cc5064f61a43341576 -> 86323352cbbabeac20b7a90d70fda0d4
-  custom:scripting/monoscript/fileName/MarkerList.cs: ee1fa3298a1e0442bf47873978751061 -> b6dfeb806df3daccc1e5d4159aa38203
-  custom:scripting/monoscript/fileName/HeaderSplitterManipulator.cs: a443404c1dcce3201c7ca3c8a647b821 -> 014f2543c6a7c83a6c31690b51a47d4c
-  custom:scripting/monoscript/fileName/TrackModifier.cs: 914f818df446fbc0e9fcb1b864a40cde -> 4322e864a4f547edbaa2b356427ef1e0
-  custom:scripting/monoscript/fileName/SequenceState.cs: d65d5263aafc1680cbf09cf91b291904 -> b514bcc5cfaae698e889bab14f963343
-  custom:scripting/monoscript/fileName/AnimationPlayableAssetEditor.cs: 39cfa9bc11dfff0a4186c4f5620f9ee5 -> 4ac837e5abbbb7c26f509f63d3a62704
-  custom:scripting/monoscript/fileName/SignalUtility.cs: 0764663d3df77f7ebb93b4ec7f2ba196 -> 8544196f7a4aec8b5384a9a6178ecd21
-  custom:scripting/monoscript/fileName/TimeFormat.cs: c9e261c93914cf03093fd2548eaf48f9 -> e314e948d282c934af8f00048813b465
-  custom:scripting/monoscript/fileName/Extrapolation.cs: c7ec383926261a65e768060ca8bd7798 -> 7cf48f1fcb78127715f7da7cc1d0dcd0
-  custom:scripting/monoscript/fileName/TimelineWindow_PlayRange.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/TimelineWindowAnalytics.cs: e82b966b2cd4c00b51cf9d39523b9b30 -> b0161b89dc7f794b1fa6395d666c92e2
-  custom:scripting/monoscript/fileName/Control.cs: 1980ed3242d0ee7af290971d8b3773f8 -> 26262bc3727cb22f16c3b1fe8a4a461c
-  custom:scripting/monoscript/fileName/FrameRateDrawer.cs: f211271c9241d3f450cea6eea7f7f2a0 -> e6084a0af6b38682ad8cedaf0d8bd9c4
-  custom:scripting/monoscript/fileName/TimelineProjectSettings.cs: d3119fd7e30ccc41a86760d2b6c9b7ed -> 760eb91c4a506cffc64d23bd0d02e0e2
-  custom:scripting/monoscript/fileName/CustomTrackDrawerAttribute.cs: 92b9d02fc7d812e52fbe328f8cb81bde -> 2f669d3ca1e8f9b6aa6d9da066f5cf06
-  custom:scripting/monoscript/fileName/ActiveInModeAttribute.cs: ebd6d7a69d728cdb16216f66f413ac7e -> afbfa7c4f2a4b2889de4211ced1d7ec7
-  custom:scripting/monoscript/fileName/AnimationClipExtensions.cs: fa86d0d38aa9a2f86e0acd9ffe0240bd -> b96b18cea06cc5940cf5478cefb7e27a
-  custom:scripting/monoscript/fileName/ScheduleRuntimeClip.cs: 8ef1ebebf0ece49cdc6708da42e578f3 -> bca04c92c8107f8a60406e104c63b511
-  custom:scripting/monoscript/fileName/TimelinePlayable.cs: 7c436ca97b825d00efacfefce19b6850 -> 2f7e68fef4ac671412c604e19d55cc99
-  custom:scripting/monoscript/fileName/ITrimItemMode.cs: e2adc1a4c350ade1ac51f73562ccd7e7 -> f22ded242ea7450c4f4775a50337cabc
-  custom:scripting/monoscript/fileName/IndentLevelScope.cs: 4b3a8e05e156c31ad29b62425bca7a33 -> af20db1048501b0db87213c146c677dc
-  custom:scripting/monoscript/fileName/LabelWidthScope.cs: cb88540cc88442ee4f6271ebf3ba01f0 -> 39f4af56edf9b4e0815d5096a0fa176e
-  custom:scripting/monoscript/fileName/RectangleSelect.cs: be3daac5e293cd72b4993ff5445fd27e -> 098077660863eba74d4deadf19d12d3e
-  custom:scripting/monoscript/fileName/TimelineAttributes.cs: 590d355ecce353a9f5caffecc7b0888c -> f4a543a6d7fd362b6752328926e7ae71
-  custom:scripting/monoscript/fileName/TimelinePreferences.cs: 42f42cfbddc39c2c97475dd30ce09b90 -> 576a2904ed0d2ac946d18366eebf2d55
-  custom:scripting/monoscript/fileName/AudioTrackInspector.cs: e40bf73a228924912d64ada2760a8ecd -> ce3e96cb5c5df84fea94af7bd805b972
-  custom:scripting/monoscript/fileName/UndoScope.cs: 4df8d7867be99c5b9c4ba012f353578f -> 4d8db65ab7fc3ead71d92653b61980bb
-  custom:scripting/monoscript/fileName/ParticleControlPlayable.cs: 1fc02fa2988fe8f180aafb9e6f72b6ec -> 8ad611dff36256036ec1ad68c69d835e
-  custom:scripting/monoscript/fileName/SequenceContext.cs: 8909f3bdd7abf09c363b2c4742fb971f -> af3d6f46165f8113e08c8ae57fbfbbfd
-  custom:scripting/monoscript/fileName/EditModeRippleUtils.cs: 80ecea2da84eb854aba2cf4d8f7a2e8e -> 2111676ed7ea3f3a5d21a426833c1f79
-  custom:scripting/monoscript/fileName/TimelineClip.cs: 13b2364a69300bfdf1ea81c25427bd6f -> 65611b8f70f3709b8285f8862e3a03e8
-========================================================================
-Received Import Request.
-  Time since last request: 396660.936172 seconds.
-  path: Assets/Sounds/Music/Calm3 - Peaceful Days.ogg
-  artifactKey: Guid(2b541905ca3cd9347a56ffc11193c35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Music/Calm3 - Peaceful Days.ogg using Guid(2b541905ca3cd9347a56ffc11193c35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4185099245d007d4e13becd3ab1cb3') in 0.140626 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 114.846027 seconds.
-  path: Assets/Fonts/Peepo.ttf
-  artifactKey: Guid(771d877a49e443540ae1bfb7ec2795b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Fonts/Peepo.ttf using Guid(771d877a49e443540ae1bfb7ec2795b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '67f0562a229a9564bf5d68d19356de94') in 0.198069 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sprites/Sprite Textures/Effects/effects.png
-  artifactKey: Guid(fec47794c20ce834da941a7b4e8caa07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Sprite Textures/Effects/effects.png using Guid(fec47794c20ce834da941a7b4e8caa07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6df260937cb40a606bed55c62ba8f5cd') in 0.108045 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sounds/AmbientSounds/indoors1.wav
-  artifactKey: Guid(597fa2fa4634b8048ab616a4b482e405) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sounds/AmbientSounds/indoors1.wav using Guid(597fa2fa4634b8048ab616a4b482e405) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '77c023331a6ca24244ced6f3e80ef9f9') in 0.107678 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Animation/Crop/Standard/CropStandard.controller
-  artifactKey: Guid(ca4a807362fb1a74bad5e1ca4e090a16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Crop/Standard/CropStandard.controller using Guid(ca4a807362fb1a74bad5e1ca4e090a16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '41fd9da917d94ceee293a193a8b1f040') in 0.027447 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Animation/Crop/Tree/TreeFallingRight.anim
-  artifactKey: Guid(d17f76c209ce5d642a6bf089aba5df95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Crop/Tree/TreeFallingRight.anim using Guid(d17f76c209ce5d642a6bf089aba5df95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '97541fcdeac79255f27a696fa1cab330') in 0.031618 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Sprites/Sprite Textures/Objects/Acorn.png
-  artifactKey: Guid(730e572c78cf0244ca0db36bb8f3af7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Sprite Textures/Objects/Acorn.png using Guid(730e572c78cf0244ca0db36bb8f3af7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f7ee03bd78a07297cdf5a415655a437a') in 0.043570 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Animation/NPC/Butch/Walk/Butch_WalkLeft.anim
-  artifactKey: Guid(c2747571e4f677a478054471c122d069) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/NPC/Butch/Walk/Butch_WalkLeft.anim using Guid(c2747571e4f677a478054471c122d069) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f74bd41441e78b852f407e8d8bf25ab1') in 0.025750 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Animation/Crop/Tree/TreeWobbleRight.anim
-  artifactKey: Guid(0f6992b291e5e93429ffa954759e3ba3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Crop/Tree/TreeWobbleRight.anim using Guid(0f6992b291e5e93429ffa954759e3ba3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '529bd74f98790e1ca84fe050801e7294') in 0.026963 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Sprites/Sprite Textures/Objects/Grass1.png
-  artifactKey: Guid(207ad99171e171b418bcaaa396d5a6f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Sprite Textures/Objects/Grass1.png using Guid(207ad99171e171b418bcaaa396d5a6f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5200c3727e9ebc7602f5bfd332171400') in 0.042149 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sprites/Sprite Textures/Objects/Table.png
-  artifactKey: Guid(60f7a57556be87841a8cabc94054df28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Sprite Textures/Objects/Table.png using Guid(60f7a57556be87841a8cabc94054df28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '674fa0e184573ccbd13337f8e3e6a53a') in 0.043062 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sprites/Sprite Textures/UI/InventoryBar.png
-  artifactKey: Guid(d210793aeef3be74ba5ecda0bbe898c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Sprite Textures/UI/InventoryBar.png using Guid(d210793aeef3be74ba5ecda0bbe898c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0496fa709198fffa59550c4fd17a7c04') in 0.039863 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprites/Sprite Textures/Objects/Stone2Seed.png
-  artifactKey: Guid(ffd3a07e9702a614284d1e5a4be9f532) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Sprite Textures/Objects/Stone2Seed.png using Guid(ffd3a07e9702a614284d1e5a4be9f532) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'dd160b31bd51c9f4fda0a639a9a998e5') in 0.037331 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Animation/NPC/Butch/Idle/Butch_IdleLeft.anim
-  artifactKey: Guid(c40de4becb5a1da4b93ac5e0744066e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/NPC/Butch/Idle/Butch_IdleLeft.anim using Guid(c40de4becb5a1da4b93ac5e0744066e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fbd6d6b3d3f0681ca5d509de84925f06') in 0.024195 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Sprites/Sprite Textures/Objects/Stone1Seed.png
-  artifactKey: Guid(4fb548784c08c2c40b86a99493efa98d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Sprite Textures/Objects/Stone1Seed.png using Guid(4fb548784c08c2c40b86a99493efa98d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e08645d46c4ac8f2470db3025dc56362') in 0.047686 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Sounds/Effects/Tools/Axe.wav
-  artifactKey: Guid(936ee70bd6b31ba40950a23b2c095ab8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sounds/Effects/Tools/Axe.wav using Guid(936ee70bd6b31ba40950a23b2c095ab8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '72b856628941a9407ecef4db1cb42d4e') in 0.057449 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sprites/Sprite Textures/Objects/ParsnipSeeds.png
-  artifactKey: Guid(7da78110e28e0f74aaa3ef4a41f4c0ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Sprite Textures/Objects/ParsnipSeeds.png using Guid(7da78110e28e0f74aaa3ef4a41f4c0ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c03b6733f55d3113ee4bd3eb81e8c437') in 0.041963 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sprites/Sprite Textures/UI/InventoryPlayer.png
-  artifactKey: Guid(5b29a1ba3552b5b4b824c583e87783fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Sprite Textures/UI/InventoryPlayer.png using Guid(5b29a1ba3552b5b4b824c583e87783fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7a2ece91e8989c001c3a42a80156d0f4') in 0.043862 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Sprites/Sprite Textures/Trees/BlueSpruce.png
-  artifactKey: Guid(5d22327a2a3d2a049a8a59a708d527fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Sprite Textures/Trees/BlueSpruce.png using Guid(5d22327a2a3d2a049a8a59a708d527fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7b0c5ad7b338fbb144495bfdb21b1bf5') in 0.070304 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Animation/NPC/Cora/Walk/Cora_WalkLeft.anim
-  artifactKey: Guid(eba9eef54902bc646b2ed562626e70ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/NPC/Cora/Walk/Cora_WalkLeft.anim using Guid(eba9eef54902bc646b2ed562626e70ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3530c63f332acb17058d714e2ac74167') in 0.027629 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Animation/NPC/Cora/Idle/Cora_IdleRight.anim
-  artifactKey: Guid(547c1ed0bdeb10044beaf1c384be3a23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/NPC/Cora/Idle/Cora_IdleRight.anim using Guid(547c1ed0bdeb10044beaf1c384be3a23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2e899f8094eb74bc7fb1a43b1feef42e') in 0.028519 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Sprites/Sprite Textures/Tools/tools.png
-  artifactKey: Guid(853ac38383c680342ac7e688bf29b197) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Sprite Textures/Tools/tools.png using Guid(853ac38383c680342ac7e688bf29b197) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5fe1238107545eb965ffa2e9a7496a18') in 0.182229 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/Sprite Textures/Tile Sprites/HalfCollisionTile.png
-  artifactKey: Guid(c31ef2d8735edaa4c898f9e490b6d95e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Sprite Textures/Tile Sprites/HalfCollisionTile.png using Guid(c31ef2d8735edaa4c898f9e490b6d95e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'acfc033caf6dd3f8608bf21a1a2387a9') in 0.041559 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sprites/Sprite Textures/Objects/PineCone.png
-  artifactKey: Guid(5eb84bf51d351da428f95a1296f6a397) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Sprite Textures/Objects/PineCone.png using Guid(5eb84bf51d351da428f95a1296f6a397) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4124d489e5cdc3970f679653887ca10f') in 0.038733 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/Sprite Textures/Trees/CanyonOak.png
-  artifactKey: Guid(d241c496741a12d4290e12ba81dd6724) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Sprite Textures/Trees/CanyonOak.png using Guid(d241c496741a12d4290e12ba81dd6724) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '91998655492046625e84b0b841a0bd5a') in 0.057614 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Animation/Player/Animation Controller/toolEffect.controller
-  artifactKey: Guid(858dead31ce223d418ef6914553a0fcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animation Controller/toolEffect.controller using Guid(858dead31ce223d418ef6914553a0fcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c75a7873b959250a84a62af87c60e781') in 0.023527 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Sprites/Sprite Textures/Objects/Wood.png
-  artifactKey: Guid(e26dc0d638731ec47abe9c4b3cae62ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Sprite Textures/Objects/Wood.png using Guid(e26dc0d638731ec47abe9c4b3cae62ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a2197875d90810e008b378c5c7897d58') in 0.040433 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Animation/NPC/Butch/Idle/Butch_IdleUp.anim
-  artifactKey: Guid(300139290e677a84c82cd0eb3d40fef4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/NPC/Butch/Idle/Butch_IdleUp.anim using Guid(300139290e677a84c82cd0eb3d40fef4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '570de1669c5e8ae72940106042a3ffa9') in 0.026101 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Animation/NPC/General/BlankAnimation.anim
-  artifactKey: Guid(de73329f78eb6d645a9a70faf2bddfce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/NPC/General/BlankAnimation.anim using Guid(de73329f78eb6d645a9a70faf2bddfce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '468e0956badfd0533e1d4d5fe379c733') in 0.025948 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Animation/NPC/Butch/Idle/Butch_IdleRight.anim
-  artifactKey: Guid(f97f8fbccdaecf64dae8a3390e4f217d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/NPC/Butch/Idle/Butch_IdleRight.anim using Guid(f97f8fbccdaecf64dae8a3390e4f217d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a9db290ffdd338184d0c839daa6569ed') in 0.025878 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Animation/Player/Animations/hat/HatNoneNoneIdleLeft.anim
-  artifactKey: Guid(491e24f1bfbb64949a2c6b3c697e8fbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/hat/HatNoneNoneIdleLeft.anim using Guid(491e24f1bfbb64949a2c6b3c697e8fbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd9e0fb13042779a7fb6da22d631287cd') in 0.029743 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Animation/Player/Animations/hat/HatNoneNoneIdleRight.anim
-  artifactKey: Guid(ad0fdda01cbd3a0428232dc28dbc184c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/hat/HatNoneNoneIdleRight.anim using Guid(ad0fdda01cbd3a0428232dc28dbc184c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '033f4134045abea7dce0d2565452ae54') in 0.025254 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Animation/Player/Animations/hat/HatNoneNonePickDown.anim
-  artifactKey: Guid(31c8c7985568d3a4ca2fc221bec64265) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/hat/HatNoneNonePickDown.anim using Guid(31c8c7985568d3a4ca2fc221bec64265) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8bcd76eabaf9396a60b50cbdc536caf3') in 0.027524 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Sounds/Effects/Footstep/rustle.wav
-  artifactKey: Guid(a1245e3e236386448a3b1d2caf1730a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sounds/Effects/Footstep/rustle.wav using Guid(a1245e3e236386448a3b1d2caf1730a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c522dc08e6413518662c025d2620a22a') in 0.056408 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Sprites/Sprite Textures/Objects/Weed1.png
-  artifactKey: Guid(25925800440b0e84f9533a314ddca6b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Sprite Textures/Objects/Weed1.png using Guid(25925800440b0e84f9533a314ddca6b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '091840bce9a046e680848d91467db83c') in 0.033244 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/Sprite Textures/Objects/Stone.png
-  artifactKey: Guid(7700e9e59e6f58e4598ea8f2e5a84cc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Sprite Textures/Objects/Stone.png using Guid(7700e9e59e6f58e4598ea8f2e5a84cc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9fa6568fdbfd1c7f4501ec4f6d002a0d') in 0.037883 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Animation/Crop/Tree/Tree.controller
-  artifactKey: Guid(7fdcf37bdcda0244a9d54243a6ac7065) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Crop/Tree/Tree.controller using Guid(7fdcf37bdcda0244a9d54243a6ac7065) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '51224c1bd7e2de4458e764b472dd0ce2') in 0.020739 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Animation/NPC/Butch/Run/Butch_RunLeft.anim
-  artifactKey: Guid(821578a3e3798d24a88d3c689a5deed6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/NPC/Butch/Run/Butch_RunLeft.anim using Guid(821578a3e3798d24a88d3c689a5deed6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '40c6af0ab7cd4b2861a8ce85eb943f5e') in 0.023210 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Animation/Player/Animation Controller/arms.controller
-  artifactKey: Guid(7a47155c0839dec4cb7fa05ad336876c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animation Controller/arms.controller using Guid(7a47155c0839dec4cb7fa05ad336876c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '423d5fa0db908846309a67d263818637') in 0.043245 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 226
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Animation/Player/Animations/hat/HatNoneNoneIdleDown.anim
-  artifactKey: Guid(a7493ebd252e4cb46a64eae8c81e90db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/hat/HatNoneNoneIdleDown.anim using Guid(a7493ebd252e4cb46a64eae8c81e90db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7379ceb72dcfc1f5e4656ba858fcf2f1') in 0.023104 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Sprites/Sprite Textures/UI/InventoryPlayerGreyedOut.png
-  artifactKey: Guid(2a6700e4157309649a1edb27b126da7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Sprite Textures/UI/InventoryPlayerGreyedOut.png using Guid(2a6700e4157309649a1edb27b126da7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '89f7fe420aa5bfaf9e02efbfbf60a231') in 0.040118 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sounds/Music/Calm3 - Peaceful Days.ogg
-  artifactKey: Guid(2b541905ca3cd9347a56ffc11193c35a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sounds/Music/Calm3 - Peaceful Days.ogg using Guid(2b541905ca3cd9347a56ffc11193c35a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7186b49d757f452458616a33baae2fe7') in 0.096898 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/Sounds/Effects/Footstep/footstep.wav
-  artifactKey: Guid(093845d14eed7654a8dc2b6b0ed14dfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sounds/Effects/Footstep/footstep.wav using Guid(093845d14eed7654a8dc2b6b0ed14dfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6dc7f22c1cd1302fdf0a478ea06484da') in 0.051568 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Animation/Player/Animations/hat/HatNoneNoneSwingToolUp.anim
-  artifactKey: Guid(dddebab380c25c04b8143342737c2ad1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/hat/HatNoneNoneSwingToolUp.anim using Guid(dddebab380c25c04b8143342737c2ad1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '13b2c6f97057abfc4ee3c7fbfaeb31aa') in 0.022545 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Animation/Player/Animations/hat/HatNoneNoneRunLeft.anim
-  artifactKey: Guid(c1d2369df6084e44491f7d686abe75ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/hat/HatNoneNoneRunLeft.anim using Guid(c1d2369df6084e44491f7d686abe75ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c9743ccaad60579387ef5d40be21693b') in 0.026564 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Animation/Player/Animations/hat/HatNoneNoneRunDown.anim
-  artifactKey: Guid(fba3e55cb9f8cb5408efa8f9bca4ff92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/hat/HatNoneNoneRunDown.anim using Guid(fba3e55cb9f8cb5408efa8f9bca4ff92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '52f4c47a1bc04f1ef3dceb8e11ea5350') in 0.038620 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Animation/Player/Animations/hat/HatNoneNonePickUp.anim
-  artifactKey: Guid(15922f8d8478c9b4592982c6a458ba5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/hat/HatNoneNonePickUp.anim using Guid(15922f8d8478c9b4592982c6a458ba5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '41b82cbd4cde49e32b7f2bf5da78422f') in 0.024503 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Animation/Player/Animations/hat/HatNoneNonePickLeft.anim
-  artifactKey: Guid(ce99036c6ed667648b74ff1988cea0d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/hat/HatNoneNonePickLeft.anim using Guid(ce99036c6ed667648b74ff1988cea0d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c725de3eee02cd6e9b2644abcb0d2e77') in 0.023841 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Animation/Player/Animations/hat/HatNoneNoneUseToolDown.anim
-  artifactKey: Guid(f03f2adb2d725a84b813bb399965ad3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/hat/HatNoneNoneUseToolDown.anim using Guid(f03f2adb2d725a84b813bb399965ad3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '95d3d9f2e483efa40ea60a270b453dc9') in 0.032493 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Animation/Player/Animations/hat/HatNoneNoneSwingToolLeft.anim
-  artifactKey: Guid(2deb2ebb6589bfc4b99f557d19b0ebc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/hat/HatNoneNoneSwingToolLeft.anim using Guid(2deb2ebb6589bfc4b99f557d19b0ebc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '60b5baa340acae28b29bf1e223648657') in 0.025585 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Sprites/Sprite Textures/Objects/Parsnip.png
-  artifactKey: Guid(0a1268bf801d5304ebf16458d7309ac1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Sprite Textures/Objects/Parsnip.png using Guid(0a1268bf801d5304ebf16458d7309ac1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a52f6e330e2f8d03987bd207ac38eba0') in 0.037185 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Animation/NPC/Butch/EventAnimations/Butch_DiggingRight.anim
-  artifactKey: Guid(d78b30f0d628d8a4cab29e8b91e311a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/NPC/Butch/EventAnimations/Butch_DiggingRight.anim using Guid(d78b30f0d628d8a4cab29e8b91e311a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '400cba85df6e621c7a119af13bdb366f') in 0.026286 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Animation/Player/Animations/hat/HatNoneNoneHoldToolLeft.anim
-  artifactKey: Guid(8bb06b41fa2b5f64b8e483dd9397285b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/hat/HatNoneNoneHoldToolLeft.anim using Guid(8bb06b41fa2b5f64b8e483dd9397285b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd32be4a2a9b1048f6bb5fb933fba25b8') in 0.023506 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Animation/NPC/Butch/Idle/Butch_IdleDown.anim
-  artifactKey: Guid(cb83867c6252b5c4a8e8758697474f88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/NPC/Butch/Idle/Butch_IdleDown.anim using Guid(cb83867c6252b5c4a8e8758697474f88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'cc2d0265cf3837926955d208c9683a00') in 0.027113 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/Animation/Player/Animations/hat/HatNoneNoneHoldToolDown.anim
-  artifactKey: Guid(c5f84931f8d13b242a851266eeb7b80e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/hat/HatNoneNoneHoldToolDown.anim using Guid(c5f84931f8d13b242a851266eeb7b80e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e6240ac14fe9cedd407764931c82c226') in 0.026522 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Animation/NPC/Cora/Walk/Cora_WalkDown.anim
-  artifactKey: Guid(7008236f12aa1a74b987b2e4fc5ab1e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/NPC/Cora/Walk/Cora_WalkDown.anim using Guid(7008236f12aa1a74b987b2e4fc5ab1e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5f7824e6a598a79e5b1ae45b8f697f89') in 0.023841 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprites/Sprite Textures/UI/GreenGridCursor.png
-  artifactKey: Guid(2e92a61802edadc4495e4d901e3a97cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Sprite Textures/UI/GreenGridCursor.png using Guid(2e92a61802edadc4495e4d901e3a97cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '84a7f5ccfe5d73ca4dcc02e179670ac4') in 0.039304 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Animation/NPC/Butch/Run/Butch_RunUp.anim
-  artifactKey: Guid(349cc850945fe7745a2153295cd2be3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/NPC/Butch/Run/Butch_RunUp.anim using Guid(349cc850945fe7745a2153295cd2be3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd8f488924e763389c35217ff10733af8') in 0.023798 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sounds/Effects/Tools/wateringcan1.wav
-  artifactKey: Guid(6fdec38b34b083e48a8cc78854780c60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sounds/Effects/Tools/wateringcan1.wav using Guid(6fdec38b34b083e48a8cc78854780c60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e1bbaa0ecf5068ab02c64081609e34fc') in 0.085038 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Animation/Player/Animations/hat/HatNoneNoneWalkDown.anim
-  artifactKey: Guid(1881a9a4739686142a9a7f36cfa7da1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/hat/HatNoneNoneWalkDown.anim using Guid(1881a9a4739686142a9a7f36cfa7da1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '026fb8e277e5a8df5e6e4cf15e346342') in 0.023126 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Animation/Player/Animations/hat/HatNoneNoneUseToolRight.anim
-  artifactKey: Guid(0215aea940e64a14e9b20c941788f299) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/hat/HatNoneNoneUseToolRight.anim using Guid(0215aea940e64a14e9b20c941788f299) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4305db55f1eb5fbc928251f316ac8fef') in 0.023966 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/Sprites/Sprite Textures/NPCs/Cora/Cora.png
-  artifactKey: Guid(400e208f8ff6631429ef6ca968c16ad2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Sprite Textures/NPCs/Cora/Cora.png using Guid(400e208f8ff6631429ef6ca968c16ad2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6b1aa627d6033b416d06ad8ffb288299') in 0.060033 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprites/Sprite Textures/NPCs/Butch/Butch.png
-  artifactKey: Guid(afba78ae84664a941a55c31758ab5cf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Sprite Textures/NPCs/Butch/Butch.png using Guid(afba78ae84664a941a55c31758ab5cf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c97a5c483c8a812d7b5e2ddb7ac6a3c8') in 0.132534 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 31
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Animation/Player/Animations/hat/HatNoneNoneWalkUp.anim
-  artifactKey: Guid(a54f5f501bcfd4e4a9a38989e707c4d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/hat/HatNoneNoneWalkUp.anim using Guid(a54f5f501bcfd4e4a9a38989e707c4d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3eab292ec3818c1cc8dbb1d409be8f19') in 0.023474 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Sprites/Sprite Textures/Character/Farmer/farmerHair.png
-  artifactKey: Guid(9982bf9edb0201b4583055eb8b80c925) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Sprite Textures/Character/Farmer/farmerHair.png using Guid(9982bf9edb0201b4583055eb8b80c925) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c858596a2e0e774c7158ca4f0382100c') in 0.230121 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Animation/Player/Animations/arms/NoneCarry/ArmsNoneCarryIdleUp.anim
-  artifactKey: Guid(339781007b0ce5a45bf3be07446ad65b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/arms/NoneCarry/ArmsNoneCarryIdleUp.anim using Guid(339781007b0ce5a45bf3be07446ad65b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '582837d1bfc4dae4bf0fb64cd899836a') in 0.018250 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Animation/Player/Animations/arms/NoneCarry/ArmsNoneCarryIdleRight.anim
-  artifactKey: Guid(bd5158f03153c2f4da32db83b1956643) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/arms/NoneCarry/ArmsNoneCarryIdleRight.anim using Guid(bd5158f03153c2f4da32db83b1956643) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0f2309f93c92c9111f989053837f5a02') in 0.021278 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/Sprite Textures/UI/PauseScreenNotSelectedTab.png
-  artifactKey: Guid(46b161dabd24e6c43aa181b2d99642e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Sprite Textures/UI/PauseScreenNotSelectedTab.png using Guid(46b161dabd24e6c43aa181b2d99642e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd9f2d7d017fd8e9f4c3cd8bfbc1f2e51') in 0.040564 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sprites/Sprite Textures/Objects/Grass2.png
-  artifactKey: Guid(e452dd2aa629f624390a9ba516a7c47e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Sprite Textures/Objects/Grass2.png using Guid(e452dd2aa629f624390a9ba516a7c47e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '792813c3da921ad1207f6c6cb7e0bbf8') in 0.039876 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Animation/NPC/Butch/Walk/Butch_WalkUp.anim
-  artifactKey: Guid(8ae7d3a4f00119f43b930e6a0833b755) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/NPC/Butch/Walk/Butch_WalkUp.anim using Guid(8ae7d3a4f00119f43b930e6a0833b755) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a360861ca2b14478489e348510ec4444') in 0.020841 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sounds/Effects/Tools/Hoe.wav
-  artifactKey: Guid(bde45eab5733e6542a8d483df7fe29f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sounds/Effects/Tools/Hoe.wav using Guid(bde45eab5733e6542a8d483df7fe29f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e6d1be0d7dfb022300f050ced1540133') in 0.101053 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Animation/Player/Animations/hat/HatNoneNoneIdleUp.anim
-  artifactKey: Guid(c6bc12925a79502419bcd32baeb0623e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/hat/HatNoneNoneIdleUp.anim using Guid(c6bc12925a79502419bcd32baeb0623e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '08134cd2bc533f03ff8107b2e12af7cc') in 0.022851 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Animation/NPC/Butch/EventAnimations/Butch_SmokingPipeRight.anim
-  artifactKey: Guid(bc72b54e068840044a4b381c76eec014) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/NPC/Butch/EventAnimations/Butch_SmokingPipeRight.anim using Guid(bc72b54e068840044a4b381c76eec014) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd316cc7fa88b477ecbda19d3221dc521') in 0.024636 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Animation/NPC/Butch/EventAnimations/Butch_RidingHorseLeftRight9.anim
-  artifactKey: Guid(1936f787f8c0bc0408e5054dac230c52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/NPC/Butch/EventAnimations/Butch_RidingHorseLeftRight9.anim using Guid(1936f787f8c0bc0408e5054dac230c52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a68d11609f0c9016eb83def3fb4a82be') in 0.023476 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Sprites/Sprite Textures/NPCs/Butch/Butch_Portrait.png
-  artifactKey: Guid(2d0dfd935517f7049a9ec156af517511) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Sprite Textures/NPCs/Butch/Butch_Portrait.png using Guid(2d0dfd935517f7049a9ec156af517511) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'eb1fed0556de6a482e930654e12695c4') in 0.061426 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprites/Sprite Textures/Character/Farmer/farmerCharacter.png
-  artifactKey: Guid(c4e8a25a818969f4faa9e0679d36d253) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Sprite Textures/Character/Farmer/farmerCharacter.png using Guid(c4e8a25a818969f4faa9e0679d36d253) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'da0c58d568f859a1593246e890911f26') in 1.235614 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 218
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Animation/Player/Animations/arms/NoneCarry/ArmsNoneCarryWalkLeft.anim
-  artifactKey: Guid(89b12e5260ff4a74ba506b36945bb899) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/arms/NoneCarry/ArmsNoneCarryWalkLeft.anim using Guid(89b12e5260ff4a74ba506b36945bb899) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2eb9d29e88183a9c3def3bc27fbe6c73') in 0.021353 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Animation/Player/Animations/arms/NoneCarry/ArmsNoneCarryRunLeft.anim
-  artifactKey: Guid(a58eba0a2417ea9499f1de0921bb978f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/arms/NoneCarry/ArmsNoneCarryRunLeft.anim using Guid(a58eba0a2417ea9499f1de0921bb978f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3aa832a14866ec2efed176468b1eab6a') in 0.024699 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Animation/Player/Animations/arms/NoneCarry/ArmsNoneCarryRunRight.anim
-  artifactKey: Guid(a22426ff3b9bd6049a8774a249b550cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/arms/NoneCarry/ArmsNoneCarryRunRight.anim using Guid(a22426ff3b9bd6049a8774a249b550cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fbab7173f976966e994488274cd217d3') in 0.023785 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Animation/Player/Animations/arms/NoneNone/ArmsNoneNoneHoldToolLeft.anim
-  artifactKey: Guid(515fb3af47ef34c4185d048d141ddd52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/arms/NoneNone/ArmsNoneNoneHoldToolLeft.anim using Guid(515fb3af47ef34c4185d048d141ddd52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '45293077d67775ccf591e3093a783271') in 0.020416 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/Animation/Player/Animations/arms/NoneCarry/ArmsNoneCarryWalkUp.anim
-  artifactKey: Guid(7784afd278a83134488b0bc9b02884e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/arms/NoneCarry/ArmsNoneCarryWalkUp.anim using Guid(7784afd278a83134488b0bc9b02884e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '12fd98457f9b4978a16e0c546f5ad46c') in 0.025497 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/Animation/Player/Animations/arms/NoneCarry/ArmsNoneCarryWalkDown.anim
-  artifactKey: Guid(fbea8aea224441c4ab27ee1eb3fddf9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/arms/NoneCarry/ArmsNoneCarryWalkDown.anim using Guid(fbea8aea224441c4ab27ee1eb3fddf9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c532eec2e86656336fa0ccb4239429d8') in 0.023178 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sprites/Sprite Textures/Objects/Pumpkin.png
-  artifactKey: Guid(f0d720006ae6c9e468cc99a9f1713ba1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Sprite Textures/Objects/Pumpkin.png using Guid(f0d720006ae6c9e468cc99a9f1713ba1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '32feb36346e2fa67df7ba35241cb8933') in 0.039064 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Sounds/GameAudioMixer.mixer
-  artifactKey: Guid(2fa5bbee65721ec43a19b0253181c5a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sounds/GameAudioMixer.mixer using Guid(2fa5bbee65721ec43a19b0253181c5a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c79c0f1175bcbf09d2218d1d5b6c6491') in 0.039270 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Animation/Player/Animations/arms/NoneNone/ArmsNoneNoneHoldToolDown.anim
-  artifactKey: Guid(659f19b60833e424d82481409bf8bccf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/arms/NoneNone/ArmsNoneNoneHoldToolDown.anim using Guid(659f19b60833e424d82481409bf8bccf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fcb8fa79da38233735b01bfe09706140') in 0.026938 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Animation/NPC/Cora/Walk/Cora_WalkUp.anim
-  artifactKey: Guid(10cf5690ae66f274799a247486722c50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/NPC/Cora/Walk/Cora_WalkUp.anim using Guid(10cf5690ae66f274799a247486722c50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8b78ad8bccfa2243f3dc0a94d083ee32') in 0.026960 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Animation/Player/Animation Controller/body.controller
-  artifactKey: Guid(c32e3001015cb0e4d97cc86491f6e71a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animation Controller/body.controller using Guid(c32e3001015cb0e4d97cc86491f6e71a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3f1168409be81e9278438bc943ba540d') in 0.041120 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 226
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Animation/Player/Animations/hat/HatNoneNoneLiftToolDown.anim
-  artifactKey: Guid(3aabaa0cb711d144b8d976e00fac0f43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/hat/HatNoneNoneLiftToolDown.anim using Guid(3aabaa0cb711d144b8d976e00fac0f43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd44925f78a6f2687d7b077f66726d746') in 0.021812 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Animation/Player/Animations/arms/NoneNone/ArmsNoneNoneIdleDown.anim
-  artifactKey: Guid(8bc5e45be7529c448891bd090c120d4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/arms/NoneNone/ArmsNoneNoneIdleDown.anim using Guid(8bc5e45be7529c448891bd090c120d4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '60a56c8baf644a2d53b91dec3954916c') in 0.022767 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Animation/Player/Animations/arms/NoneNone/ArmsNoneNoneIdleUp.anim
-  artifactKey: Guid(2f6a1124fdf546c479d26c24b2f7841a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/arms/NoneNone/ArmsNoneNoneIdleUp.anim using Guid(2f6a1124fdf546c479d26c24b2f7841a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '98d095d83e5dd96f5271d6a5e5b17b69') in 0.021477 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Animation/Player/Animations/arms/NoneNone/ArmsNoneNoneLiftToolUp.anim
-  artifactKey: Guid(065a1ac1bb5bc9f4caafd7e9963ecd4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/arms/NoneNone/ArmsNoneNoneLiftToolUp.anim using Guid(065a1ac1bb5bc9f4caafd7e9963ecd4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '95e7af891ab3b01ec04ef1df23e0e0bb') in 0.027795 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Animation/Player/Animations/arms/NoneNone/ArmsNoneNoneLiftToolRight.anim
-  artifactKey: Guid(61c275ab41df6fa4bb042742575974e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/arms/NoneNone/ArmsNoneNoneLiftToolRight.anim using Guid(61c275ab41df6fa4bb042742575974e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b94447173df0ae83ef33521c4157f3c3') in 0.028262 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Animation/Player/Animations/arms/NoneNone/ArmsNoneNonePickDown.anim
-  artifactKey: Guid(7a40324401229c942bc4d749d4ec981d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/arms/NoneNone/ArmsNoneNonePickDown.anim using Guid(7a40324401229c942bc4d749d4ec981d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '132d3fca292dcdc0b85460516ad0aa9c') in 0.022127 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Animation/Player/Animations/arms/NoneNone/ArmsNoneNoneLiftToolDown.anim
-  artifactKey: Guid(6ca281f0accc4dd47b7d9754c893852f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/arms/NoneNone/ArmsNoneNoneLiftToolDown.anim using Guid(6ca281f0accc4dd47b7d9754c893852f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd9ec85ae8ce9480c231a083bcd5c1900') in 0.022818 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Animation/Player/Animations/arms/NoneNone/ArmsNoneNoneIdleRight.anim
-  artifactKey: Guid(e6c1bc785043b8844aa7c1ccf6c548aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/arms/NoneNone/ArmsNoneNoneIdleRight.anim using Guid(e6c1bc785043b8844aa7c1ccf6c548aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b2b458fcf65353b8a1d2c69892b18c77') in 0.028019 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Animation/Player/Animation Controller/tool.controller
-  artifactKey: Guid(8f232a7c4ce8ba74a9db168a7d6dca70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animation Controller/tool.controller using Guid(8f232a7c4ce8ba74a9db168a7d6dca70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8324e172b57ac1edc02cd098b90b0f5b') in 0.029028 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 68
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Animation/Player/Animations/arms/NoneCarry/ArmsNoneCarryWalkRight.anim
-  artifactKey: Guid(6c2464c80df04bf4083c3eaadab67c99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Animation/Player/Animations/arms/NoneCarry/ArmsNoneCarryWalkRight.anim using Guid(6c2464c80df04bf4083c3eaadab67c99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b0c592933e4fbf3b1fdd44d1843aac88') in 0.024708 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Sprites/Sprite Textures/Tile Sprites/GroundTileset.png
-  artifactKey: Guid(0f48021b42b3b4342b1829669a8ec65d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Sprite Textures/Tile Sprites/GroundTileset.png using Guid(0f48021b42b3b4342b1829669a8ec65d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2ac8144f5ebca3fd408bd5f25cbfb797') in 8.825263 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 560
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 7.89 ms, found 4 plugins.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming RPG Source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming RPG Source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.888 seconds
+Refreshing native plugins compatible for Editor in 3.89 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.555 seconds
+Domain Reload Profiling:
+	ReloadAssembly (294ms)
+		BeginReloadAssembly (194ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		LoadAllAssembliesAndSetupDomain (592ms)
+			LoadAssemblies (303ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (366ms)
+				TypeCache.Initialize (358ms)
+					TypeCache.ScanAssembly (351ms)
+				ResolveRequiredComponents (8ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (747ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (10ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (497ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 5.73 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8 unused Assets / (269.5 KB). Loaded Objects now: 4577.
-Memory consumption went from 72.4 MB to 72.1 MB.
-Total: 16.705400 ms (FindLiveObjects: 0.747900 ms CreateObjectMapping: 0.774900 ms MarkObjects: 14.815500 ms  DeleteObjects: 0.363600 ms)
+Unloading 4099 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (288.1 KB). Loaded Objects now: 4584.
+Memory consumption went from 134.8 MB to 134.5 MB.
+Total: 8.479800 ms (FindLiveObjects: 0.646600 ms CreateObjectMapping: 0.625400 ms MarkObjects: 6.818300 ms  DeleteObjects: 0.386800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/SignalListFactory.cs: 961b01e9cd2cbd8bb65ecc4cb7f0686e -> 750485a2ad404114b1071a77392c79c8
-  custom:scripting/monoscript/fileName/TimelineSelection.cs: 7aa761d34955421c1edbbde0782bbd77 -> 9b1ed0621955d266b8201c63b16c7260
-  custom:scripting/monoscript/fileName/ClipUpgrade.cs: 7ec8e3a5c9b7123b0060cea53828cadd -> ef4792a296bb1387c53303d2d2367916
-  custom:scripting/monoscript/fileName/ActivationTrack.cs: 31ef1ab1b10301d747fb127086175156 -> 6517df7139edd2bf87e82cef6d6fd919
-  custom:scripting/monoscript/fileName/SignalReceiverInspector.cs: ef322f025c974590bf2aef1bdae9f61e -> afe9dc346183c6a238eaaa7b2e771c39
-  custom:scripting/monoscript/fileName/MovingItems.cs: d64f998c5f7235b6c4085dc5cd5d5d7d -> 7fc137f9d782535f80c7af78330b5435
-  custom:scripting/monoscript/fileName/MenuItemActionBase.cs: c3d88f1338536ee59e7ab7968207aa4e -> 68bc4d2a798dbe650fa08034b62cc292
-  custom:scripting/monoscript/fileName/SequenceHierarchy.cs: ad0e1f663b5613be968fe045c2b46027 -> 67acc74a8d53a9d7cf27eeea290da0f2
-  custom:scripting/monoscript/fileName/ClipAction.cs: 7dc4e5edaaba4d3880440daf6ca5c795 -> aec021f211047e0caa10ac51741a445b
-  custom:scripting/monoscript/fileName/TimelineShortcutAttribute.cs: 2b58e66ec3363203021755304e3b1153 -> e71c4af6aa6c1d8e056b439aa2aa8019
-  custom:scripting/monoscript/fileName/TimelineWindow_Manipulators.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/SequenceSelectorNameFormater.cs: 7c250f3b7eeb471d4ffc368379c175de -> 1c5c25e97ae9aaa9ba8e5d896b74e11f
-  custom:scripting/monoscript/fileName/IInspectorChangeHandler.cs: 269ac0de9601e126a8c8f335b0d33d12 -> c7a7a99a8367031ca6f820f07d4ffceb
-  custom:scripting/monoscript/fileName/TimelineDataSource.cs: 357cdfb35ad3a19dee63553f53119a57 -> 8974c088703a2e7573efdaa631057c59
-  custom:scripting/monoscript/fileName/TimelineItemGUI.cs: 32a6397d1b687b00597ff5e91a914ca3 -> 11c88f14c85f175c7d26aaf924042a45
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/SignalTrack.cs: 895cf6ef7974d1fccf741347d04cac85 -> 82048a49b8b293c625bf4be9fa50af14
-  custom:scripting/monoscript/fileName/AudioPlayableAssetEditor.cs: 43dba91b675249acf2be7e846c5a059e -> 0035e04a900062894e37eba121cbabd5
-  custom:scripting/monoscript/fileName/TimelineWindow_HeaderGui.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/IPropertyKeyDataSource.cs: 2175023d62aa659e27b7c3f0f390d366 -> 7e652e2aac75bd99fb9f2a21f234dbe2
-  custom:scripting/monoscript/fileName/TimelineInspectorUtility.cs: 49c254a3d3cc47b3d134149cbb2ff75b -> 3e94ab088143dea24a93a09c8f726c32
-  custom:scripting/monoscript/fileName/ActionManager.cs: 7d908b034e74d35a8d75a51758747c84 -> 1f8556b9a46f06673e6928b15c104c05
-  custom:scripting/monoscript/fileName/TrackAssetInspector.cs: c4528a810e8d8b37cceec365f2c4be1a -> 1640316eb930a1de3e9438caa8a6ee97
-  custom:scripting/monoscript/fileName/AnimatedParameterExtensions.cs: bb6987ba3502cb1926c35c1ab847c704 -> 833009aada33b1ef610bf455360c90c2
-  custom:scripting/monoscript/fileName/TrackAssetRecordingExtensions.cs: 6edd093d5e054714ea47ce84b8565336 -> 9b06cac9f6a9dd29d4a8aa5e287d46ec
-  custom:scripting/monoscript/fileName/ObjectExtension.cs: 3ef9b8d5fd48f808693e9ba5bbb19d8c -> 75d1c95589a5a2b64d89aba124f86939
-  custom:scripting/monoscript/fileName/Clipboard.cs: d4879f7d56a3fef446f2401fcd951700 -> e057e73a3ad057cb5ed40e0360bf50e2
-  custom:scripting/monoscript/fileName/InlineCurveEditor.cs: 664d1e2a3008524a64fc54297f1d53ff -> 6bf29efb8c605e7a20cc22261b7b1b4a
-  custom:scripting/monoscript/fileName/TimelineActiveMode.cs: ed6d06dc637fc0e4f02661cd1238ac84 -> 849410a9b804b4e0501dbd9813cd7890
-  custom:scripting/monoscript/fileName/TimelineWindow_ActiveTimeline.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/MarkerHeaderTrackManipulator.cs: 1335f392cfbe33a84f08f321fde9ca3d -> 7e33cda99f0289d321a79c4f5e3bc1ac
-  custom:scripting/monoscript/fileName/SignalAsset.cs: f69d9a3cf7f1655baeba1082deec4bb9 -> 97380dcb825439144cc6690277a9db2a
-  custom:scripting/monoscript/fileName/CurveDataSource.cs: 5fd2db331d6ad369e992e2cc66c959be -> 3de7edc85520d83475334823652338b9
-  custom:scripting/monoscript/fileName/FileUtility.cs: f4fa64760f7f225e836557ac7993f076 -> 2d70b80c72be1fb3b2b89ce0939e8cef
-  custom:scripting/monoscript/fileName/RuntimeElement.cs: 294e16922a13620adcd1dc939c69f240 -> de5d56df8ea443077c6cdeb0e94a058c
-  custom:scripting/monoscript/fileName/TimelineTrackErrorGUI.cs: f805aa18d9e3e274434512c3ea16a8de -> 57575d1157959f11893d279925940b5d
-  custom:scripting/monoscript/fileName/AnimationTrackDrawer.cs: bbb39b18779a664be5b13842e0688a5f -> 3411c6c34dcf2ed69d9011654359bbd9
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/MenuPriority.cs: 68e12c5baf56d3379229cf1f249b45d9 -> 33c1b075b07239c6ab4f67711b7a4d45
-  custom:scripting/monoscript/fileName/TimelineWindow_Duration.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/CustomTimelineEditorCache.cs: 8601155687e2c7fc51f947a81c1a8221 -> c4403d2b05e29719b149ac2b763b92c6
-  custom:scripting/monoscript/fileName/ClipModifier.cs: 7ff6746ee436e6a2c5621c88f765afb7 -> ce39391b8d07c87b12c61aa89485039f
-  custom:scripting/monoscript/fileName/IRowGUI.cs: 68e3a650e3772dc8df601e1a4d538021 -> d97c311c4b9b31e8df41c3a00bd75775
-  custom:scripting/monoscript/fileName/ClipsLayer.cs: d46a300ac869349a2d1961c7c7577213 -> d98d3ae9df7cf40d18e23ea0da3ec99b
-  custom:scripting/monoscript/fileName/EditModeUtils.cs: b0210ca334b688236d476e18aefc2414 -> e59f3c025b2fc7b5a910456e5307f1c1
-  custom:scripting/monoscript/fileName/SignalReceiver.cs: f51f1f345467a9d74cb12c61e10c0943 -> 56a829cd3678d5d8aa1b78e7ded69080
-  custom:scripting/monoscript/fileName/AddDeleteItemModeRipple.cs: f9f566916b1a838fa3bccf6118787812 -> 9e88e9066b424e4bcbef6b3c64ddd17e
-  custom:scripting/monoscript/fileName/TimelineWindow_Selection.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/SignalReceiverItem.cs: 5f951e9aa0513fcc31281aed3c2aa941 -> 0d08d7c2f2a885e92d3e0b20f3abae1e
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/EditorClipFactory.cs: 91021a8ea7e0173da9d4e4d79647711e -> 970f67c03f085ffc18d069f8458dba0a
-  custom:scripting/monoscript/fileName/DiscreteTime.cs: d4fc9f5931e30091f663d9cbf8da6ad6 -> 9ec78a0f1df39bb633c38c6c839f66af
-  custom:scripting/monoscript/fileName/SignalEmitterEditor.cs: ea73e4618785ca3ead62c9b181b23a47 -> f4dfbdf51eebbc2b7259bcf6b7612062
-  custom:scripting/monoscript/fileName/TimelineClipHandle.cs: 6e39ec7ef8eeb5b6d00db9077ad9d717 -> 56cdf9504fb8ba6f08d0fd6589b5400d
-  custom:scripting/monoscript/fileName/StyleManager.cs: 3c6bc9bdcdfafa9bc9ebe628f207d21d -> 5380772043c250f9d6cc8f5e63367567
-  custom:scripting/monoscript/fileName/ManipulationsClips.cs: d157c6430366eab8c41498d972afa209 -> aaee5bedd0e370639d0c5838bcf76747
-  custom:scripting/monoscript/fileName/CustomSignalEventDrawer.cs: 8151c5e3348eb3980d869dfa0c47cfb8 -> 6c25a63e35ff7f4cb588b49c4a73353f
-  custom:scripting/monoscript/fileName/MoveItemModeRipple.cs: 70c03b6561f06f63f291d74d1272a154 -> d5855d78ccf8b22620f547708d514658
-  custom:scripting/monoscript/fileName/TimelineClipGUI.cs: e4f547aaae99c95f8d3426c9b4df9ef7 -> fd576793d9251d4dc5bc4a4f235fafaf
-  custom:scripting/monoscript/fileName/ItemsPerTrack.cs: 77a6557f0eb70e9bfdda659b0e32093e -> 14c794a72083fcc2758d3758d0c8b879
-  custom:scripting/monoscript/fileName/CurvesProxy.cs: 4d039319178a4862df4f4f8d55961686 -> f7b190e2d09159e92cecc8605068f27a
-  custom:scripting/monoscript/fileName/OverlayDrawer.cs: 513b42a9f94e286612adcaa42070ed6b -> b161a31005048fb22f04c9ad04c18274
-  custom:scripting/monoscript/fileName/PlayRange.cs: 3bbaf00f340c9847acf52a420708865e -> 3a3c941973ca9a2c2018b618f04584e5
-  custom:scripting/monoscript/fileName/TimelineDragging.cs: cf195866925cbe35117efb3374f74e5f -> b5b770db4d734664ad4544630ed8d97f
-  custom:scripting/monoscript/fileName/AddDeleteItemModeMix.cs: f13de86f328edfd8c7fed3c990241cd1 -> 283b905f664da2dcaa7139f8a96e50da
-  custom:scripting/monoscript/fileName/TimelineNavigator.cs: 7d810b63d631dfa5e0e3300fc053a8ee -> fc614697934bc8011dd477940f87a1ad
-  custom:scripting/monoscript/fileName/TrackColorAttribute.cs: 4149e7f5aba5cefb8d57a4348563d233 -> a46dc7b5c9a11b7a6976065bcf361e70
-  custom:scripting/monoscript/fileName/TimelineCursors.cs: 403841b535a162ae1ab862ffba9674a9 -> 0f944b98a653e74f94c27f832c13bb15
-  custom:scripting/monoscript/fileName/CurveEditUtility.cs: 1f2c08597b0ca7fa6138bb18a4b90740 -> 1d645affc4c5bdacade2d18fead3850c
-  custom:scripting/monoscript/fileName/Marker.cs: 456ef7f37dc96f31f9474c7d4b71d43c -> 696c95afe34ccc04af31507858d049ed
-  custom:scripting/monoscript/fileName/ControlPlayableUtility.cs: ff203ce7f15616be3031486b6dc86b5c -> 5efee818ad0760aaad3a613b5859fb32
-  custom:scripting/monoscript/fileName/InfiniteRuntimeClip.cs: f3b40aee233908c6403f142202cc4439 -> 30d5c1ec74c97ffb69788128762ab582
-  custom:scripting/monoscript/fileName/MenuEntryAttribute.cs: 468287175be8468010155cec78ad8e07 -> 7a2e43f2b817a52994a17d7ec8cdf32a
-  custom:scripting/monoscript/fileName/TimelineClipUnion.cs: 41940c4d306674073dd45a3eb7de2d75 -> 3516d5e46c7441296ecf340e00e2a884
-  custom:scripting/monoscript/fileName/MarkerItem.cs: 86469de2bdecb7605a2eccd34a0bf25c -> 82299c04af3ac9d2f81eaf9b0c1c714d
-  custom:scripting/monoscript/fileName/AudioPlayableAssetInspector.cs: c44b6fc4df7005880a8a0fbec4289c4b -> 632f0a6add10a59adc37d7547d70c2f8
-  custom:scripting/monoscript/fileName/SequencePath.cs: dc1b621f397aac04a68eaebad59b78c5 -> 00a2fdb4418a07255510ee96e68dcb87
-  custom:scripting/monoscript/fileName/Timeline.deprecated.cs: 0f6a882b6ec8dc8f73d78a650923c31c -> 6e6e7620a53aa43e69e02bc0881b5d1a
-  custom:scripting/monoscript/fileName/UnityEditorInternals.cs: 184b97c8b949c3ec4e33b7bc5dbf2aad -> 929c91e377feecfd2161e8056a615afc
-  custom:scripting/monoscript/fileName/HashUtility.cs: fd9e174ef252a87653353781f7121ade -> c57d0c54b23e34ef8f1062b4e924498e
-  custom:scripting/monoscript/fileName/ActivationPlayableAsset.cs: f7f3d2864a3850fe05ada492eeaa5836 -> 4fb2173181d9ca1f326afddf7f602e40
-  custom:scripting/monoscript/fileName/FrameRateDisplayUtility.cs: c47153a8fad3dbb76636f913f3613d58 -> aef6f23ee0e4a1a4f0eb05db2a440e56
-  custom:scripting/monoscript/fileName/ClipCurveEditor.cs: 66883eb5b7f1828148b99a09387dcd01 -> 766a9085760ddba2ece2a45c31999ed7
-  custom:scripting/monoscript/fileName/WeightUtility.cs: c3732f6ee38c76c9184ffc2911ef27a0 -> 78adfe363133d54aac28c889c20b9da0
-  custom:scripting/monoscript/fileName/TimelineCreateUtilities.cs: 67e088e30006a056bdae60e9193ef22b -> 6e28ab03412a08e9c231830a94d17601
-  custom:scripting/monoscript/fileName/TrimClip.cs: 944aad17c4ab0440a5e64460a9e32b3d -> e2a1aa3efc266803f019944213e000f7
-  custom:scripting/monoscript/fileName/INotificationOptionProvider.cs: c0164f378050b27a562140dfb5ab791a -> f1c721cbdeb572e25048f700479b73e5
-  custom:scripting/monoscript/fileName/PlayableTrack.cs: 989faa39104259751ee2fda3c2e0a664 -> b2ed3ebd412409fd2adaf53f8322bd67
-  custom:scripting/monoscript/fileName/RectangleTool.cs: 1716f976d3e334fc750e81ec95b6dab6 -> 918735360672870f95e0d13d8e122888
-  custom:scripting/monoscript/fileName/AudioMixerProperties.cs: 5d42440adc3d4a4675ab834bbd25d943 -> 2f466147fd749953ab3a09f1c449101a
-  custom:scripting/monoscript/fileName/TrimItemModeMix.cs: caeeca9eecce1a81e9ab3d4d1d3b4a12 -> 696182463f52f4126f089e375caa2ade
-  custom:scripting/monoscript/fileName/ObjectReferenceField.cs: 5049ead7140f711d29af7afd4f802835 -> fc7a41d6f7c4f1d1df588a6309457d93
-  custom:scripting/monoscript/fileName/TimeReferenceUtility.cs: 6926f99cdb6753037d1b980cd766860b -> 17ba0880852a8c4057a42401c2cfe2f0
-  custom:scripting/monoscript/fileName/TrackActions.cs: 382bb9973bbfc054e737c5534dd0c6d3 -> 862acac2c018b862305238b80fbe5da9
-  custom:scripting/monoscript/fileName/TimelineWindowTimeControl.cs: 5bdcb1988f8f7b0b15f38384068be37d -> 14c280436ac5c5b4f5edb10e53b7c5fb
-  custom:scripting/monoscript/fileName/TimelineInactiveMode.cs: f75c7bc48f2dd9c3d49b30a9b39f5675 -> 0523475d40ea1865e1ea8c75388df625
-  custom:scripting/monoscript/fileName/TimelineTreeViewGUI.cs: d1e667a7c73106351f12c0827859daaf -> 636c725becf623400b90948bb48b8f1c
-  custom:scripting/monoscript/fileName/MarkerTrackEditor.cs: f5f9e12cb2e07e5f251e34b1ab108097 -> c868c2332e647101d4b82579478f496f
-  custom:scripting/monoscript/fileName/RectangleZoom.cs: 36546e9e9ef9b94d9ed2f43ead5f893f -> 65956f2352c7c49e7d91abcef2321e0e
-  custom:scripting/monoscript/fileName/ActivationControlPlayable.cs: 9acc7f18f79de15081c72bfa5a4b8253 -> 68e5f4aae9e3f5d4bc81f77089c35dd0
-  custom:scripting/monoscript/fileName/TimelineAssetInspector.cs: 36d78259c02db3614b3941493ef90bdd -> a09caa9e90f10270ba9eaf055075f934
-  custom:scripting/monoscript/fileName/TimeNotificationBehaviour.cs: 09e2e82cfea4178de371e23210a3e354 -> 1926d91287aebe4955c37144da9c2659
-  custom:scripting/monoscript/fileName/TimelineRecording_Monobehaviour.cs: 3e7a68b78be66df03b90268d7c63a7e0 -> 9be518e1a44caf70b9471be51be29ef0
-  custom:scripting/monoscript/fileName/AnimationOutputWeightProcessor.cs: 93799ab3f6fbba392b505944e2656255 -> b4b1d22edf1b8ac397ec35d92b9a17e1
-  custom:scripting/monoscript/fileName/ItemsGroup.cs: 757caeb232fc316ef83d29259b5980e8 -> bf3fadffecf63b1b222c7dcc387da959
-  custom:scripting/monoscript/fileName/TrackDrawer.cs: a7ce0a559cd4d43eb14e794d72cd4077 -> b640128e59057a4e6e45ea4b6d8d07bc
-  custom:scripting/monoscript/fileName/IAddDeleteItemMode.cs: fc374060de7f6342429e0ffb9fd766dd -> 7780c64b0888528acd06b531522ac0af
-  custom:scripting/monoscript/fileName/TimelineGroupGUI.cs: fb1e069d810885f1855b87bbab61026e -> 20b15f93ee5cb32f5da66ae8adfe6174
-  custom:scripting/monoscript/fileName/AudioClipProperties.cs: 631b17cfad519aa46b746e1624724a62 -> 28c9c47a1752714d5f76351f38383a8d
-  custom:scripting/monoscript/fileName/AnimationOffsetMenu.cs: 20bd6d8e56e19c6afa565addd5d71eb6 -> d3ac38f882f66a223d5fde79de9a3a71
-  custom:scripting/monoscript/fileName/TimelineWindow_TrackGui.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/TimelineRecordingContextualResponder.cs: d325d6bfc8bc1a58b82a89ffcf0d7a7b -> bba85d8a74a6feb2e70b8e24d33b4f52
-  custom:scripting/monoscript/fileName/TimelineMarkerGUI.cs: bb6f11ff5785ed3809d25ddba7792042 -> f199e8c09949bd6afe3ac732d4526ea4
-  custom:scripting/monoscript/fileName/Tooltip.cs: 4e9a88da529e972c6c24a6ba50ffb10f -> efbd10c978725fde614599dc839eb715
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/IAction.cs: 2d67c44a7452bf4600b30fa4ed8fc9dd -> c3c0595aecb4042ef2b942b6f6b79b53
-  custom:scripting/monoscript/fileName/BindingTreeViewDataSource.cs: 94952856ccf620b3f0cb92cc7612eac0 -> 810d500be05099f745788ea9c284a2b2
-  custom:scripting/monoscript/fileName/AudioPlayableAsset.cs: d377d8202feacd0ac3e85c3574b091bb -> 512a76b597a12a09358a661ccc2f79f4
-  custom:scripting/monoscript/fileName/AnimationClipActions.cs: dd9ca44d80ee53624512ff51bd90a2ba -> a74213a3f141a8d230e3800eea5baa4a
-  custom:scripting/monoscript/fileName/MarkersLayer.cs: ad3597414f33be821d59ef304d8bad5b -> e9f28ee5fc14dbaf084d3b7ce6be78c0
-  custom:scripting/monoscript/fileName/TimelineClipExtensions.cs: 8c41689ac3e615e986db541c7a1b6922 -> 288118aebe26f6ba94f170a54806226a
-  custom:scripting/monoscript/fileName/ISnappable.cs: 927febffa4475dae74b8555003f8c05b -> ad7242fef48d4e8bda86d66d7f3d52aa
-  custom:scripting/monoscript/fileName/AnimationTrackUpgrade.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
-  custom:scripting/monoscript/fileName/TimelineTrackBaseGUI.cs: 3dc37e8a063037e1a9ffa6d873baead3 -> d33125d81d55cefd875a894165046378
-  custom:scripting/monoscript/fileName/PickerUtils.cs: be770bf5962915569c494ee85f0ab323 -> cbd8d6063b7ef7e0aa81bc2fed638a79
-  custom:scripting/monoscript/fileName/GUIViewportScope.cs: 2b281a39ca8d56682ec1c181acbc2367 -> 642d1ccaebf62c34b925f1b9b56e932f
-  custom:scripting/monoscript/fileName/TrackResourceCache.cs: 4cf4d704d9414cb319305a8814e5dc28 -> ea62d91e767d88663b643491e07a73dc
-  custom:scripting/monoscript/fileName/AnimationTrackExtensions.cs: f54b81930134499a43b0c8347d7bc32b -> a40745152a7b952a231ae8f41ab66054
-  custom:scripting/monoscript/fileName/EditMode.cs: 885ac269891ac7194f4d7d474a769f93 -> 9b38cfe60543b2110dcc97c339718ffb
-  custom:scripting/monoscript/fileName/ShortcutAttribute.cs: fce6081ac63febb0b1b8b1b438b03127 -> 1acbd058ab81874d40865e4a2fa7e966
-  custom:scripting/monoscript/fileName/ManipulationsTracks.cs: 1a4e9d791929b644362042cfb95c4305 -> 9ca6870aea835823b8daf806f261bee4
-  custom:scripting/monoscript/fileName/BindingTreeViewDataSourceGUI.cs: 19bcf478ce9d41aecdc32353d44bd656 -> 52d403655789a5dea21995d4ab4951e2
-  custom:scripting/monoscript/fileName/MarkerAction.cs: ddb46f3fcca4883be75caa60e8773c69 -> aeb44104590048f8f1562841af20a452
-  custom:scripting/monoscript/fileName/AnimationPreviewUpdateCallback.cs: d9c379c137d08122dfbcc828bf228eef -> f6b728262b308be4c17801736554d0d5
-  custom:scripting/monoscript/fileName/Graphics.cs: 0046385ac01f02b93baa644b782655f8 -> d4a7900c9ea720d04aba02b0f83c89b0
-  custom:scripting/monoscript/fileName/RuntimeClipBase.cs: f66058f61e136beca2541325f3188f62 -> b87e01ef6e48a322043766083fabee86
-  custom:scripting/monoscript/fileName/TrackItemsDrawer.cs: 63726ec57d7eb8d52527df1297193557 -> 0141b5eba3e90e1994d27c1827b40840
-  custom:scripting/monoscript/fileName/BindingUtility.cs: 5341886101f0790b8d62d7e614e2e68f -> 34eda9e6e6678bdef9ce6d941eea366a
-  custom:scripting/monoscript/fileName/TimelineAsset_CreateRemove.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/EditModeMixUtils.cs: 2c1be23973560b8e27fab247ca16ddf3 -> fe60f1fe16d0e98ed6106d16ef7f8f0a
-  custom:scripting/monoscript/fileName/RuntimeClip.cs: a5830996c0259767b1ee79724c83f917 -> 12d05c3fd96029531d2f76d8dbe8ec5f
-  custom:scripting/monoscript/fileName/ClipsActions.cs: 56301044c9905ed7f7db85e82868cbb3 -> 0441e94193143509e82a03edccc747d9
-  custom:scripting/monoscript/fileName/AnimationClipCurveCache.cs: 706bbb23e886b8ae53894f455304d8e1 -> 860cdc6bd071b23890a8d50fd7e5e750
-  custom:scripting/monoscript/fileName/SpacePartitioner.cs: b96abf14da8fdef883dec739c1788580 -> db11e97e2aa4e17ce0468c3a4d4d5b29
-  custom:scripting/monoscript/fileName/MarkerTrack.cs: c0ae8acb7e112cb09c8c8ae6e4df3ef9 -> 2f8de40479f30e47ce97aef1fedb1863
-  custom:scripting/monoscript/fileName/AnimatedParameterUtility.cs: 2f140a95c6e39b3fa38a2877202a56f7 -> e0496975042dcb359bd5b54a6adccb7e
-  custom:scripting/monoscript/fileName/UndoExtensions.cs: 0081758c78c38acd55f760def4a3d52e -> bf4fff73766ef5b69ae84738831dc717
-  custom:scripting/monoscript/fileName/PropertyCollector.cs: ad5c4ed3c5c03f432bf968438fb81e05 -> 6105c04b1425b941f8345268630cb955
-  custom:scripting/monoscript/fileName/DirectorNamedColor.cs: 44e2438825fdaf19d6e3817b972c966d -> ba83c59d16b6e00e0756982daea9900b
-  custom:scripting/monoscript/fileName/TimeFieldDrawer.cs: 3a02beeb7ecd5fcf104d3eeb33bf3865 -> 4ccb7cb2748c940a71df32ee625f72ad
-  custom:scripting/monoscript/fileName/EaseClip.cs: 46748850ab8ae163b5814234db6ccfb0 -> b6ae21584635bc7ab11c8e6f151fc0cc
-  custom:scripting/monoscript/fileName/IAttractable.cs: f8a8bf7383bef469a183debf3810d3c6 -> 8234ee1ab09545829049584fb888683f
-  custom:scripting/monoscript/fileName/AnimationTrackKeyDataSource.cs: a28ad986106ba97822fc1a8013041368 -> 3e29126e5d850b02bf2ec1390e40b9f0
-  custom:scripting/monoscript/fileName/Shortcuts.cs: 772dcd87b71b42d350b190150f07f47c -> b07ed1f6a11c1fbb2abe23c202d91574
-  custom:scripting/monoscript/fileName/TimelineWindow_TimeCursor.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/TimelineDisabledMode.cs: 2f69e1ee184b22454d3ddfbd51d87c23 -> 084c81b1f2a7874998af7a20947eb118
-  custom:scripting/monoscript/fileName/ActivationTrackEditor.cs: 5dcba08c36cce03e4b4ad387bc5d090b -> 7eb311e5d32dab58ea528051094afa22
-  custom:scripting/monoscript/fileName/AnimatedPropertyUtility.cs: 2ee5e46fd574729b880c7c9fa908b772 -> d3f254a0db031100be7274b7ea41af14
-  custom:scripting/monoscript/fileName/SignalReceiverTreeView.cs: 35cc3c3d387c2329919edd11cae5b88d -> 8ea15907216b34654d1ae1ca1e9c9f30
-  custom:scripting/monoscript/fileName/EditModeInputHandler.cs: e5771d8a4ba16c0a0f04f4b6d3821ca6 -> 34d05c60e880cf21bb1e60ea19cc379f
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/ICurvesOwner.cs: efdafb5b744ea23a9c7e59b0e3205ce6 -> 84da1c58d580f231bea7e60411c1917e
-  custom:scripting/monoscript/fileName/GUIGroupScope.cs: b5e894e022164ca47083e8034ade6769 -> aa0adbe2b570fc2b24bb7acdfff9e015
-  custom:scripting/monoscript/fileName/TimelineAssetEditionMode.cs: 9e074717f9a3e8da9e060f9050583c4a -> d237c5a937fd6f9f98ebbe23f6c310c6
-  custom:scripting/monoscript/fileName/WindowState.cs: 66003b439d1569ed727addb209ddfc0a -> b3a4c98174e49f18cf6ac2bf13428156
-  custom:scripting/monoscript/fileName/NotificationUtilities.cs: 4a713ec7efa7244334012b23931cfacd -> 1ef896aff8f8b101ab565b91d8839fdd
-  custom:scripting/monoscript/fileName/HorizontalScope.cs: 6cf32c2f0f76d4bbc7df389eff8a8e9d -> 7475533433f78c26a72d10714d915a92
-  custom:scripting/monoscript/fileName/GroupTrackInspector.cs: a59567a3b4cf2316673bdd835e245710 -> 7c5605aeb00a196862cb403c20eff53e
-  custom:scripting/monoscript/fileName/PrefabControlPlayable.cs: f8ac6c66a6f8b17003cc87f5a3c2c2c2 -> c58131578a08f44d3149d5cde100291e
-  custom:scripting/monoscript/fileName/SelectAndMoveItem.cs: 8d9cc890a151aed62b08f04fad2c672a -> 057d80423ac07ca9772858e5f6d1c5b3
-  custom:scripting/monoscript/fileName/IMenuName.cs: 14b0be3eb0b994c728a0df97ed2fb930 -> f5af5abfc04cf3bf691d9f3d83bdcf74
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/TimeUtility.cs: bb610a51947ef73e3b92a10f4e48e049 -> e3b38ec069156f9be35d4f80b3bc2b27
-  custom:scripting/monoscript/fileName/TimeControlPlayable.cs: 247b16ddfd371d8fc4c49e7e14955f87 -> d179fc57a43e4d4673bac33e847cc860
-  custom:scripting/monoscript/fileName/ClipInspectorCurveEditor.cs: 23463609ba1d3320ff5db82c5bdf0989 -> 8a12b571558d97d8590bf8d25b27a499
-  custom:scripting/monoscript/fileName/AudioClipPropertiesDrawer.cs: 30ef75d72d9198a55b49db6ef26eaad8 -> 61f764857d69300445dc6a2d95556ff2
-  custom:scripting/monoscript/fileName/TypeUtility.cs: a4d744a97f2a958068bdc16cfc20861a -> 697cbcee997ea80178c464c8fd931a69
-  custom:scripting/monoscript/fileName/TrackUpgrade.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
-  custom:scripting/monoscript/fileName/AnimationPreviewUtilities.cs: 7e9c811230dd6f46f317d268b7dd4444 -> b1496bcaffe94d452ae50dae1061b072
-  custom:scripting/monoscript/fileName/WindowConstants.cs: acb0ed59e6a2cd0b753b4f80cc1efb58 -> ff916bfc667be0ba1a75587e05275ff6
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/AnimationTrackRecorder.cs: a12fd601f032ef63dac903009c4056b2 -> 01cefa025f9bf933ad92125f3ab24287
-  custom:scripting/monoscript/fileName/ClipInspectorSelectionInfo.cs: ae3bced70edcac059ade75230919c0a8 -> 558f85f4ead1c40fdaec4796b93bae97
-  custom:scripting/monoscript/fileName/TimelineUpgrade.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
-  custom:scripting/monoscript/fileName/Jog.cs: a95bf7c8e0c3652e3646d07697067947 -> ad1b117cf0a375f2077ed81f1c15672e
-  custom:scripting/monoscript/fileName/TimelineMarkerClusterGUI.cs: bcaedc1678c6055a1d98b85ef18a4c69 -> 97398158fe4b5f27f29b45c4facc0cd3
-  custom:scripting/monoscript/fileName/TimelineEditorWindow.cs: 71a6cd9fcd5d8166805a9cdaae79b0a0 -> dcb86e2cb92e5b6746ecb4b00dee94c9
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/ItemsUtils.cs: 24197e81092f52e8982aec9fa2b9973d -> 276b9c19a8fa257901c83e7dd3f10e58
-  custom:scripting/monoscript/fileName/SignalEventDrawer.cs: cdc440305ac4d7685f874c5f0ddb939c -> b1d827808ecff310ebdb8666883baf7a
-  custom:scripting/monoscript/fileName/ISelectable.cs: 9f33357375e685b8799026387ad4d061 -> 5ebd0c6cdb82b8c435f72f1d3586bacc
-  custom:scripting/monoscript/fileName/GUIColorOverride.cs: e1f436bbbe4c8d85ba1876aea4cbaa2f -> 8d17337f83d4efdbbe87817895995b1f
-  custom:scripting/monoscript/fileName/AudioTrack.cs: 739304d8640c1db0e38643721c50776c -> 9c35f9973d2d69285067537d2822e104
-  custom:scripting/monoscript/fileName/EditModeGUIUtils.cs: 62fdad6602037ae9ee6acac82776d8e8 -> 55c1ad64e95ea15c350959f0e957f37d
-  custom:scripting/monoscript/fileName/TimeIndicator.cs: 2a9050cd0ffe22042e84f99654302249 -> 52a3e452e0717e8e3d0bf6e5872cc8c2
-  custom:scripting/monoscript/fileName/MarkerInspector.cs: c45836c6f4908db2d650aa3c6e7f9129 -> 8098fc94bf8382483417b2e8857d8ea4
-  custom:scripting/monoscript/fileName/ICurvesOwnerInspectorWrapper.cs: e9e50506b3fd860c1e923dcd5b27282d -> f975a9dcf038d2683882ffbeeed0c0b9
-  custom:scripting/monoscript/fileName/SignalReceiverHeader.cs: 9fa301212961e6cb0cdab28dccdf1277 -> 0313dcdc50c9b668e81a8a0a696bdffc
-  custom:scripting/monoscript/fileName/IntervalTree.cs: 1c8c7d0f2e8a08bdcbaac3e29b2af7c7 -> cd09550919c1f7435474aa79bd27655a
-  custom:scripting/monoscript/fileName/AnimatedParameterCache.cs: 2e7e6dce34aafe7f259237b676ab55f3 -> d9afc6f059ac9266bb6491bb4094cccc
-  custom:scripting/monoscript/fileName/Styles.cs: 3436d45d8aec04b79c20c0033050da37 -> 1728aa377394bacc23133c7e998f0fa5
-  custom:scripting/monoscript/fileName/KeyTraverser.cs: bffc344c823736d5fed9b63e67cf4d40 -> 038e147ff814fa43c7e4673005cf3d11
-  custom:scripting/monoscript/fileName/TrackPropertyCurvesDataSource.cs: 2bad9f7348ca8acfc2f0e616345e0d15 -> 7a2d923d53c6b45d41a84a61d145be8a
-  custom:scripting/monoscript/fileName/ITimeControl.cs: 3372d19c39827755d777fd5cbb9aeec5 -> b2dbefde82db855d0aa56fadeda808d7
-  custom:scripting/monoscript/fileName/TimeAreaAutoPanner.cs: 80e3ea7a5704facbde0d82db6872c9ea -> 86e4c1ef0f31d10c0ece09b987311178
-  custom:scripting/monoscript/fileName/SnapEngine.cs: 2ad16e66f161c00697ae17794c514fb9 -> 5471daf770650047bfcdb3ea47d3f9f5
-  custom:scripting/monoscript/fileName/ITimelineItem.cs: 6e90ef1178a72f95b1426e6d599ada5a -> 05a3085ff307090a206aa87d840083f4
-  custom:scripting/monoscript/fileName/BindingSelector.cs: 191be83b2af622c487156748caf87f0e -> 169f604a42b1a0673c76c0500a70b6b5
-  custom:scripting/monoscript/fileName/TrimItemModeReplace.cs: 513eb8f95ab6b7889cec28f0cc8252b4 -> 74c1ae041abe6b40727794da5691eb79
-  custom:scripting/monoscript/fileName/ControlTrack.cs: 4e3ff92950360176c997c0ad66193a4d -> 449deaa68d97549db3579998df7173d3
-  custom:scripting/monoscript/fileName/ClipItem.cs: 3f2baa9d5303524cf71a2e13c5b8adce -> e3233010f92635cb6e633dad3dbe4b02
-  custom:scripting/monoscript/fileName/TimelineAction.cs: 51961d10865ff5443c58403b4d8ba7ff -> 511668cd548b950b7c78ce596a759629
-  custom:scripting/monoscript/fileName/TimelinePlaybackControls.cs: f31e8e1fcdf469b7f911acb82f2465d8 -> 226e64bcc16e25b2e51ea86e30cb82d1
-  custom:scripting/monoscript/fileName/TimelineTreeView.cs: 6be4fd7f9af5d135416868d27c567bc7 -> 1b987ef1940b1f524e772166dd765324
-  custom:scripting/monoscript/fileName/MoveItemModeReplace.cs: ad2238a1b19a4c77bda804870ff8efa5 -> 010a1f95f4b32b6120e840dd9ab61ce3
-  custom:scripting/monoscript/fileName/TimelineWindowViewPrefs.cs: 5fc1f2641460e29d01fa71fddb144694 -> b120b9cdceedbb0fd92aebfa76b80438
-  custom:scripting/monoscript/fileName/TimelineContextMenu.cs: e652659519b9e73869176c7f3970f6e5 -> 4edeb3102cf1b1937f5f4fe706d44106
-  custom:scripting/monoscript/fileName/AnimationTrackInspector.cs: 616ca67242af7f9bfa7cf228ba374413 -> 061b7fb9796b0cb071c354cd0a0cb27f
-  custom:scripting/monoscript/fileName/IMenuChecked.cs: 3b2f413b6f8c52cc871b7749acc273f8 -> aad8af802b0009d55cd894b4ab968518
-  custom:scripting/monoscript/fileName/AnimationTrackActions.cs: 22b23f98348ef12c78ff79cb852a4be5 -> 7032f43a4e4effc8ddfbb66c758993ad
-  custom:scripting/monoscript/fileName/IMoveItemMode.cs: b59bbeaabd65de89cdae167379193921 -> 18ed2bb2ed7421db416f1915e3f0c6a3
-  custom:scripting/monoscript/fileName/ItemsLayer.cs: 61f09485edd58e7240d4b1d726045d5b -> 56853e9815d73cf31b5b632504d07a61
-  custom:scripting/monoscript/fileName/TimelineWindow_Navigator.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
-  custom:scripting/monoscript/fileName/TimelineEditor.cs: 3cc14ee2bdf49dea81fb889f71bf3643 -> e1a8e7030cf372a5050a331e8782c496
-  custom:scripting/monoscript/fileName/TrackAction.cs: 191d2ec948c03c3a612bde0e67413b95 -> f31795ac6e069e4ba2a118e2d3c3140d
-  custom:scripting/monoscript/fileName/AnimationPlayableAssetInspector.cs: 5a5b5498d9450ae7e3c0dce1d6b14643 -> 46bc15a7aabaa051527261ed3a1f90d2
-  custom:scripting/monoscript/fileName/SignalEmitterInspector.cs: 636109229a20aea7ea01f58b8e16b40a -> 32146334a2d516978794a94e62545c1a
-  custom:scripting/monoscript/fileName/TrackResizeHandle.cs: 8338579c764df15d324c2f2c3908f162 -> 2dad33e78fbb3c9ae2cacec2a596c4fb
-  custom:scripting/monoscript/fileName/SignalManager.cs: 8d09f95186a93e0c3c224a88f3d3556d -> 1e93bdde975b4832f171df5b76e570b7
-  custom:scripting/monoscript/fileName/TimelineActions.cs: 4939460c913069e42055c639e87909b1 -> 9b294d963a7ffd5164dd28a811088ae4
-  custom:scripting/monoscript/fileName/TrackEditor.cs: d5756e21114f266661e35bd2798c8bcd -> f43afbd2d71faf34584f0eb02882a462
-  custom:scripting/monoscript/fileName/TimelineHelpURLAttribute.cs: 34fc78c6a5a72b8a02fd489768595c49 -> 84df2b42a593dbd0c11c73fe9c54549b
-  custom:scripting/monoscript/fileName/DisplayNameHelper.cs: cca8e2c1f3d67e944ebadfccd57bb928 -> 3a721b8c83935900b7483a75d964fc06
-  custom:scripting/monoscript/fileName/PlaybackScroller.cs: ad7da0eaee09e38c2109ff0f6ed06c3b -> e790b4b475ee17a98661de434c23f657
-  custom:scripting/monoscript/fileName/TimelineReadOnlyMode.cs: a536b68e218a02ae0fda50c934a211b5 -> ca6dec372d229cb34625f52eac58cbea
-  custom:scripting/monoscript/fileName/TimelineWindow_PlayableLookup.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
-  custom:scripting/monoscript/fileName/MoveItemModeMix.cs: 8bbd461a995ee7947176708b403b0f12 -> 62ff578b2ba73aff39303ad34e89c7dc
-  custom:scripting/monoscript/fileName/TrackZoom.cs: 53c649b42d98ed160758eaade8d9b291 -> b454cdb075a0e055b73d225589baa15a
-  custom:scripting/monoscript/fileName/ClipEditor.cs: 408afc402f98a41433a84b576756a015 -> b9689a45d4e5e6a0d0d6bdd52e0ff022
-  custom:scripting/monoscript/fileName/IPropertyCollector.cs: a0d477bc8fafed6b3c9b9927bb9c2892 -> eb46bedb312fc2a160af07ca4ce6c40b
-  custom:scripting/monoscript/fileName/ActivationTrackInspector.cs: ebf540ae9cc78b13106bcaab273dcf2d -> 5a71dfd9b94d4c6097ec16a5ea600601
-  custom:scripting/monoscript/fileName/GUIMixedValueScope.cs: 22c56c003d173c817b8499492dd2a99d -> c90f99d5e3b31c4894be32cc32239156
-  custom:scripting/monoscript/fileName/TimelineWindow_EditorCallbacks.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/ClipCaps.cs: 548e0183b098662cb728f963528b3549 -> 8bc4131025f65ccf0ba7c18acc5fbf94
-  custom:scripting/monoscript/fileName/Manipulator.cs: 9fc1df2528d7ecea6b6cc61125d2dc63 -> 517e902173d5cdce1085e00091025ea9
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/TimelineRecording.cs: e82b3e0276ee5363a9bbbb5de91c0240 -> a8c5ab2d1ff34cd363d33b5c84e0f45b
-  custom:scripting/monoscript/fileName/CurvesOwnerInspectorHelper.cs: 2616fc611670020c4a4f0c66f749e4c3 -> d6b07bd51fb9b3c340a62a7768b10d9a
-  custom:scripting/monoscript/fileName/TimelineWindow_TimeArea.cs: 34c6ff9cf0aa0d720e612550af5c5d26 -> 849ed7f5b11c9db237ef61b01c5a5104
-  custom:scripting/monoscript/fileName/TimelineClipGroup.cs: 13539254df3df1e37c37bfa8dac06db3 -> 33bc35da6a388784400b1220c41b7f66
-  custom:scripting/monoscript/fileName/PropertyScope.cs: 5bcba9bd5d18fdf47894d8902a122749 -> 9156c77dedac465c4bf14f8c8881bf0e
-  custom:scripting/monoscript/fileName/TimelineRecording_PlayableAsset.cs: e82b3e0276ee5363a9bbbb5de91c0240 -> a8c5ab2d1ff34cd363d33b5c84e0f45b
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/TrimItemModeRipple.cs: 95f33aef4d6872915806d2e427def371 -> a07d36842ccc9fef6fd8fcb7310aa109
-  custom:scripting/monoscript/fileName/BuiltInCurvePresets.cs: 8b50c9edb64e4b77bd056cbf1f68f6c0 -> ca06a2ce526aae1e3b8a972c0156b396
-  custom:scripting/monoscript/fileName/AnimationPlayableAssetUpgrade.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
-  custom:scripting/monoscript/fileName/TimelineMode.cs: 23613dce207ed6e2cc8422ec1fb36947 -> d7f3cbf7c5afff25056d37c9143afbf7
-  custom:scripting/monoscript/fileName/MarkerEditor.cs: 6d1d259e13e604a7aea521bc0e41b8d0 -> 3ba9b7e74f48857654bb495f2b785d20
-  custom:scripting/monoscript/fileName/DirectorStyles.cs: 88faa8aeaa1825782e3665b06d47d18a -> e5b1bfe076550e5198734e4467fab6ec
-  custom:scripting/monoscript/fileName/TimelineUndo.cs: d326ad93322f914e3ae5ddc3e9183d38 -> b410ecfe312ca85a7d97acd982125be3
-  custom:scripting/monoscript/fileName/TimelineWindow_Gui.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
-  custom:scripting/monoscript/fileName/ClipInspector.cs: 7f1d2a003593b0ab49fcb985a51ffe27 -> 4d46799ecfbef70d09ed6138b9d2150c
-  custom:scripting/monoscript/fileName/TimelineAnimationUtilities.cs: 42b3f911df10fa45d2d693298f58028c -> 6ff0ef29eaefafe720150777bc87ae46
-  custom:scripting/monoscript/fileName/MoveItemHandler.cs: 396955c60d2f9607528c2210a1466fc1 -> aca39243f595405a3113b1bc2e0d7e1c
-  custom:scripting/monoscript/fileName/AddDeleteItemModeReplace.cs: 231a97f275f9997404bd0768434983f8 -> 6b2ee29aebe22afc511691422e8c7958
-  custom:scripting/monoscript/fileName/TimelineUtility.cs: 0b804f30b67dcfbbc271c579348a660b -> 3db59cb1a23ef1be304698229ef72333
-  custom:scripting/monoscript/fileName/ClipDrawer.cs: fc1c26723c66c176614f531168064e0e -> 8055954703c1766052be369daf8b9711
-  custom:scripting/monoscript/fileName/ApplyDefaultUndoAttribute.cs: 6ed020ffe5828de8360b62bc25163717 -> 0ec7e69ab7d3c81ab04104aabca26ae1
-  custom:scripting/monoscript/fileName/Invoker.cs: 8950d2d57457a1ff29dc9931e09bf95b -> 3165e087cd9b397e5b8705cef415727c
-  custom:scripting/monoscript/fileName/TimelineAnalytics.cs: fd27d37a688cce0383e7995c0f95bce7 -> fc2f6e281f7f899e041a98d2889a0f72
-  custom:scripting/monoscript/fileName/MarkerActions.cs: b038513b72152d060fde930350febe0a -> 6cfc304435e0f526fa99c415106c4ade
-  custom:scripting/monoscript/fileName/AnimatorBindingCache.cs: 87fe90fe9318a65eb2a02f3fa34d06eb -> dcf6c558c6a18c59d2d363aede17af52
-  custom:scripting/monoscript/fileName/IPropertyPreview.cs: 01494eabd069f269db94a93e7727709b -> 409cdeff7e9f99aeab727eea5513f2dc
-  custom:scripting/monoscript/fileName/SignalEmitter.cs: f3aa944af01cb93be3214dc06fb6506f -> 40bb1582f050b67995721a93ffc63dce
-  custom:scripting/monoscript/fileName/SignalAssetInspector.cs: e7f5fc4b8d220c94ab453ed409fe1219 -> e8529936c49d152f11a823ba6e925e8b
-  custom:scripting/monoscript/fileName/Trackhead.cs: c01f1956d8aa748e3d9b9782770267dc -> a66bf1258e16a09c70529394616004c7
-  custom:scripting/monoscript/fileName/BasicAssetInspector.cs: c61381f5e3adb5684bdfc520af19e15e -> 9e5da79d4af6dd6f347a0620dd2cc4fd
-  custom:scripting/monoscript/fileName/ManipulationsTimeline.cs: 6e089f7e1e9745d11b8570ce3292985d -> 55ab2b6002c8ba72a19be3fbded37113
-  custom:scripting/monoscript/fileName/TimelineWindow_PlaybackControls.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
-  custom:scripting/monoscript/fileName/ISequenceState.cs: 8f9519c52735c0e5e64b67e96ac6d4b0 -> 92ba36f7d36d16e91bdaf347b9933aed
-  custom:scripting/monoscript/fileName/InfiniteTrackDrawer.cs: f3998e3ba66a7d6f76ceda618438b5b0 -> 4820968a3ca8cf741cb7a975e1b621de
-  custom:scripting/monoscript/fileName/ILayerable.cs: a712d1e215bb4047dae2a29af884baa1 -> 5eed5565ab42f00aaea9f65cf607fd28
-  custom:scripting/monoscript/fileName/TimelineMarkerHeaderGUI.cs: 0c63d7d4c5861b6b26d3903a2cc7ff1b -> 79f4ee4afe504d33c10997babdbadbbd
-  custom:scripting/monoscript/fileName/BreadcrumbDrawer.cs: 838c119727dd67659cc3ca020a2a15c7 -> 630dea2cdedfe4881feedf0ca0a4cbe8
-  custom:scripting/monoscript/fileName/TrackExtensions.cs: 5539dc84a8fac5f9bca53ec3efb7d565 -> 4d48cd6ee20dfb7764c172d7c6a2e52a
-  custom:scripting/monoscript/fileName/TimelineWindow_PreviewPlayMode.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/StyleNormalColorOverride.cs: 7086e88b000cecd1126f5f1b06881b6f -> 1d5014a569755917765dfe53f20a1f2b
-  custom:scripting/monoscript/fileName/TimelineTrackGUI.cs: 7ff9629b9404733d4f21838fb083ac6e -> 3f02d5b2c9a4d8537655d3abd2ca8e57
-  custom:scripting/monoscript/fileName/IMarker.cs: 332136bd4164113cf89ffa015bf27ebd -> c9f44c1d9d2efec180b727ec758a7812
-  custom:scripting/monoscript/fileName/DirectorControlPlayable.cs: 17948677d7996d85ed959096d38d7587 -> e289d141433eda9019d9bc89869ed9b8
-  custom:scripting/monoscript/fileName/GroupTrack.cs: 89aaf4be3fd67b79ea042a9e898cc19d -> cf85e5d1d8ccb70148eda7eea60b1b6f
-  custom:scripting/monoscript/fileName/ActionContext.cs: eea87f67d3ff01fb34fc045330515463 -> 25e888691b36562b4007d5b3208cdc57
-  custom:scripting/monoscript/fileName/TimelineWindow_StateChange.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/TimelineKeyboardNavigation.cs: c87a83941d6452eeba7a8b4d0d20918e -> 2f7a25b29b5f54c4c212edfab034bc86
-  custom:scripting/monoscript/fileName/ActivationMixerPlayable.cs: 9b598b808f4ce26a4446d71a5c0eaafe -> e3d7a59265d9c3c9bed8b0522a39dcd4
-  custom:scripting/monoscript/fileName/ControlPlayableInspector.cs: 218ce3994063a72ea8640fcf488bda35 -> 5bf96e8f60ddb4ec26889f7f2cf3e366
-  custom:scripting/monoscript/fileName/DirectorNamedColorInspector.cs: 674d952090e44866fbd8ae32a7a77838 -> b9b079fe1a5adb909604d8d95f462eca
-  custom:scripting/monoscript/fileName/MarkerModifier.cs: 6132e05fd56faa9ba67ffbad78267116 -> c1e02d1fbe937a1b38250a9d87140fc4
-  custom:scripting/monoscript/fileName/EditorClip.cs: baf72408e8754d4bfa61520b5c4b73b4 -> 2b64eab865f2751ba08f9427ed08652b
-  custom:scripting/monoscript/fileName/TimelineAssetViewModel_versions.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/TimelineHelpers.cs: e948bb007c281bb00172167274eb4b30 -> 141b210b4c3b3fb4162b39200a701004
-  custom:scripting/monoscript/fileName/Range.cs: aabe0ca9995cb94095096ed2f65c07d7 -> 6403016406936a29c1e23f7a5897e397
-  custom:scripting/monoscript/fileName/ControlPlayableAssetEditor.cs: 0f1038b8eb6be51c019894b74b63db51 -> 51175e296d3da3a6e5b3e9426a6de5bf
-  custom:scripting/monoscript/fileName/ManipulatorsUtils.cs: c20cd40f2763c875fbfaf48850609866 -> 8c767dfae5e2efd55e534304e8adf45d
-  custom:scripting/monoscript/fileName/EditModeReplaceUtils.cs: a9787953ee27004077fa784d63234f07 -> caa40b41ea36a59cc3f0c98504f2019e
-  custom:scripting/monoscript/fileName/ControlPlayableAsset.cs: 5afb4ddc94688573ee72da6210a431d0 -> 02da1bbf837f8eefca6918039a610c39
-  custom:scripting/monoscript/fileName/BasicScriptPlayable.cs: bce9f2679478eeb6250c9ea7e31f977a -> f9e7cb1c0508369e12fdef0419531535
-  custom:scripting/monoscript/fileName/ScriptableObjectViewPrefs.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/TimelineWindow_Breadcrumbs.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/CurveTreeViewNode.cs: be3927541faad7cc5064f61a43341576 -> 86323352cbbabeac20b7a90d70fda0d4
-  custom:scripting/monoscript/fileName/MarkerList.cs: ee1fa3298a1e0442bf47873978751061 -> b6dfeb806df3daccc1e5d4159aa38203
-  custom:scripting/monoscript/fileName/HeaderSplitterManipulator.cs: a443404c1dcce3201c7ca3c8a647b821 -> 014f2543c6a7c83a6c31690b51a47d4c
-  custom:scripting/monoscript/fileName/TrackModifier.cs: 914f818df446fbc0e9fcb1b864a40cde -> 4322e864a4f547edbaa2b356427ef1e0
-  custom:scripting/monoscript/fileName/SequenceState.cs: d65d5263aafc1680cbf09cf91b291904 -> b514bcc5cfaae698e889bab14f963343
-  custom:scripting/monoscript/fileName/AnimationPlayableAssetEditor.cs: 39cfa9bc11dfff0a4186c4f5620f9ee5 -> 4ac837e5abbbb7c26f509f63d3a62704
-  custom:scripting/monoscript/fileName/SignalUtility.cs: 0764663d3df77f7ebb93b4ec7f2ba196 -> 8544196f7a4aec8b5384a9a6178ecd21
-  custom:scripting/monoscript/fileName/TimeFormat.cs: c9e261c93914cf03093fd2548eaf48f9 -> e314e948d282c934af8f00048813b465
-  custom:scripting/monoscript/fileName/Extrapolation.cs: c7ec383926261a65e768060ca8bd7798 -> 7cf48f1fcb78127715f7da7cc1d0dcd0
-  custom:scripting/monoscript/fileName/TimelineWindow_PlayRange.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/TimelineWindowAnalytics.cs: e82b966b2cd4c00b51cf9d39523b9b30 -> b0161b89dc7f794b1fa6395d666c92e2
-  custom:scripting/monoscript/fileName/Control.cs: 1980ed3242d0ee7af290971d8b3773f8 -> 26262bc3727cb22f16c3b1fe8a4a461c
-  custom:scripting/monoscript/fileName/FrameRateDrawer.cs: f211271c9241d3f450cea6eea7f7f2a0 -> e6084a0af6b38682ad8cedaf0d8bd9c4
-  custom:scripting/monoscript/fileName/TimelineProjectSettings.cs: d3119fd7e30ccc41a86760d2b6c9b7ed -> 760eb91c4a506cffc64d23bd0d02e0e2
-  custom:scripting/monoscript/fileName/CustomTrackDrawerAttribute.cs: 92b9d02fc7d812e52fbe328f8cb81bde -> 2f669d3ca1e8f9b6aa6d9da066f5cf06
-  custom:scripting/monoscript/fileName/ActiveInModeAttribute.cs: ebd6d7a69d728cdb16216f66f413ac7e -> afbfa7c4f2a4b2889de4211ced1d7ec7
-  custom:scripting/monoscript/fileName/AnimationClipExtensions.cs: fa86d0d38aa9a2f86e0acd9ffe0240bd -> b96b18cea06cc5940cf5478cefb7e27a
-  custom:scripting/monoscript/fileName/ScheduleRuntimeClip.cs: 8ef1ebebf0ece49cdc6708da42e578f3 -> bca04c92c8107f8a60406e104c63b511
-  custom:scripting/monoscript/fileName/TimelinePlayable.cs: 7c436ca97b825d00efacfefce19b6850 -> 2f7e68fef4ac671412c604e19d55cc99
-  custom:scripting/monoscript/fileName/ITrimItemMode.cs: e2adc1a4c350ade1ac51f73562ccd7e7 -> f22ded242ea7450c4f4775a50337cabc
-  custom:scripting/monoscript/fileName/IndentLevelScope.cs: 4b3a8e05e156c31ad29b62425bca7a33 -> af20db1048501b0db87213c146c677dc
-  custom:scripting/monoscript/fileName/LabelWidthScope.cs: cb88540cc88442ee4f6271ebf3ba01f0 -> 39f4af56edf9b4e0815d5096a0fa176e
-  custom:scripting/monoscript/fileName/RectangleSelect.cs: be3daac5e293cd72b4993ff5445fd27e -> 098077660863eba74d4deadf19d12d3e
-  custom:scripting/monoscript/fileName/TimelineAttributes.cs: 590d355ecce353a9f5caffecc7b0888c -> f4a543a6d7fd362b6752328926e7ae71
-  custom:scripting/monoscript/fileName/TimelinePreferences.cs: 42f42cfbddc39c2c97475dd30ce09b90 -> 576a2904ed0d2ac946d18366eebf2d55
-  custom:scripting/monoscript/fileName/AudioTrackInspector.cs: e40bf73a228924912d64ada2760a8ecd -> ce3e96cb5c5df84fea94af7bd805b972
-  custom:scripting/monoscript/fileName/UndoScope.cs: 4df8d7867be99c5b9c4ba012f353578f -> 4d8db65ab7fc3ead71d92653b61980bb
-  custom:scripting/monoscript/fileName/ParticleControlPlayable.cs: 1fc02fa2988fe8f180aafb9e6f72b6ec -> 8ad611dff36256036ec1ad68c69d835e
-  custom:scripting/monoscript/fileName/SequenceContext.cs: 8909f3bdd7abf09c363b2c4742fb971f -> af3d6f46165f8113e08c8ae57fbfbbfd
-  custom:scripting/monoscript/fileName/EditModeRippleUtils.cs: 80ecea2da84eb854aba2cf4d8f7a2e8e -> 2111676ed7ea3f3a5d21a426833c1f79
-  custom:scripting/monoscript/fileName/TimelineClip.cs: 13b2364a69300bfdf1ea81c25427bd6f -> 65611b8f70f3709b8285f8862e3a03e8
 ========================================================================
 Received Import Request.
-  Time since last request: 640.214389 seconds.
-  path: Assets/Scenes/PersistentScene.unity
-  artifactKey: Guid(f71f743b93308ff4685fae12c3d7a023) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/PersistentScene.unity using Guid(f71f743b93308ff4685fae12c3d7a023) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b03bb3b5b0d5ccd83654f62185962146') in 0.051737 seconds
+  Time since last request: 34580.192152 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(deee85adef0dcec4eba1cd2d05a6a984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(deee85adef0dcec4eba1cd2d05a6a984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d309d465f2a67279e7dea71d761afcc') in 0.207010 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 924
 ========================================================================
-Received Import Request.
-  Time since last request: 30.390173 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db53f7994a0faadde0c0b1943be9a624') in 0.001760 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3275.493909 seconds.
-  path: Assets/Scenes/PersistentScene.unity
-  artifactKey: Guid(f71f743b93308ff4685fae12c3d7a023) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/PersistentScene.unity using Guid(f71f743b93308ff4685fae12c3d7a023) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e2eed8e4dce8fbf9fe90c317ff51f1c5') in 0.174741 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 352.002404 seconds.
-  path: Assets/Sprites/Output Textures/customised_adornments.png
-  artifactKey: Guid(2ca5ff28da2eca44183137741145a439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Output Textures/customised_adornments.png using Guid(2ca5ff28da2eca44183137741145a439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0378588f6ee7376a0efeaa891fb2b581') in 0.323351 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Sprites/Output Textures/customised_hats.png
-  artifactKey: Guid(3f98ab3abed1cec40b1c2e61bead43d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Output Textures/customised_hats.png using Guid(3f98ab3abed1cec40b1c2e61bead43d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21fa51ed737c836fd51d659693b8d36') in 0.050192 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Sprites/Output Textures/customised_hair.png
-  artifactKey: Guid(3fdea510f6c395642bec63c0e92feb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Output Textures/customised_hair.png using Guid(3fdea510f6c395642bec63c0e92feb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3fe1c9bf5e8a8f512abf87b3af921bd') in 0.040211 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 506.739287 seconds.
-  path: Assets/Sprites/SpriteAtlases/Sprite Atlas.spriteatlas
-  artifactKey: Guid(6b01b3df2add499488890e5461c49977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/SpriteAtlases/Sprite Atlas.spriteatlas using Guid(6b01b3df2add499488890e5461c49977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba59996202e97ad53a42f87264a93bb') in 0.022769 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 11.969590 seconds.
-  path: Assets/Sprites/SpriteAtlases/Sprite Atlas.spriteatlas
-  artifactKey: Guid(6b01b3df2add499488890e5461c49977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/SpriteAtlases/Sprite Atlas.spriteatlas using Guid(6b01b3df2add499488890e5461c49977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f972f31a49c9caab7944528216d1d1c6') in 0.006721 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.947682 seconds.
-  path: Assets/Sprites/SpriteAtlases/Sprite Atlas.spriteatlas
-  artifactKey: Guid(6b01b3df2add499488890e5461c49977) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/SpriteAtlases/Sprite Atlas.spriteatlas using Guid(6b01b3df2add499488890e5461c49977) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '74111f59f2ed9db733c21f14a7a9e6c1') in 0.086704 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 225.479277 seconds.
-  path: Assets/Sprites/Sprite Textures/Tile Sprites/Collision Tile Diagonal.png
-  artifactKey: Guid(90499fac1706de44382ab07f7887e79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Sprite Textures/Tile Sprites/Collision Tile Diagonal.png using Guid(90499fac1706de44382ab07f7887e79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a4ea5b35e781b19f3e8fc55560715f') in 0.042981 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sprites/Sprite Textures/Tile Sprites/HalfCollisionTile.png
-  artifactKey: Guid(c31ef2d8735edaa4c898f9e490b6d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Sprite Textures/Tile Sprites/HalfCollisionTile.png using Guid(c31ef2d8735edaa4c898f9e490b6d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9336a2755d6737d1b6a021e33b8a8a07') in 0.033304 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sprites/Sprite Textures/Tile Sprites/DugGround.png
-  artifactKey: Guid(b793cccf0b10a2148b7c8e09c08ac094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Sprite Textures/Tile Sprites/DugGround.png using Guid(b793cccf0b10a2148b7c8e09c08ac094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8fd60bd328cdc652a18236b4670b50f') in 0.180930 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming RPG Source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming RPG Source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.997 seconds
+Refreshing native plugins compatible for Editor in 5.99 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.622 seconds
+Domain Reload Profiling:
+	ReloadAssembly (313ms)
+		BeginReloadAssembly (207ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		LoadAllAssembliesAndSetupDomain (683ms)
+			LoadAssemblies (334ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (443ms)
+				TypeCache.Initialize (432ms)
+					TypeCache.ScanAssembly (422ms)
+				ResolveRequiredComponents (11ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (691ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (453ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 6.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4098 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (288.3 KB). Loaded Objects now: 4608.
+Memory consumption went from 137.4 MB to 137.2 MB.
+Total: 7.723800 ms (FindLiveObjects: 0.509300 ms CreateObjectMapping: 0.666500 ms MarkObjects: 6.038200 ms  DeleteObjects: 0.507700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
