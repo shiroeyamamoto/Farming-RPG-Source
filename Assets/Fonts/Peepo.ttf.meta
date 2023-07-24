@@ -1,22 +1,3 @@
-fileFormatVersion: 2
-guid: 771d877a49e443540ae1bfb7ec2795b5
-TrueTypeFontImporter:
-  externalObjects: {}
-  serializedVersion: 4
-  fontSize: 16
-  forceTextureCase: -2
-  characterSpacing: 0
-  characterPadding: 1
-  includeFontData: 1
-  fontName: Peepo
-  fontNames:
-  - Peepo
-  fallbackFontReferences: []
-  customCharacters: 
-  fontRenderingMode: 0
-  ascentCalculationMode: 1
-  useLegacyBoundsCalculation: 0
-  shouldRoundAdvanceValue: 1
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+version https://git-lfs.github.com/spec/v1
+oid sha256:0154db285553523d738a9752089d6518cfb1fe6de5c74796f94e69a698879c11
+size 510
