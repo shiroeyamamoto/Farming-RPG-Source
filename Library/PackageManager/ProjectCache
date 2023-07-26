@@ -6,7 +6,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638258067204653965
+      ticks: 638259903906844138
     m_Hash: 2651907680
   m_LockFileStatus:
     m_FilePath: I:/Admin/GOCGAMEPLAY/Game project (Unity)/Farming rpg game source/Farming
@@ -15,7 +15,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638258067204675240
+      ticks: 638259903906849484
     m_Hash: 3138429562
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -4430,6 +4430,7 @@ m_ResolvedPackages:
     - 1.2.4
     - 1.3.1
     - 1.4.0
+    - 1.5.1
     - 2.1.0-exp.4
     - 2.1.0-pre.2
     - 2.1.0-pre.6
@@ -4442,6 +4443,7 @@ m_ResolvedPackages:
     - 1.2.4
     - 1.3.1
     - 1.4.0
+    - 1.5.1
     - 2.1.0-exp.4
     - 2.1.0-pre.2
     - 2.1.0-pre.6
