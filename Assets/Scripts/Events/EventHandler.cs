@@ -1,9 +1,9 @@
 public delegate void MovementDelegate(float inputX, float inputY, bool isWalking, bool isRunning, bool isIdle, bool isCarring,
     ToolEffect toolEffect,
-    bool isUsingToolRight, bool isUsingToolLeft, bool isUsingToolTop, bool isUsingToolDown,
-    bool isLiftingToolRight, bool isLiftingToolLeft, bool isLiftingToolTop, bool isLiftingToolDown,
-    bool isPickingRight, bool isPickingLeft, bool isPickingTop, bool isPickingDown,
-    bool isSwingingToolRight, bool isSwingingToolLeft, bool isSwingingToolTop, bool isSwingingToolDown,
+    bool isUsingToolRight, bool isUsingToolLeft, bool isUsingToolUp, bool isUsingToolDown,
+    bool isLiftingToolRight, bool isLiftingToolLeft, bool isLiftingToolUp, bool isLiftingToolDown,
+    bool isPickingRight, bool isPickingLeft, bool isPickingUp, bool isPickingDown,
+    bool isSwingingToolRight, bool isSwingingToolLeft, bool isSwingingToolUp, bool isSwingingToolDown,
     bool idleUp, bool idleDown, bool idleLeft, bool idleRight);
 
 public static class EventHandler
@@ -16,20 +16,20 @@ public static class EventHandler
 
     public static void CallMovementEvent(float inputX, float inputY, bool isWalking, bool isRunning, bool isIdle, bool isCarring,
     ToolEffect toolEffect,
-    bool isUsingToolRight, bool isUsingToolLeft, bool isUsingToolTop, bool isUsingToolDown,
-    bool isLiftingToolRight, bool isLiftingToolLeft, bool isLiftingToolTop, bool isLiftingToolDown,
-    bool isPickingRight, bool isPickingLeft, bool isPickingTop, bool isPickingDown,
-    bool isSwingingToolRight, bool isSwingingToolLeft, bool isSwingingToolTop, bool isSwingingToolDown,
+    bool isUsingToolRight, bool isUsingToolLeft, bool isUsingToolUp, bool isUsingToolDown,
+    bool isLiftingToolRight, bool isLiftingToolLeft, bool isLiftingToolUp, bool isLiftingToolDown,
+    bool isPickingRight, bool isPickingLeft, bool isPickingUp, bool isPickingDown,
+    bool isSwingingToolRight, bool isSwingingToolLeft, bool isSwingingToolUp, bool isSwingingToolDown,
     bool idleUp, bool idleDown, bool idleLeft, bool idleRight)
     {
         if (MovementEvent != null)
         {
             MovementEvent(inputX, inputY, isWalking, isRunning, isIdle, isCarring,
                 toolEffect,
-                isUsingToolRight, isUsingToolLeft, isUsingToolTop, isUsingToolDown,
-                isLiftingToolRight, isLiftingToolLeft, isLiftingToolTop, isLiftingToolDown,
-                isPickingRight, isPickingLeft, isPickingTop, isPickingDown,
-                isSwingingToolRight, isSwingingToolLeft, isSwingingToolTop, isSwingingToolDown,
+                isUsingToolRight, isUsingToolLeft, isUsingToolUp, isUsingToolDown,
+                isLiftingToolRight, isLiftingToolLeft, isLiftingToolUp, isLiftingToolDown,
+                isPickingRight, isPickingLeft, isPickingUp, isPickingDown,
+                isSwingingToolRight, isSwingingToolLeft, isSwingingToolUp, isSwingingToolDown,
                 idleUp, idleDown, idleLeft, idleRight);
         }
     }
