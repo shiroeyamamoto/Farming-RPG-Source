@@ -40,7 +40,7 @@ public static class Settings
     static Settings()
     {
 
-        // Player Animation Parameters
+        // Player Animation Parameters in Unity
 
         xInput = Animator.StringToHash("xInput");
         yInput = Animator.StringToHash("yInput");
