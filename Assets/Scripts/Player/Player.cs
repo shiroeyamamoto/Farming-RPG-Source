@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Windows;
 using UnityEngine.XR;
 
@@ -68,12 +68,15 @@ public class Player : SingletonMonobehavior<Player>
         PlayerMovement();
     }
 
+    // Movement rigidBody2D
     private void PlayerMovement()
     {
         Vector2 move = new Vector2(xInput * movementSpeed * Time.deltaTime, yInput * movementSpeed * Time.deltaTime);
         rigidBody2D.MovePosition(rigidBody2D.position + move);
     }
 
+    // Reset animation when movement, ví dụ sau khi SetAnimationParameters trong MovementAnimationController hoạt động
+    //Nếu không reset thì các hành động đã được bật trigger trước đó sẽ không tắt, sẽ dẫn đến lỗi
     private void ResetAnimationTriggers()
     {
         isPickingRight = false;
