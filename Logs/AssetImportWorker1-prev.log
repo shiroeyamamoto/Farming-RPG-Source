@@ -15,7 +15,7 @@ I:/Admin/GOCGAMEPLAY/Game project (Unity)/Farming rpg game source/Farming rpg ga
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54040
+56026
 Successfully changed project path to: I:/Admin/GOCGAMEPLAY/Game project (Unity)/Farming rpg game source/Farming rpg game source
 I:/Admin/GOCGAMEPLAY/Game project (Unity)/Farming rpg game source/Farming rpg game source
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ I:/Admin/GOCGAMEPLAY/Game project (Unity)/Farming rpg game source/Farming rpg ga
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17876] Host "[IP] 192.168.157.1 [Port] 0 [Flags] 2 [Guid] 3776527390 [EditorId] 3776527390 [Version] 1048832 [Id] WindowsEditor(7,KhangDuong) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [3384] Host "[IP] 192.168.157.1 [Port] 0 [Flags] 2 [Guid] 2487720885 [EditorId] 2487720885 [Version] 1048832 [Id] WindowsEditor(7,KhangDuong) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17876] Host "[IP] 192.168.157.1 [Port] 0 [Flags] 2 [Guid] 3776527390 [EditorId] 3776527390 [Version] 1048832 [Id] WindowsEditor(7,KhangDuong) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3384] Host "[IP] 192.168.157.1 [Port] 0 [Flags] 2 [Guid] 2487720885 [EditorId] 2487720885 [Version] 1048832 [Id] WindowsEditor(7,KhangDuong) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 13.12 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 13.93 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.21f1 (4907324dc95b)
 [Subsystems] Discovering subsystems at path I:/GOCPC/Software/Unity/2022.2.21f1/Editor/Data/Resources/UnitySubsystems
@@ -69,44 +69,44 @@ Initialize mono
 Mono path[0] = 'I:/GOCPC/Software/Unity/2022.2.21f1/Editor/Data/Managed'
 Mono path[1] = 'I:/GOCPC/Software/Unity/2022.2.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'I:/GOCPC/Software/Unity/2022.2.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: I:/GOCPC/Software/Unity/2022.2.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: I:/GOCPC/Software/Unity/2022.2.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005613 seconds.
-- Loaded All Assemblies, in  0.498 seconds
+Registered in 0.005612 seconds.
+- Loaded All Assemblies, in  0.622 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 432 ms
+Android Extension - Scanning For ADB Devices 1029 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.034 seconds
+- Finished resetting the current domain, in  1.707 seconds
 Domain Reload Profiling:
-	ReloadAssembly (269ms)
-		BeginReloadAssembly (123ms)
+	ReloadAssembly (336ms)
+		BeginReloadAssembly (160ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (123ms)
+			LoadAssemblies (159ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (223ms)
-				TypeCache.Initialize (222ms)
-					TypeCache.ScanAssembly (220ms)
+			SetupTypeCache (280ms)
+				TypeCache.Initialize (279ms)
+					TypeCache.ScanAssembly (276ms)
 				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (928ms)
+			SetupLoadedEditorAssemblies (1569ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (625ms)
-				SetLoadedEditorAssemblies (9ms)
+				InitializePlatformSupportModulesInManaged (1232ms)
+				SetLoadedEditorAssemblies (8ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (204ms)
-				ProcessInitializeOnLoadMethodAttributes (88ms)
+				ProcessInitializeOnLoadAttributes (229ms)
+				ProcessInitializeOnLoadMethodAttributes (98ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -116,49 +116,49 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming rpg game source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming rpg game source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.302 seconds
-Refreshing native plugins compatible for Editor in 4.56 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.507 seconds
+Refreshing native plugins compatible for Editor in 5.72 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.883 seconds
+- Finished resetting the current domain, in  1.175 seconds
 Domain Reload Profiling:
-	ReloadAssembly (326ms)
-		BeginReloadAssembly (205ms)
+	ReloadAssembly (478ms)
+		BeginReloadAssembly (260ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		LoadAllAssembliesAndSetupDomain (975ms)
-			LoadAssemblies (445ms)
+			CreateAndSetChildDomain (44ms)
+		LoadAllAssembliesAndSetupDomain (1027ms)
+			LoadAssemblies (519ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (631ms)
-				TypeCache.Initialize (579ms)
-					TypeCache.ScanAssembly (573ms)
-				ResolveRequiredComponents (8ms)
+			SetupTypeCache (648ms)
+				TypeCache.Initialize (587ms)
+					TypeCache.ScanAssembly (578ms)
+				ResolveRequiredComponents (17ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (589ms)
+			SetupLoadedEditorAssemblies (845ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (40ms)
-				SetLoadedEditorAssemblies (4ms)
+				SetLoadedEditorAssemblies (5ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (401ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (591ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 5.11 ms, found 4 plugins.
+			AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 7.24 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4113 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 76 unused Assets / (134.8 KB). Loaded Objects now: 4580.
-Memory consumption went from 137.1 MB to 137.0 MB.
-Total: 5.059600 ms (FindLiveObjects: 0.460100 ms CreateObjectMapping: 0.471400 ms MarkObjects: 3.878700 ms  DeleteObjects: 0.248100 ms)
+Memory consumption went from 137.4 MB to 137.2 MB.
+Total: 9.716600 ms (FindLiveObjects: 0.742500 ms CreateObjectMapping: 0.624400 ms MarkObjects: 8.027600 ms  DeleteObjects: 0.319900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -172,52 +172,172 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 408759.937366 seconds.
+  path: Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_12.asset
+  artifactKey: Guid(c672d1c8394654f408760a2ac4b97be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_12.asset using Guid(c672d1c8394654f408760a2ac4b97be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77bcc1f1af3984064d2f5b995643d503') in 0.641281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 893
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_21.asset
+  artifactKey: Guid(49e4f7a1752e2b4498c9611c6ecbf232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_21.asset using Guid(49e4f7a1752e2b4498c9611c6ecbf232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2596e0270daf37d84699422041cf985a') in 0.235890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 893
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_25.asset
+  artifactKey: Guid(dad0e45611f8eaa4a90404d5a8c2874e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_25.asset using Guid(dad0e45611f8eaa4a90404d5a8c2874e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e257e96bb4eea6422f51878e122d86cc') in 0.097167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 893
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_15.asset
+  artifactKey: Guid(090829bd1078683478350d56f3f9bd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_15.asset using Guid(090829bd1078683478350d56f3f9bd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a757380297c7a71871b9b6f258e5b4') in 0.101214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 893
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_20.asset
+  artifactKey: Guid(9791ca3ef2c8af8468f46bac8794565d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_20.asset using Guid(9791ca3ef2c8af8468f46bac8794565d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da08c0618b56b7a9081668967b343053') in 0.093000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 893
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_14.asset
+  artifactKey: Guid(48695d1b303221a459e5bf3267342713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_14.asset using Guid(48695d1b303221a459e5bf3267342713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d72ffc3b7e7e542e4424edb4589d8e') in 0.109435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 893
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_23.asset
+  artifactKey: Guid(c4dddbb648377f347ac64a7eb0a59d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_23.asset using Guid(c4dddbb648377f347ac64a7eb0a59d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4f3daea675aaebd73a2ff5335b378f') in 0.087888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 893
+========================================================================
+Received Import Request.
+  Time since last request: 578.721786 seconds.
+  path: Assets/Tilemap/Tiles/Buildings/Farmhouse1_1.asset
+  artifactKey: Guid(04b09a836e8cc6942890257dee401595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Tiles/Buildings/Farmhouse1_1.asset using Guid(04b09a836e8cc6942890257dee401595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6570b7bee18c59caaa47cff1add9d2f8') in 0.113268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 893
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Tilemap/Tiles/Buildings/Farmhouse1_10.asset
+  artifactKey: Guid(b8a2ee57bbac956438eefa071dac48f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Tiles/Buildings/Farmhouse1_10.asset using Guid(b8a2ee57bbac956438eefa071dac48f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408f5eff16e809b6a17c6ff8c9a07df4') in 0.110126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 893
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Tilemap/Tiles/Buildings/Farmhouse1_5.asset
+  artifactKey: Guid(a32cc18510f12794fa3af929e769c6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Tiles/Buildings/Farmhouse1_5.asset using Guid(a32cc18510f12794fa3af929e769c6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8efbea28d8e9db2e5cc950d27d27248c') in 0.100671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 893
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tilemap/Tiles/Buildings/Farmhouse1_14.asset
+  artifactKey: Guid(db0aa29c7689ed5468ef2eff1710b2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Tiles/Buildings/Farmhouse1_14.asset using Guid(db0aa29c7689ed5468ef2eff1710b2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b45cf1c9cdd879fcd543378e2d7f510') in 0.112067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 893
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tilemap/Tiles/Buildings/Farmhouse1_9.asset
+  artifactKey: Guid(1bda4b8482d984646b4609b30b3650d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Tiles/Buildings/Farmhouse1_9.asset using Guid(1bda4b8482d984646b4609b30b3650d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1166dbc8164ecb2b1d11ccbc084669ab') in 0.101380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 893
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Tilemap/Tiles/Buildings/Farmhouse1_13.asset
+  artifactKey: Guid(cebc1715d741603469694a6b781a5e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Tiles/Buildings/Farmhouse1_13.asset using Guid(cebc1715d741603469694a6b781a5e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be5132b84459a61e2d87469759cab45') in 0.100142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 893
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tilemap/Tiles/Buildings/Farmhouse1_11.asset
+  artifactKey: Guid(4fb1488a3b97d8141a0376cc896eeaa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Tiles/Buildings/Farmhouse1_11.asset using Guid(4fb1488a3b97d8141a0376cc896eeaa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa81f9c981a88e1009a1ea7916f710f1') in 0.089808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 893
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Tilemap/Tiles/Buildings/Farmhouse1_12.asset
+  artifactKey: Guid(6705a6596abd68943a6a59158798d4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Tiles/Buildings/Farmhouse1_12.asset using Guid(6705a6596abd68943a6a59158798d4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff434a7fd40ba69cb9fd6359b79156f') in 0.083526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 893
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming rpg game source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming rpg game source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.118 seconds
-Refreshing native plugins compatible for Editor in 7.32 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.146 seconds
+Refreshing native plugins compatible for Editor in 8.48 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.331 seconds
+- Finished resetting the current domain, in  2.704 seconds
 Domain Reload Profiling:
-	ReloadAssembly (374ms)
-		BeginReloadAssembly (270ms)
+	ReloadAssembly (328ms)
+		BeginReloadAssembly (208ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (25ms)
+			DisableScriptedObjects (19ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (95ms)
-		LoadAllAssembliesAndSetupDomain (743ms)
-			LoadAssemblies (381ms)
+			CreateAndSetChildDomain (66ms)
+		LoadAllAssembliesAndSetupDomain (818ms)
+			LoadAssemblies (341ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (471ms)
-				TypeCache.Initialize (451ms)
-					TypeCache.ScanAssembly (436ms)
-				ResolveRequiredComponents (19ms)
+			SetupTypeCache (560ms)
+				TypeCache.Initialize (544ms)
+					TypeCache.ScanAssembly (530ms)
+				ResolveRequiredComponents (17ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (968ms)
+			SetupLoadedEditorAssemblies (1039ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (50ms)
-				SetLoadedEditorAssemblies (8ms)
+				InitializePlatformSupportModulesInManaged (61ms)
+				SetLoadedEditorAssemblies (10ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (171ms)
-				ProcessInitializeOnLoadAttributes (640ms)
-				ProcessInitializeOnLoadMethodAttributes (90ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (183ms)
+				ProcessInitializeOnLoadAttributes (700ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (38ms)
-Refreshing native plugins compatible for Editor in 9.34 ms, found 4 plugins.
+			AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 9.66 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4100 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (105.8 KB). Loaded Objects now: 4597.
-Memory consumption went from 133.3 MB to 133.2 MB.
-Total: 9.490100 ms (FindLiveObjects: 0.695100 ms CreateObjectMapping: 1.130400 ms MarkObjects: 7.529800 ms  DeleteObjects: 0.132700 ms)
+Unloading 4099 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (106.0 KB). Loaded Objects now: 4602.
+Memory consumption went from 136.1 MB to 136.0 MB.
+Total: 9.071900 ms (FindLiveObjects: 0.540400 ms CreateObjectMapping: 0.668400 ms MarkObjects: 7.599800 ms  DeleteObjects: 0.261100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -233,50 +353,10 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 285838.997220 seconds.
-  path: Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_16.asset
-  artifactKey: Guid(de93ffe46a1ebc949a4094ba9d627755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_16.asset using Guid(de93ffe46a1ebc949a4094ba9d627755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fabdf4db1f47e8e9d864b9e5014418b') in 0.206512 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 893
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_20.asset
-  artifactKey: Guid(9791ca3ef2c8af8468f46bac8794565d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_20.asset using Guid(9791ca3ef2c8af8468f46bac8794565d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd076f7be6369eb39302ffcc91d68a633') in 0.089308 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 893
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_18.asset
-  artifactKey: Guid(e454c94bb7fcf2c4ea2c3d299c19bd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_18.asset using Guid(e454c94bb7fcf2c4ea2c3d299c19bd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d3e9f2e9a28e3e1317d72ccf8d722df') in 0.087112 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 893
-========================================================================
-Received Import Request.
-  Time since last request: 1969.040531 seconds.
-  path: Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_22.asset
-  artifactKey: Guid(3507e0a0a2691ce4e9c8c9c66932707d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_22.asset using Guid(3507e0a0a2691ce4e9c8c9c66932707d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073d55b7563e924b333ee4371b931000') in 0.189807 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 893
-========================================================================
-Received Import Request.
-  Time since last request: 1919.762429 seconds.
-  path: Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_24.asset
-  artifactKey: Guid(92bd79929e6d1fc4cb370f5f0951c989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_24.asset using Guid(92bd79929e6d1fc4cb370f5f0951c989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce803bf82c364363d699ff9b155784b4') in 0.175120 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 893
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_25.asset
-  artifactKey: Guid(dad0e45611f8eaa4a90404d5a8c2874e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_25.asset using Guid(dad0e45611f8eaa4a90404d5a8c2874e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e41faa4c9c695b5ee141c34bf9f2be') in 0.103012 seconds
+  Time since last request: 311.014506 seconds.
+  path: Assets/Tilemap/Tiles/Custom Tiles/CollisionTile.asset
+  artifactKey: Guid(2ed682e194198c646a39b7d88b4209eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Tiles/Custom Tiles/CollisionTile.asset using Guid(2ed682e194198c646a39b7d88b4209eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ef63c5fc3900c6fc409c84cea68e5a') in 0.296196 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 893
 ========================================================================
@@ -284,48 +364,704 @@ Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming rpg game source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming rpg game source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.227 seconds
-Refreshing native plugins compatible for Editor in 8.19 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.002 seconds
+Refreshing native plugins compatible for Editor in 10.11 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.444 seconds
+- Finished resetting the current domain, in  2.740 seconds
 Domain Reload Profiling:
-	ReloadAssembly (365ms)
-		BeginReloadAssembly (258ms)
+	ReloadAssembly (303ms)
+		BeginReloadAssembly (201ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (21ms)
+			DisableScriptedObjects (19ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (95ms)
-		LoadAllAssembliesAndSetupDomain (861ms)
-			LoadAssemblies (369ms)
+			CreateAndSetChildDomain (64ms)
+		LoadAllAssembliesAndSetupDomain (699ms)
+			LoadAssemblies (339ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (588ms)
-				TypeCache.Initialize (572ms)
-					TypeCache.ScanAssembly (557ms)
-				ResolveRequiredComponents (16ms)
+			SetupTypeCache (439ms)
+				TypeCache.Initialize (421ms)
+					TypeCache.ScanAssembly (408ms)
+				ResolveRequiredComponents (18ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (971ms)
+			SetupLoadedEditorAssemblies (1029ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (51ms)
+				InitializePlatformSupportModulesInManaged (69ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (156ms)
+				ProcessInitializeOnLoadAttributes (699ms)
+				ProcessInitializeOnLoadMethodAttributes (90ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 6.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4099 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (105.9 KB). Loaded Objects now: 4619.
+Memory consumption went from 136.1 MB to 136.0 MB.
+Total: 9.115800 ms (FindLiveObjects: 0.520500 ms CreateObjectMapping: 0.587300 ms MarkObjects: 7.810200 ms  DeleteObjects: 0.195300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming rpg game source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming rpg game source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.064 seconds
+Refreshing native plugins compatible for Editor in 8.70 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.303 seconds
+Domain Reload Profiling:
+	ReloadAssembly (328ms)
+		BeginReloadAssembly (198ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		LoadAllAssembliesAndSetupDomain (735ms)
+			LoadAssemblies (337ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (486ms)
+				TypeCache.Initialize (468ms)
+					TypeCache.ScanAssembly (453ms)
+				ResolveRequiredComponents (18ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1033ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (58ms)
+				SetLoadedEditorAssemblies (10ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (173ms)
+				ProcessInitializeOnLoadAttributes (707ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (38ms)
+Refreshing native plugins compatible for Editor in 9.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4100 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (105.9 KB). Loaded Objects now: 4635.
+Memory consumption went from 136.1 MB to 136.0 MB.
+Total: 11.532800 ms (FindLiveObjects: 1.169900 ms CreateObjectMapping: 1.425700 ms MarkObjects: 8.788000 ms  DeleteObjects: 0.147000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming rpg game source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming rpg game source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.962 seconds
+Refreshing native plugins compatible for Editor in 4.63 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.346 seconds
+Domain Reload Profiling:
+	ReloadAssembly (308ms)
+		BeginReloadAssembly (198ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		LoadAllAssembliesAndSetupDomain (653ms)
+			LoadAssemblies (336ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (400ms)
+				TypeCache.Initialize (390ms)
+					TypeCache.ScanAssembly (382ms)
+				ResolveRequiredComponents (10ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1005ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (50ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (160ms)
+				ProcessInitializeOnLoadAttributes (701ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Refreshing native plugins compatible for Editor in 9.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4100 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (105.9 KB). Loaded Objects now: 4651.
+Memory consumption went from 136.1 MB to 136.0 MB.
+Total: 8.623700 ms (FindLiveObjects: 0.822100 ms CreateObjectMapping: 1.219000 ms MarkObjects: 6.412600 ms  DeleteObjects: 0.166900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming rpg game source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming rpg game source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.082 seconds
+Refreshing native plugins compatible for Editor in 7.80 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.265 seconds
+Domain Reload Profiling:
+	ReloadAssembly (318ms)
+		BeginReloadAssembly (216ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		LoadAllAssembliesAndSetupDomain (762ms)
+			LoadAssemblies (369ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (495ms)
+				TypeCache.Initialize (478ms)
+					TypeCache.ScanAssembly (464ms)
+				ResolveRequiredComponents (17ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1007ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (54ms)
 				SetLoadedEditorAssemblies (8ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (176ms)
-				ProcessInitializeOnLoadAttributes (651ms)
-				ProcessInitializeOnLoadMethodAttributes (77ms)
+				BeforeProcessingInitializeOnLoad (198ms)
+				ProcessInitializeOnLoadAttributes (661ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Refreshing native plugins compatible for Editor in 7.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4100 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (108.7 KB). Loaded Objects now: 4667.
+Memory consumption went from 136.1 MB to 136.0 MB.
+Total: 10.882000 ms (FindLiveObjects: 1.661800 ms CreateObjectMapping: 0.899300 ms MarkObjects: 8.097300 ms  DeleteObjects: 0.219300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming rpg game source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming rpg game source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.979 seconds
+Refreshing native plugins compatible for Editor in 4.29 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.283 seconds
+Domain Reload Profiling:
+	ReloadAssembly (321ms)
+		BeginReloadAssembly (216ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (26ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		LoadAllAssembliesAndSetupDomain (657ms)
+			LoadAssemblies (320ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (421ms)
+				TypeCache.Initialize (408ms)
+					TypeCache.ScanAssembly (399ms)
+				ResolveRequiredComponents (13ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1021ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (69ms)
+				SetLoadedEditorAssemblies (10ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (169ms)
+				ProcessInitializeOnLoadAttributes (667ms)
+				ProcessInitializeOnLoadMethodAttributes (97ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (43ms)
+Refreshing native plugins compatible for Editor in 17.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4100 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (105.9 KB). Loaded Objects now: 4683.
+Memory consumption went from 136.1 MB to 136.0 MB.
+Total: 14.112500 ms (FindLiveObjects: 0.924600 ms CreateObjectMapping: 1.110900 ms MarkObjects: 11.770100 ms  DeleteObjects: 0.304500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming rpg game source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming rpg game source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.220 seconds
+Refreshing native plugins compatible for Editor in 8.70 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.664 seconds
+Domain Reload Profiling:
+	ReloadAssembly (344ms)
+		BeginReloadAssembly (227ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		LoadAllAssembliesAndSetupDomain (874ms)
+			LoadAssemblies (370ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (606ms)
+				TypeCache.Initialize (587ms)
+					TypeCache.ScanAssembly (571ms)
+				ResolveRequiredComponents (19ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1198ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (59ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (194ms)
+				ProcessInitializeOnLoadAttributes (847ms)
+				ProcessInitializeOnLoadMethodAttributes (82ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (38ms)
+Refreshing native plugins compatible for Editor in 6.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4100 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (105.9 KB). Loaded Objects now: 4699.
+Memory consumption went from 136.1 MB to 136.0 MB.
+Total: 4.745800 ms (FindLiveObjects: 0.444500 ms CreateObjectMapping: 0.554300 ms MarkObjects: 3.643200 ms  DeleteObjects: 0.102300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming rpg game source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming rpg game source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.067 seconds
+Refreshing native plugins compatible for Editor in 8.28 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.226 seconds
+Domain Reload Profiling:
+	ReloadAssembly (304ms)
+		BeginReloadAssembly (198ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		LoadAllAssembliesAndSetupDomain (763ms)
+			LoadAssemblies (354ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (489ms)
+				TypeCache.Initialize (472ms)
+					TypeCache.ScanAssembly (457ms)
+				ResolveRequiredComponents (17ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (993ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (52ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (166ms)
+				ProcessInitializeOnLoadAttributes (681ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 8.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4100 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (105.9 KB). Loaded Objects now: 4715.
+Memory consumption went from 136.1 MB to 136.0 MB.
+Total: 8.019800 ms (FindLiveObjects: 1.166800 ms CreateObjectMapping: 0.801800 ms MarkObjects: 5.717400 ms  DeleteObjects: 0.330300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming rpg game source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming rpg game source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.994 seconds
+Refreshing native plugins compatible for Editor in 7.76 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.673 seconds
+Domain Reload Profiling:
+	ReloadAssembly (301ms)
+		BeginReloadAssembly (197ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		LoadAllAssembliesAndSetupDomain (693ms)
+			LoadAssemblies (340ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (447ms)
+				TypeCache.Initialize (435ms)
+					TypeCache.ScanAssembly (423ms)
+				ResolveRequiredComponents (12ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (520ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (353ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 6.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4100 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (105.9 KB). Loaded Objects now: 4731.
+Memory consumption went from 136.1 MB to 136.0 MB.
+Total: 5.678000 ms (FindLiveObjects: 0.596900 ms CreateObjectMapping: 0.857400 ms MarkObjects: 4.088000 ms  DeleteObjects: 0.134000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming rpg game source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming rpg game source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.018 seconds
+Refreshing native plugins compatible for Editor in 6.92 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.454 seconds
+Domain Reload Profiling:
+	ReloadAssembly (296ms)
+		BeginReloadAssembly (198ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		LoadAllAssembliesAndSetupDomain (721ms)
+			LoadAssemblies (327ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (480ms)
+				TypeCache.Initialize (465ms)
+					TypeCache.ScanAssembly (454ms)
+				ResolveRequiredComponents (14ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1083ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (63ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (196ms)
+				ProcessInitializeOnLoadAttributes (716ms)
+				ProcessInitializeOnLoadMethodAttributes (91ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (32ms)
-Refreshing native plugins compatible for Editor in 6.49 ms, found 4 plugins.
+			AwakeInstancesAfterBackupRestoration (39ms)
+Refreshing native plugins compatible for Editor in 7.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4100 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (105.9 KB). Loaded Objects now: 4747.
+Memory consumption went from 136.2 MB to 136.1 MB.
+Total: 9.193200 ms (FindLiveObjects: 0.572500 ms CreateObjectMapping: 0.777200 ms MarkObjects: 7.659800 ms  DeleteObjects: 0.181100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming rpg game source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming rpg game source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.016 seconds
+Refreshing native plugins compatible for Editor in 8.70 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.442 seconds
+Domain Reload Profiling:
+	ReloadAssembly (313ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		LoadAllAssembliesAndSetupDomain (702ms)
+			LoadAssemblies (339ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (459ms)
+				TypeCache.Initialize (444ms)
+					TypeCache.ScanAssembly (433ms)
+				ResolveRequiredComponents (15ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1085ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (55ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (152ms)
+				ProcessInitializeOnLoadAttributes (743ms)
+				ProcessInitializeOnLoadMethodAttributes (118ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 8.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4100 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (105.9 KB). Loaded Objects now: 4763.
+Memory consumption went from 136.2 MB to 136.1 MB.
+Total: 10.326300 ms (FindLiveObjects: 0.928900 ms CreateObjectMapping: 1.188800 ms MarkObjects: 7.991200 ms  DeleteObjects: 0.215500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2349.083347 seconds.
+  path: Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_1.asset
+  artifactKey: Guid(83a5f48c1d97a4041bbacfcbb803aff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_1.asset using Guid(83a5f48c1d97a4041bbacfcbb803aff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388e655d7ae90ecc76029e9fed171d40') in 0.589547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 893
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_10.asset
+  artifactKey: Guid(483823a616e869b4e937be761b5355c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_10.asset using Guid(483823a616e869b4e937be761b5355c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34fb95718cdcaee6885bdecd743cfea') in 0.090988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 893
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_7.asset
+  artifactKey: Guid(6bf25a2cd8d166041a4f03252c055519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_7.asset using Guid(6bf25a2cd8d166041a4f03252c055519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9eeec1cdbc2d2b82a113dcd1fdbc868') in 0.083666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 893
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_3.asset
+  artifactKey: Guid(6f0c4fc86b610e24f8e8e79bea89291f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_3.asset using Guid(6f0c4fc86b610e24f8e8e79bea89291f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b3d980d6b645b2efef9385889ba94c') in 0.097755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 893
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_2.asset
+  artifactKey: Guid(02e67f17fb5617242a7d4800e9e21c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_2.asset using Guid(02e67f17fb5617242a7d4800e9e21c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3527398596266a0c0fd22637d9eee7') in 0.084428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 893
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_8.asset
+  artifactKey: Guid(3720f853210f7e044bc6e59db73feef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Tiles/GroundTileSet/GroundTileset_8.asset using Guid(3720f853210f7e044bc6e59db73feef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7165e0442957677d960b1ffec04f582') in 0.086625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 893
+========================================================================
+Received Import Request.
+  Time since last request: 2.696664 seconds.
+  path: Assets/Tilemap/Tile Paletters/Custom tiles.prefab
+  artifactKey: Guid(44133df0ab89b44408fbd21e676983da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Tile Paletters/Custom tiles.prefab using Guid(44133df0ab89b44408fbd21e676983da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffeddee2159744694288e19586158729') in 0.309307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 905
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming rpg game source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming rpg game source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in 10.954 seconds
+Refreshing native plugins compatible for Editor in 12.68 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 28.037 seconds
+Domain Reload Profiling:
+	ReloadAssembly (968ms)
+		BeginReloadAssembly (417ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (105ms)
+		LoadAllAssembliesAndSetupDomain (9984ms)
+			LoadAssemblies (8320ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1902ms)
+				TypeCache.Initialize (1883ms)
+					TypeCache.ScanAssembly (1857ms)
+				ResolveRequiredComponents (18ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1020ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (53ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (161ms)
+				ProcessInitializeOnLoadAttributes (710ms)
+				ProcessInitializeOnLoadMethodAttributes (82ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Refreshing native plugins compatible for Editor in 10.27 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4099 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (105.9 KB). Loaded Objects now: 4618.
-Memory consumption went from 135.8 MB to 135.7 MB.
-Total: 8.171000 ms (FindLiveObjects: 0.572100 ms CreateObjectMapping: 0.676700 ms MarkObjects: 6.701600 ms  DeleteObjects: 0.218400 ms)
+Unloading 38 unused Assets / (105.9 KB). Loaded Objects now: 4785.
+Memory consumption went from 136.4 MB to 136.3 MB.
+Total: 9.438100 ms (FindLiveObjects: 0.803400 ms CreateObjectMapping: 0.845300 ms MarkObjects: 7.544500 ms  DeleteObjects: 0.242500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
