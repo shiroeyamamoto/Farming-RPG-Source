@@ -381,8 +381,10 @@
 "Assets/Scripts/Events/EventHandler.cs"
 "Assets/Scripts/Misc/Settings.cs"
 "Assets/Scripts/Misc/SingletonMonobehaviour.cs"
+"Assets/Scripts/Misc/Tags.cs"
 "Assets/Scripts/Player/Player.cs"
 "Assets/Scripts/Player/PlayerAnimationTest.cs"
+"Assets/Scripts/Scene/SwitchConfineBoundingShape.cs"
 -langversion:9.0
 
 /deterministic
