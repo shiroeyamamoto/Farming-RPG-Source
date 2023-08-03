@@ -379,6 +379,7 @@
 "Assets/Scripts/Animation/MovementAnimationParameterController.cs"
 "Assets/Scripts/Enums/Enums.cs"
 "Assets/Scripts/Events/EventHandler.cs"
+"Assets/Scripts/Item/ItemDetails.cs"
 "Assets/Scripts/Item/ObscuringItemFader.cs"
 "Assets/Scripts/Item/TriggerObscuringItemFader.cs"
 "Assets/Scripts/Misc/Settings.cs"
