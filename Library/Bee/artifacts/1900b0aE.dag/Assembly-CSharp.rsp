@@ -381,6 +381,7 @@
 "Assets/Scripts/Events/EventHandler.cs"
 "Assets/Scripts/Item/ItemDetails.cs"
 "Assets/Scripts/Item/ObscuringItemFader.cs"
+"Assets/Scripts/Item/SO_ItemList.cs"
 "Assets/Scripts/Item/TriggerObscuringItemFader.cs"
 "Assets/Scripts/Misc/Settings.cs"
 "Assets/Scripts/Misc/SingletonMonobehaviour.cs"
