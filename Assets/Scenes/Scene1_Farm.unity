@@ -766,6 +766,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 399644719}
     m_Modifications:
+    - target: {fileID: 4942260215768456394, guid: 7dd8c5f89c6b85345a18eca7203c6554, type: 3}
+      propertyPath: m_Size.y
+      value: 1.5858572
+      objectReference: {fileID: 0}
+    - target: {fileID: 4942260215768456394, guid: 7dd8c5f89c6b85345a18eca7203c6554, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4942260215768456394, guid: 7dd8c5f89c6b85345a18eca7203c6554, type: 3}
+      propertyPath: m_Offset.y
+      value: 1.2070714
+      objectReference: {fileID: 0}
     - target: {fileID: 6471526999610587852, guid: 7dd8c5f89c6b85345a18eca7203c6554, type: 3}
       propertyPath: m_Name
       value: TumbleweedThistle (1)
