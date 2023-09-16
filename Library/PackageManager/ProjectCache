@@ -6,7 +6,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638263760734495466
+      ticks: 638304758445685433
     m_Hash: 2651907680
   m_LockFileStatus:
     m_FilePath: I:/Admin/GOCGAMEPLAY/Game project (Unity)/Farming rpg game source/Farming
@@ -15,7 +15,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638263760734587823
+      ticks: 638304758445685433
     m_Hash: 3138429562
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -282,6 +282,7 @@ m_ResolvedPackages:
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
+    - 2.1.0
     compatible:
     - 2.0.4
     - 2.0.5
@@ -289,6 +290,7 @@ m_ResolvedPackages:
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
+    - 2.1.0
     recommended: 2.0.7
     deprecated: []
   dependencies: []
@@ -510,11 +512,13 @@ m_ResolvedPackages:
     - 3.0.21
     - 3.0.22
     - 3.0.24
+    - 3.0.25
     compatible:
     - 3.0.21
     - 3.0.22
     - 3.0.24
-    recommended: 3.0.24
+    - 3.0.25
+    recommended: 3.0.25
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -593,9 +597,13 @@ m_ResolvedPackages:
     - 2.0.16
     - 2.0.17
     - 2.0.18
+    - 2.0.20
+    - 2.0.21
     compatible:
     - 2.0.18
-    recommended: 2.0.18
+    - 2.0.20
+    - 2.0.21
+    recommended: 2.0.21
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -699,6 +707,7 @@ m_ResolvedPackages:
     - 1.3.5
     - 1.3.7
     - 1.3.8
+    - 1.3.9
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -713,6 +722,7 @@ m_ResolvedPackages:
     - 1.3.5
     - 1.3.7
     - 1.3.8
+    - 1.3.9
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -1046,6 +1056,7 @@ m_ResolvedPackages:
     - 1.8.2
     - 1.8.3
     - 1.8.4
+    - 1.8.5
     compatible:
     - 1.7.4
     - 1.7.5
@@ -1054,6 +1065,7 @@ m_ResolvedPackages:
     - 1.8.2
     - 1.8.3
     - 1.8.4
+    - 1.8.5
     recommended: 1.7.5
     deprecated: []
   dependencies:
@@ -1227,8 +1239,12 @@ m_ResolvedPackages:
     - 1.7.8
     - 1.8.0-pre.1
     - 1.8.0
+    - 1.9.0
+    - 1.9.1
     compatible:
     - 1.8.0
+    - 1.9.0
+    - 1.9.1
     recommended: 1.8.0
     deprecated:
     - 1.8.0-pre.1
@@ -3414,6 +3430,7 @@ m_ResolvedPackages:
     - 10.0.0
     - 10.0.1
     - 10.0.2
+    - 10.0.3
     compatible:
     - 9.0.3
     recommended: 9.0.3
@@ -3661,6 +3678,7 @@ m_ResolvedPackages:
     - 9.0.0-pre.1
     - 9.0.0-pre.2
     - 9.0.0
+    - 9.0.1
     compatible:
     - 8.0.2
     recommended: 8.0.2
@@ -3892,6 +3910,7 @@ m_ResolvedPackages:
     - 10.0.0-pre.2
     - 10.0.0
     - 10.0.1
+    - 10.0.2
     compatible:
     - 9.0.2
     recommended: 9.0.2
@@ -4099,6 +4118,7 @@ m_ResolvedPackages:
     - 4.0.0-pre.3
     - 4.0.0
     - 4.0.1
+    - 4.0.2
     compatible:
     - 3.1.0
     - 3.1.1
@@ -4197,8 +4217,10 @@ m_ResolvedPackages:
     - 1.2.4
     - 1.2.5
     - 1.2.6
+    - 1.3.1
     compatible:
     - 1.2.6
+    - 1.3.1
     recommended: 1.2.6
     deprecated: []
   dependencies: []
@@ -4302,6 +4324,7 @@ m_ResolvedPackages:
     - 9.0.0-pre.2
     - 9.0.0
     - 9.0.1
+    - 9.0.2
     compatible:
     - 8.0.1
     recommended: 8.0.1
@@ -4441,6 +4464,7 @@ m_ResolvedPackages:
     - 2.1.1
     - 2.1.4
     - 2.2.0
+    - 2.2.1
     compatible:
     - 1.2.4
     - 1.3.1
@@ -4648,10 +4672,12 @@ m_ResolvedPackages:
     - 1.8.3
     - 1.8.4
     - 1.8.7
+    - 1.8.8
     compatible:
     - 1.8.4
     - 1.8.7
-    recommended: 1.8.7
+    - 1.8.8
+    recommended: 1.8.8
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
