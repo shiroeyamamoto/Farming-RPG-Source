@@ -392,6 +392,7 @@
 "Assets/Scripts/Player/Player.cs"
 "Assets/Scripts/Player/PlayerAnimationTest.cs"
 "Assets/Scripts/Scene/SwitchConfineBoundingShape.cs"
+"Assets/Scripts/Utilities/Property Drawers/ItemCodeDecriptionAttribute.cs"
 -langversion:9.0
 
 /deterministic
