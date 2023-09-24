@@ -382,6 +382,7 @@
 "Assets/Scripts/Inventory/InventoryManager.cs"
 "Assets/Scripts/Item/Item.cs"
 "Assets/Scripts/Item/ItemDetails.cs"
+"Assets/Scripts/Item/ItemNudge.cs"
 "Assets/Scripts/Item/ObscuringItemFader.cs"
 "Assets/Scripts/Item/SO_ItemList.cs"
 "Assets/Scripts/Item/TriggerObscuringItemFader.cs"
