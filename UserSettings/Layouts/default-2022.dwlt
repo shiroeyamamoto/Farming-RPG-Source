@@ -204,7 +204,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 19
+  controlID: 140
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -436,7 +436,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -10642
+  m_LastSelectedObjectID: 28750
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -542,23 +542,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 80}
-      m_SelectedIDs: 92700000
-      m_LastClickedID: 28818
-      m_ExpandedIDs: 8ef2fffff0fafffff2faffffd26f00008c700000
+      m_SelectedIDs: 4e700000
+      m_LastClickedID: 28750
+      m_ExpandedIDs: 289dfeff50a9feffd0e0feff76e7feff22edfeff6e09fffffc35ffff2243ffff1c8affff50d1fffff0fafffff2faffffae6f000048700000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: PricklyCactus
+        m_OriginalName: PricklyCactus
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -11952
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 4
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 10}
       m_SearchString: 
@@ -662,7 +662,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Item
+    - Assets/Prefabs/Item/Reapable_Scenary
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -670,7 +670,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Item
+  - Assets/Prefabs/Item/Reapable_Scenary
   m_LastFoldersGridSize: -1
   m_LastProjectPath: I:\Admin\GOCGAMEPLAY\Game project (Unity)\Farming rpg game source\Farming
     rpg game source
@@ -678,9 +678,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 267a0000
-    m_LastClickedID: 31270
-    m_ExpandedIDs: 00000000f6790000f8790000fa790000fc790000fe790000007a0000027a00002e7a0000868d00008a8d0000
+    m_SelectedIDs: b67a0000
+    m_LastClickedID: 31414
+    m_ExpandedIDs: 000000000c7a00000e7a0000107a0000127a0000147a0000167a0000187a00001a7a0000327a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -708,7 +708,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f6790000f8790000fa790000fc790000fe790000007a0000027a0000
+    m_ExpandedIDs: 000000000c7a00000e7a0000107a0000127a0000147a0000167a0000187a00001a7a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -842,7 +842,7 @@ MonoBehaviour:
       y: 21
       width: 1169
       height: 573
-    m_Scale: {x: 1.4953488, y: 1.4953488}
+    m_Scale: {x: 1.4446564, y: 1.4446564}
     m_Translation: {x: 584.5, y: 286.5}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -850,10 +850,10 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -390.8787
-      y: -191.5941
-      width: 781.7574
-      height: 383.1882
+      x: -404.59448
+      y: -198.31706
+      width: 809.18896
+      height: 396.63412
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1169, y: 594}
@@ -1235,7 +1235,7 @@ MonoBehaviour:
       sizeOverriden: 0
     m_OverlaysVisible: 1
   m_WindowGUID: ca877155996e0164395bcee0e113d1f7
-  m_Gizmos: 1
+  m_Gizmos: 0
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
@@ -1244,9 +1244,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -5.673084, y: 1.8451847, z: 0.17360815}
+    m_Target: {x: -6.663362, y: -4.645473, z: -20.32046}
     speed: 2
-    m_Value: {x: -5.673084, y: 1.8451847, z: 0.17360815}
+    m_Value: {x: -7.2216377, y: -4.697477, z: -20.329147}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1276,7 +1276,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -1294,11 +1294,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: -0.000000011798433, y: 0.0000002108639, z: -0.000000029351925, w: -1}
   m_Size:
-    m_Target: 11.103953
+    m_Target: 18.437199
     speed: 2
-    m_Value: 11.103953
+    m_Value: 19.305967
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1316,7 +1316,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: -0.0514199, y: 0.91898644, z: -0.12792148, w: -0.3694004}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
