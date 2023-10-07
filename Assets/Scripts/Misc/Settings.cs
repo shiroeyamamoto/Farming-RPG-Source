@@ -2,14 +2,18 @@ using UnityEngine;
 
 public static class Settings
 {
-    //Obscuring Item Fading - ObscuringItemFader
+    // Obscuring Item Fading - ObscuringItemFader
     public const float fadeInSecond = 0.25f;
     public const float fadeOutSecond = 0.35f;
     public const float targetAlpha = 0.45f;
 
-    //Player Movement
+    // Player Movement
     public const float runningSpeed = 5.333f;
     public const float walkingSpeed = 2.666f;
+
+    // Inventory
+    public static int playerInitialInventoryCapacity = 24;
+    public static int playerMaximumInventoryCapacity = 48;
 
     // Player Animation Parameters
     public static int xInput;
