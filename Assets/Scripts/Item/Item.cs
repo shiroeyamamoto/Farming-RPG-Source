@@ -1,6 +1,8 @@
 ﻿
 using UnityEngine;
 
+
+// item nằm trên mặt đất 
 public class Item : MonoBehaviour
 {
     [ItemCodeDecription]
