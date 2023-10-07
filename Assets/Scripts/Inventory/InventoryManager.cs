@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class InventoryManager : SingletonMonobehavior<InventoryManager>
 {
-    private Dictionary<int, ItemDetails> itemDetailsDictionary;
+    [SerializeField] private Dictionary<int, ItemDetails> itemDetailsDictionary;
 
     [SerializeField] SO_ItemList itemList = null;
 
@@ -14,6 +14,11 @@ public class InventoryManager : SingletonMonobehavior<InventoryManager>
 
         // Create item details dictionary
         CreateItemDetailsDictionary();
+    }
+
+    private void Start()
+    {
+        //Debug.Log(itemDetailsDictionary);
     }
 
     /// <summary>

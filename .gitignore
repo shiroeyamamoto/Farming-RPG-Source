@@ -5,3 +5,6 @@ Temp/UnityLockfile
 Temp/FSTimeGet-18abdb14f96657f4585e243071dd477f
 Temp/FSTimeGet-b1ca8336a3eb86a44a7f6e2225ae173b
 Temp/FSTimeGet-e6cb08f7b01fd514ba39801878742dff
+Library\Artifacts
+Library\PackageCache
+Temp/

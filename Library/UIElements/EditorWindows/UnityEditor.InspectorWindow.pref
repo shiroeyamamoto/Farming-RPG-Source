@@ -15,4 +15,4 @@ MonoBehaviour:
   m_Keys:
   - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-itemDetails__UnityEngine.UIElements.ListView
   m_Values:
-  - '{"m_ShowAlternatingRowBackgrounds":0,"serializedVirtualizationData":{"scrollOffset":{"x":0.0,"y":432.0},"firstVisibleIndex":19,"contentPadding":418.0,"contentHeight":1708.0,"anchoredItemIndex":19,"anchorOffset":14.0}}'
+  - '{"m_ShowAlternatingRowBackgrounds":0,"serializedVirtualizationData":{"scrollOffset":{"x":0.0,"y":55.0},"firstVisibleIndex":2,"contentPadding":44.0,"contentHeight":528.0,"anchoredItemIndex":2,"anchorOffset":11.0}}'
